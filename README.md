@@ -1,8 +1,12 @@
-deepin 社区 SIG 开放管理仓库
+# deepin 社区 SIG 开放管理仓库
 
 ## 介绍
 
 SIG 即 Special Interest Group，特殊兴趣小组。deepin 社区中的各个不同的事项均以 SIG 的形式存在，每个 SIG 围绕其对应的一个兴趣目的进行活动的开展。各个 SIG 组会以公开透明的形式进行相关的小组活动，以便对 deepin 社区中某个特定方向感兴趣人们可以参与到对应的兴趣组之中。
+
+## 快速导航
+
+- [SIG 管理指南](sig/README.md) SIG 创建方式说明与管理指南
 
 ## 关于 deepin 社区 SIG
 
