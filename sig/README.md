@@ -2,7 +2,7 @@
 
 ## SIG 的创建
 
-SIG 的创建请求通过向本仓库发起 GitHub Pull Request 的形式，在此目录下根据指定格式创建 SIG 对应文件夹并放置对应文件的形式发起。SIG 委员会将通过对相应 Pull Request 的 Review 过程对申请进行评审。当 Pull Request 最终被合入时，SIG 即创建完成。
+SIG 的创建请求通过向 GitHub 中 [deepin-community 组织下的 SIG 仓库中](https://github.com/deepin-community/SIG/)发起 GitHub Pull Request 的形式，在此目录下根据指定格式创建 SIG 对应文件夹并放置对应文件的形式发起。SIG 委员会将通过对相应 Pull Request 的 Review 过程对申请进行评审。当 Pull Request 最终被合入时，SIG 即创建完成。
 
 ### SIG 创建要求
 
