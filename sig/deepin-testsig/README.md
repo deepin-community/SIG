@@ -1,4 +1,4 @@
-# deepin_内测sig组
+# deepin 内测小组
 
 ## 小组简介
 
