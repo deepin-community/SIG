@@ -12,7 +12,7 @@
 
 -->
 
-# deepni_TestSig
+# deepin_testsig
 
 ## 小组简介
 
