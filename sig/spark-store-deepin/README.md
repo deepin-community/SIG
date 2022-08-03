@@ -45,6 +45,6 @@ QQ群（仅应用商店相关）： 872690351
 
 ## 相关链接
 
-- [Gitee 上的小组团队](https://github.com/orgs/deepin-community/teams/在这里填写小组IDhttps://gitee.com/deepin-community-store)
+- [Gitee 上的小组团队](https://gitee.com/deepin-community-store)
 - [Github 上的镜像仓库](https://github.com/spark-Store-project/spark-store)
 - [软件下架申请](https://gitee.com/deepin-community-store/software_-issue/blob/master/README.md)
