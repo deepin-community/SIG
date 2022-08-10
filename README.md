@@ -4,6 +4,7 @@
 
 - [deepin 社区 SIG 概述](Introduction.md) 关于 deepin 社区 SIG 的简介
 - [SIG 管理指南](sig/README.md) SIG 创建方式说明与管理指南
+- [SIG 列表](sig/LISTS.md) 所有 SIG 组的简介信息
 
 ## 关于本仓库
 
