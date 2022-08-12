@@ -33,7 +33,9 @@ Microsoft Surface系列的笔记本、平板电脑属于Windows阵营的高端�
 
 ## 讨论渠道
 
-在[deepin-surface](https://github.com/deepin-community/sig-deepin-surface)项目的[ISSUE区](https://github.com/deepin-community/sig-deepin-surface/issues)进行主要的讨论，为避免信息的分散，暂不提供其它的讨论渠道，如有必要则另说。
+在[deepin-surface](https://github.com/deepin-community/sig-deepin-surface)项目的[ISSUE区](https://github.com/deepin-community/sig-deepin-surface/issues)进行主要的讨论。
+
+使用 Mozilla 提供的 [Matrix](https://matrix.to/#/#deepin-surface:mozilla.org)作为即时交流平台，可联系管理员邀请你加入。
 
 ## 相关链接
 

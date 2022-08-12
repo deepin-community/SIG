@@ -14,3 +14,5 @@
 
 ## 小组成员
 
+- [sudo_free](https://bbs.deepin.org/user/19562)
+- [xiekehui](https://bbs.deepin.org/user/230018)
