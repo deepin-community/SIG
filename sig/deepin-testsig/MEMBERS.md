@@ -13,7 +13,7 @@
 - [xuqi](https://github.com/xuqi27837288)  
 
 ## 小组成员
-- [liwl1991]([https://github.com/kt286](https://github.com/liwl1991))
+- [liwl1991](https://github.com/liwl1991)
 - [kt286](https://github.com/kt286)
 
 
