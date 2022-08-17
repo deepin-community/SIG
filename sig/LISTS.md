@@ -7,3 +7,4 @@
 | [deepin-wiki](deepin-wiki/README.md) | [成员](deepin-wiki/MEMBERS.md) | [申请PR](https://github.com/deepin-community/SIG/pull/7) | [janeaaaa](https://github.com/janeaaaa) |2022/08/10|-|
 | [deepin-surface](deepin-surface/README.md) | [成员](deepin-surface/MEMBERS.md) | [申请PR](https://github.com/deepin-community/SIG/pull/10) | [zccrs](https://github.com/zccrs) |2022/08/10|-|
 | [dde-porting](dde-porting/README.md) | [成员](dde-porting/MEMBERS.md) | [申请PR](https://github.com/deepin-community/SIG/pull/9) | [wineee](https://github.com/wineee) |2022/08/15|-|
+| [deepin-qt](deepin-qt/README.md) | [成员](deepin-qt/MEMBERS.md) | [申请PR](https://github.com/deepin-community/SIG/pull/17) | [NSUTanghaixiang](https://github.com/NSUTanghaixiang) |2022/08/17|-|
