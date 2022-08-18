@@ -12,3 +12,5 @@
 | [deepin-pkg](deepin-pkg/README.md) | [成员](deepin-pkg/MEMBERS.md) | [申请PR](https://github.com/deepin-community/SIG/pull/15) | [jinqingchen-deepin](https://github.com/jinqingchen-deepin) |2022/08/17|-|
 | [deepin-sysdev-team](deepin-sysdev-team/README.md) | [成员](deepin-sysdev-team/MEMBERS.md) | [申请PR](https://github.com/deepin-community/SIG/pull/14) | [venchh](https://github.com/venchh) |2022/08/17|-|
 | [deepin-system-tools](deepin-system-tools/README.md) | [成员](deepin-system-tools/MEMBERS.md) | [申请PR](https://github.com/deepin-community/SIG/pull/13) | [Angie-JA-Dou](https://github.com/Angie-JA-Dou) |2022/08/17|-|
+| [deepin-systemd](deepin-systemd/README.md) | [成员](deepin-systemd/MEMBERS.md) | [申请PR](https://github.com/deepin-community/SIG/pull/22) | [ALTNT](https://github.com/ALTNT) |2022/08/18|-|
+| [deepin-grub](deepin-grub/README.md) | [成员](deepin-grub/MEMBERS.md) | [申请PR](https://github.com/deepin-community/SIG/pull/22) | [ALTNT](https://github.com/ALTNT) |2022/08/18|-|
