@@ -18,7 +18,7 @@
 2. 了解开源协议
 2. 熟悉 debian 打包规则
 
-加入方法：
+### 加入方法：
 
 1. 在[sig-deepin-qt ](https://github.com/deepin-community/sig-deepin-qt/issues)提交issues 说明想加入的原因
 2. 订阅邮件列表

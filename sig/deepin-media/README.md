@@ -17,7 +17,7 @@
 1. 对多媒体方向有兴趣，熟悉FFmpeg、GStreamer等
 2. 掌握一定的开源开发技能
 
-加入方法：
+### 加入方法：
 
 1. 在[sig-deepin-media](https://github.com/deepin-community/sig-deepin-media/issues)提交issues 说明想加入的原因
 2. 订阅邮件列表

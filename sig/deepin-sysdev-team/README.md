@@ -28,7 +28,7 @@
 
 3.熟悉Makefile cmake debian/rule等构建工具或构建规则的使用方法
 
-加入方法：
+### 加入方法：
 
 1. 在[sig-deepin-sysdev-team](https://github.com/deepin-community/sig-deepin-sysdev-team/issues)提交issues 说明想加入的原因
 2. 订阅邮件列表

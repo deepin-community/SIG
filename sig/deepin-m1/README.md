@@ -17,7 +17,7 @@
 1. 对硬件驱动反向有兴趣
 2. 掌握一定的开源驱动开发技能
 
-加入方法：
+### 加入方法：
 
 1. 在[sig-deepin-m1](https://github.com/deepin-community/sig-deepin-m1/issues)提交issues 说明想加入的原因
 2. 订阅邮件列表
@@ -28,8 +28,6 @@
 ##  repository
 
 [deepin-m1](https://github.com/linuxdeepin/deepin-m1)
-
-### 小组章程
 
 ## 小组章程
 
