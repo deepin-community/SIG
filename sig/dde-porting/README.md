@@ -23,7 +23,7 @@ ps: 章程目前还不完善，有兴趣的同学可以加入进来讨论。
 
 - [Matrix](https://matrix.to/#/#dde-port:matrix.org)
 - [Telegram](https://t.me/ddeport)
-- [IRC](irc://irc.libera.chat/dde-port)
+- [IRC](https://web.libera.chat/#dde-port)
 
 ### 通用交流渠道
 以下渠道交流内容属于泛 deepin/DDE，你可能需要使用“DDE”，“移植”等关键字筛选信息。
