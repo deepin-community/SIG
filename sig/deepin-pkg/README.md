@@ -19,7 +19,7 @@
 活动范围：
 [社区论坛](https://bbs.deepin.org/)
 [GitHub](https://github.com/deepin-community)
-[邮件列表](deepin-pkg@freelists.org)
+[邮件列表](https://www.freelists.org/list/deepin-pkg)
 QQ群聊：639761140
 
 目标：对以上dpkg、debhelper、make、autoconf、apt等构建相关软件包的维护及更新，做到及时、安全和高兼容。
@@ -43,7 +43,7 @@ QQ群聊：639761140
 ## 讨论渠道
 
 目前可以加入我们的QQ群：639761140
-[邮件列表](deepin-pkg@freelists.org)
+[邮件列表](https://www.freelists.org/list/deepin-pkg)
 
 ## 相关链接
 
