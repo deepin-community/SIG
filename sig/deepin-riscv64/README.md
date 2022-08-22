@@ -24,13 +24,11 @@
 
 ### 加入标准： 
 
-1.对riscv-v架构有基本了解
+1. 对riscv-v架构有基本了解
+2. 了解debian打包规则
+3. 熟系Makefile cmake等构建工具的使用方法
 
-2.了解debian打包规则
-
-3.熟系Makefile cmake等构建工具的使用方法
-
-加入方法：
+### 加入方法：
 
 1. 在[sig-deepin-riscv64](https://github.com/deepin-community/sig-deepin-riscv64/issues)提交issues 说明想加入的原因
 2. 订阅邮件列表
