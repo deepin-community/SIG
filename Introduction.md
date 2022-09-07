@@ -1,53 +1,53 @@
-# deepin 社区 SIG 介绍
+# Introduction of Deepin Special Interest Groups
 
-## 什么是 SIG
+## What is SIG?
 
-SIG 即 Special Interest Group，特殊兴趣小组。每个 SIG 围绕其对应的一个兴趣目标进行活动的开展，并将其活动成果回馈给整个社区。各个 SIG 组会以公开透明的形式进行相关的小组活动，以便对某个特定方向感兴趣的社区贡献者可以方便的参与到对应的兴趣组之中。
+Special Interest Groups (SIG) are small groups that carry out activities on interest topics and disclose the results to the whole community. Each SIG conducts activities in a public and transparent way, so community contributors can easily join the interesting SIG group.
 
-### 关于 deepin 社区 SIG
+### deepin SIG
 
-成立于 deepin 社区之内的 SIG 的活动主题均与 deepin 发行版和/或 DDE 桌面环境相关。我们鼓励 deepin 员工以 SIG 的形式开展活动，以使得 deepin 变得更加开放透明且使得社区贡献者也可以轻松参与进来。我们也鼓励社区人员在 deepin 社区成立 SIG，以更方便的获取来自 deepin 官方的相应帮助与支持。
+The topics of deepin SIGs should be all related to the deepin distribution and the DDE (deepin desktop environment). We encourage deepin employees to conduct activities in SIGs to make deepin more transparent and make it easy for community contributors to participate. Community members are also welcome to set up SIGs to get direct help and support from deepin.
 
-注：个人社区参与者并不要求必须加入 SIG，个人贡献者能够始终以个人身份参与社区的各种活动。
+Note: It is not a must that community users should join a SIG, who can always participate in community activities as an individual.
 
-## deepin 社区组织运作概要
+## Overview of community organizations
 
-deepin 社区中进行活动的**组织**分为两类，社区委员会以及各个不同的 SIG。社区委员会为各个 SIG 提供必要的基础设施支持与活动指导，而各个 SIG 的活动也受到社区委员会的监督。
+**Organizations** of the deepin community can be divided into the community board and SIGs. The community board provides SIGs with necessary support and activity guidance and supervises their activities.
 
 ### SIG
 
-SIG 是 deepin 社区中所存在的，由 deepin 社区提供支持与管理的活动组织。SIG 的日常活动由小组自发组织，并以对整个社区公开的形式展开。
+SIG is supported and managed by the deepin community. Its daily activities are organized by the group itself and open to the whole community.
 
-每个 SIG 均以创建时所固定的同一目标开展活动，确保活动最终能够对 deepin 开源社区产生有意义的活动产出，并定期对社区公开公示产出内容。SIG 的公开运作受到社区委员会的监督，不能满足公开运作的 SIG 会被社区委员会取消。
+Each SIG should focus on the goals determined at the time of SIG creation, ensure that the activities can produce meaningful outputs, and regularly publish the outputs to the community. The operation of SIG is supervised by the community board, and SIGs that cannot meet the requirements will be canceled by the community board.
 
-每个 SIG 中均存在其对应的小组管理员。在不同组织的活动过程中，若需要跨小组的协作沟通，则由小组管理员代表小组向其它 SIG 或社区委员会进行沟通与协作。
+Each SIG should have a group leader. If cross-group collaboration and communication are required, the group leader shall communicate and collaborate with other SIGs or the community board on behalf of the group.
 
-小组管理员负责其所在的 SIG 的正常活动与发展，在SIG需要获得支持时，相关的支持请求也由小组管理员发起。若 SIG 的初始目标在一段时间的运作后已达到，且没有新的目标出现，则小组管理员应当向社区委员会发起通知，将 SIG 标记为不再活跃的社区小组。
+Group leaders are responsible for SIG activities and development as well. If a SIG needs support, the group leader should submit the requests. If the SIG's initial goals have been reached and no new goals have been found, the group leader should notify the community board to mark the SIG as an inactive group.
 
-### 社区委员会
+### Community Board
 
-社区委员会即为社区的核心组织，总体把控整个 deepin 社区的发展方向，确保社区的健康与良性运作，其中也承担了对所有SIG的支持、指导与监督的角色。
+The community board is the key organization of the community, which controls the development direction of the deepin community, ensures its healthy and smooth operation, as well as supports, guides, and supervises all SIGs.
 
-SIG 的创建申请由社区委员会处理，创建后的活动开展过程受到社区委员会的监督，以确保 SIG 的活动能够良性开展。
+It deals with the application for the setup of SIGs and supervises their activities to make sure they are performed in a healthy manner.
 
-社区委员会应当对 deepin 社区所开展的活动进行周期性的总结，并最终对整个 deepin 开源社区公示。各个 SIG 所开展活动产出的内容应当涵盖在公示的总结中。
+The community board should periodically summarize the activities carried out by the deepin community, and announce them to all community users, which includes the outputs of each SIG.
 
-在需要时，社区委员会负责对SIG提供包括资源分配、基础设施等方面的必要支持。在 SIG 展开活动时，社区委员会可在必要时提供相应的指导。
+If required, the community board should also give necessary support to SIGs including resource allocation, infrastructure, activity guidance, etc.
 
-## 其它说明
+## Others
 
-### 初衷
+### Our intention
 
-正如上所说，SIG 为针对特定兴趣方向，有特定工作目标的小组。SIG 的成立旨在鼓励社区人员能够更容易参与到 deepin/DDE 的改善中来，也以此为契机，使得原本属于公司内部不透明形式开展的，与 deepin 社区相关的活动可以变得更加开放与透明。
+As mentioned above, SIGs are groups with specific interests and goals, which are set up to encourage community contributors to actively participate in the improvement of deepin/DDE, as well as to make community-related activities open and transparent that were originally carried out in an unpublic way.
 
-deepin 社区 SIG 并不会取代现有的社区论坛和非官方的小组，成立于 deepin 社区的 SIG 会能更直接的获得来自 deepin （社区委员会）的支持，更高效的处理问题，当然，也相应的会受到来自 deepin 的监督以确保小组活动的健康开展。
+The SIGs will not replace the existing community forums and unofficial groups, but they can get direct support from the community board to solve issues efficiently. Of course, they will also receive supervision from deepin to ensure the healthy development of group activities.
 
-初期成立的 SIG 大多会是原本活动于公司内部的组织，或原本位于并不开放的位置展开活动的组织。我们会协助初期成立的 SIG 使其变得更加开放，也会逐渐完善 deepin 社区现有的基础设施，为后续 SIG 的发展铺平道路。
+Most of the SIGs established at the preliminary stage are groups that were active within the deepin company or groups whose activities were not open to the public. We will assist the new SIGs to make them more open, and gradually improve the existing infrastructure of the deepin community, paving the way for the development of SIGs.
 
-### SIG 的创建与管理
+### SIG setup
 
-关于 SIG 的创建与管理，请参阅 [SIG 管理指南](sig/README.md) 。
+For the creation and management of SIGs, please refer to [SIG Setup Guide](sig/README.md).
 
-### 获取帮助
+### Getting help
 
-若您在 SIG 的创建、管理，或是在尝试加入已有 SIG 时遇到任何问题，都可以在此仓库发起 Issue 与我们进行讨论。
+If you have any problems with SIG creation, management, or joining an existing SIG, open an issue in this repository to discuss with us.

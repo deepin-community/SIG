@@ -1,19 +1,19 @@
 <!--
-    小组组员列表
+    SIG Member List
 
-    按小组实际情况编辑模板即可，下面的例子仅供参考。
+    You can edit the content of the following template freely.
 
-    可以在这里以 Markdown 的形式列出组员信息。可以是昵称，可以在后面附加组员希望添加的其它信息（限一行内）
-    请注意，小组管理员 **必须** 提供 GitHub ID 以供外部联系
+    List the members in Makrdown syntax. Name can be nick name. One member per line.
+    Please notice: SIG administrator must provide their GitHub ID so someone else can contact them when needed.
 -->
 
-## 小组管理员
+## SIG Administrator
 
-- [管理员用户昵称](https://github.com/github_nick)
-- [管理员用户昵称2](https://github.com/github_nick2) ([个人主页](https://example.com))
+- [nickname of admin 1](https://github.com/github_nick)
+- [nickname of admin 2](https://github.com/github_nick2) ([Personal Homepage](https://example.com))
 
 ## 小组成员
 
-- 组员昵称1
-- [组员昵称2](#链接) ([微博](#)) ([Gitee](#))
-- [组员昵称2](#链接)
+- Nickname1
+- [Nickname2](#link) ([Twitter](#)) ([GitLab](#))
+- [Nickname3](#link)

@@ -1,31 +1,31 @@
 <!--
 
-请按照实际情况编辑此文件，以使内容适应您所要创建的 SIG 的实际情况，并在发起申请时删除此段注释。
+Please change the content to fit the actual usage of the SIG, and remove this comment when finished.
 
-请注意：
+Please notice:
 
-以下五段二级标题均为必须存在的段落。小组也可根据自身需求增加其它的段落和详细的描述，但不应删除此处的四个段落。
+The following five sections title must not be removed. You can add extra sections if needed, but do not remove the existing ones.
 
 -->
 # XXXX SIG
 
-## 小组简介
+## SIG Description
 
-在这里填写小组简介。
+Description here.
 
-## 活动范围与目标
+## Goal
 
-在这里填写此兴趣组的共同目标以及小组的活动方式与范围，类如小组进行哪方面的活动，如何进行活动，活动的开展位于哪里等。
+The common plan and goal of the SIG, what does the SIG do, where are the places that the SIG activity going to happen, etc.
 
-## 小组章程
+## Charter
 
-在这里描述小组章程。小组亦可选择其它位置来提供小组章程（例如小组对应的 GitHub 仓库内），若选择其它位置，则小组章程必须可供公开访问，然后在此处链接到实际小组章程的位置即可。
+The charter of the SIG. The Charter content can be in somewhere else, if that's the case, you only need to add a link of the Charter to here.
 
-## 讨论渠道
+## Discussion channels
 
-小组应当至少有一个可供公开联系/参与的讨论渠道，在这里提供小组公开的讨论渠道的位置并介绍参与方式。
+Link the public discussion channel(s) for this SIG, and discribe how to join if needed.
 
-## 相关链接
+## Related Links
 
-- [GitHub 上的小组团队](https://github.com/orgs/deepin-community/teams/在这里填写小组ID)
-- [其它链接](在这里粘贴其它链接)
+- [SIG Repo on GitHub](https://github.com/deepin-community/sig-xxxx)
+- [Other links](url)

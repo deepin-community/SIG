@@ -1,67 +1,67 @@
-# SIG 创建指南
+# SIG Setup Guide
 
-## SIG 的创建
+## SIG setup
 
-SIG 的创建请求通过向 GitHub 中 [deepin-community 组织下的 SIG 仓库中](https://github.com/deepin-community/SIG/)发起 GitHub Pull Request 的形式，在此目录下根据指定格式创建 SIG 对应文件夹并放置对应文件的形式发起。SIG 委员会将通过对相应 Pull Request 的 Review 过程对申请进行评审。当 Pull Request 最终被合入时，SIG 即创建完成。
+To set up a SIG, in [this SIG repository under deepin-community on Github](https://github.com/deepin-community/SIG/), create a folder in this directory, place files in it according to the requirements, and submit a Pull Request to apply for SIG setup. The SIG board will review the pull request of your application. When the pull request is merged, the SIG is created.
 
-### SIG 创建要求
+### Requirements
 
-在创建之前，请确认小组满足如下要求：
+Before setup, make sure your group meets the following requirements:
 
-- 小组兴趣和活动内容与 deepin 和/或 DDE 具备相关性
-- 小组能够保持活动公开
-- 小组活动能有对整个 deepin 社区公开的活动产出
-- 小组必须存在至少两名成员（建议有至少五名成员时再进行创建）
+- The topic and activities must be related to deepin and/or DDE.
+- Keep activities public.
+- Have outputs that can be public to the whole deepin community.
+- At least two members (It is recommended to have at least five members).
 
-### 信息准备
+### Preparation
 
-在创建 SIG 时，你需要准备下列信息：
+To create a SIG, you need to prepare:
 
-- SIG 组名（推荐同时提供中英文名称）
-- 小组 ID（仅包含小写字母与连字符）
-- 创建原因
-- 小组简介
-- 活动范围与目标
-- 公开讨论渠道
-- 小组组员信息和小组管理员的 GitHub 账号信息
+- SIG group name
+- Group ID (lowercase letters and hyphens only)
+- Reason for creation
+- Group profile
+- Locations and objectives of activities
+- Public discussion channel
+- GitHub accounts of group leaders and members
 
-当您准备就绪后，即可进行后续步骤。
+When you're ready, move on to the next steps.
 
-### 创建步骤
+### Steps
 
-您需要 Fork 此仓库，复制此目录下的 `.template` 文件夹内的文件到一个新的目录，以小组 ID 作为新目录的名字，并编辑此目录下的文件以使其符合您要创建的小组的实际情况，最终推送修改并发起 Pull Request。
+Fork this repository, copy the files in the `.template` folder in this directory to a new folder named with your group ID, and edit the files in it accordingly, finally push the changes and submit a pull request.
 
-在编辑模板信息时，请注意模板中给出的描述。在 `MEMBERS.md` 声明的信息会被公开呈现，其中列出的管理员将被邀请加入 deepin-community 组织。
+When editing the template files, pay attention to the description in them. Information in `MEMBERS.md` will be public, and the leaders listed there will be invited to join the deepin-community organization.
 
-在发起 Pull Request 时，请以 `[新 SIG 提案] SIG 名称` 为格式作为 Pull Request 的标题，并按下面段落的格式，在描述区域提供小组的创建原因和管理员 GitHub 账号信息。
+When submitting a pull request, please use `[New SIG Proposal] SIG name` as its title, and write down the reason for creation and the GitHub accounts of group leaders as the following example.
 
 ``` markdown
-## 创建原因
+## Reason
 
-在这里描述创建 SIG 的原因。
+Write down the setup reason for your SIG here.
 
-## 仓库创建
+## Create a repository
 
-此 SIG 需在 deepin-community 组织下创建如下仓库：
+My SIG needs a repository under the deepin-community organization:
 
-- sig-小组ID
+- sig-group-id
 - ...
 
-（注：若小组不需要对应仓库，可直接删除“仓库创建”一节）
+(Note: If you do not need the repository, delete this "Create a repository" section directly.)
 ```
 
-若您或其它组员均对 GitHub 的 Pull Request 工作流程不熟悉，您也可以开启 Issue ，提供上述信息，来请求 SIG 委员会协助。
+If you or other group members are not familiar with the pull request workflow on GitHub, open an issue and leave the above information in it to request help from the SIG board.
 
-注：尽管这里允许 SIG 在 deepin-community 创建用来放置小组项目的仓库，但小组的活动并不强制要求在此 GitHub 组织下进行，小组可选择任何合适的公开位置进行 SIG 活动的展开，例如使用其它 GitHub 组织，或是使用其它平台，例如 Gitee。
+Note: Although SIGs can create repositories under deepin-community, the group activities are not required to be carried out under this GitHub organization. You can choose any suitable and public location to manage SIG activities, such as other GitHub organizations, or other platforms such as Gitee.
 
-### 后续步骤
+### Subsequent process
 
-Pull Request 发起后，SIG 委员会会在三个工作日内予以反馈。若提出了反馈意见，则申请人或其它小组成员应在 Pull Request 中与委员会进行讨论并达成一致。
+After a pull request is submitted, the SIG board gives feedback within three working days. If there is any feedback, the applicant or other group members should discuss and agree with the board in the pull request.
 
-当 Pull Request 最终被合入时，SIG 即创建完成。若最终决定不再创建 SIG，则可直接关闭对应的 Pull Request。
+When the pull request is finally merged, the SIG is created. If you do not want to create the SIG before the final setup, just close the corresponding pull request.
 
-## SIG 变更申请流程
+## SIG Change Request
 
-当小组需要更新小组的相关信息时，仍通过常规 Pull Request 的形式对已有文件进行编辑，并由 SIG 委员会评审后，通过合入的形式完成编辑。
+To update the SIG information, edit the files in your group folder, and submit a pull request. After being reviewed by the SIG board, the modifications are merged.
 
-若您或其它组员均对 GitHub 的 Pull Request 工作流程不熟悉，您也可以开启 Issue ，提供要编辑的信息，来请求 SIG 委员会协助。
+If you or other group members are not familiar with the pull request workflow on GitHub, open an issue and write down the necessary info to request help from the SIG board. 
