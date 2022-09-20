@@ -16,3 +16,4 @@
 
 - [sudo_free](https://bbs.deepin.org/user/19562)
 - [xiekehui](https://bbs.deepin.org/user/230018)
+- [glory2012](https://github.com/glory2012)
