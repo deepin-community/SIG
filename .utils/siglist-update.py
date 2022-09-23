@@ -44,7 +44,7 @@ def main():
                 print("√ " + e + " FOUND in LISTS.md!")
             for m in missing:
                 print("× " + m + " NOT FOUND in LISTS.md!")
-            if len(m) > 0:
+            if len(missing) > 0:
                 exit(2)
 
         case "--update-sig-list":
