@@ -9,12 +9,12 @@
 
 目标：为 deepin 操作系统适配 各种硬件。
 
-活动范围：[社区论坛](https://bbs.deepin.org/)、[github-issue](https://github.com/linuxdeepin/sig-deepin-hardware-support)
+活动范围：[社区论坛](https://bbs.deepin.org/)、[github-issue](https://github.com/deepin-community/sig-deepin-hardware-support)
 
 
 ##  repository
 
-[deepin-hardware-support-sig](https://github.com/linuxdeepin/sig-deepin-hardware-support)
+[deepin-hardware-support-sig](https://github.com/deepin-community/sig-deepin-hardware-support)
 
 
 ## 小组章程
