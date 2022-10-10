@@ -61,7 +61,7 @@ def main():
                     lines = lines[:-1]
                 # append missing SIGs
                 for m in missing:
-                    lines.append("| {1} | [{0}]({0}/README.md) | [博客](https://deepin-community.github.io/{0}/) | [成员]({0}/MEMBERS.md) | [申请PR](#) | - | - | - |\n".format(m, len(lines) - 1))
+                    lines.append("| {1} | [{0}]({0}/README.md) | [博客](https://deepin-community.github.io/sig-{0}/) | [成员]({0}/MEMBERS.md) | [申请PR](#) | - | - | - |\n".format(m, len(lines) - 1))
             with open("sig/LISTS.md", 'w', encoding = 'utf-8') as file:
                 file.writelines(lines)
 
