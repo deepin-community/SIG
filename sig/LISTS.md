@@ -26,4 +26,4 @@
 | 24 | [deepin-security-packaging](deepin-security-packaging/README.md) | [成员](deepin-security-packaging/MEMBERS.md) | [申请PR](https://github.com/deepin-community/SIG/pull/42) | [Zerrio](https://github.com/Zerrio) |2022/08/26| - |
 | 25 | [deepin-hvml](deepin-hvml/README.md) | [成员](deepin-hvml/MEMBERS.md) | [申请PR](https://github.com/deepin-community/SIG/pull/45) | [Zeno-sole](https://github.com/Zeno-sole) |2022/09/01| - |
 | 26 | [deepin-hardware-support](deepin-hardware-support/README.md) | [成员](deepin-hardware-support/MEMBERS.md) | [申请PR](https://github.com/deepin-community/SIG/pull/51) | [opsiff](https://github.com/opsiff) |2022/09/19| - |
-| 26 | [deepin-in-spanish](deepin-in-spanish/README.md) | [成员](deepin-in-spanish/MEMBERS.md) | [申请PR](https://github.com/deepin-community/SIG/pull/52) | [Alvaro Samudio](https://github.com/alvarosamudio) |2022/09/29| - |
+| 27 | [deepin-in-spanish](deepin-in-spanish/README.md) | [成员](deepin-in-spanish/MEMBERS.md) | [申请PR](https://github.com/deepin-community/SIG/pull/52) | [Alvaro Samudio](https://github.com/alvarosamudio) |2022/09/29| - |

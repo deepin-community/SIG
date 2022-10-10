@@ -61,7 +61,7 @@ def main():
                     lines = lines[:-1]
                 # append missing SIGs
                 for m in missing:
-                    lines.append("| {1} | [{0}]({0}/README.md) | [成员]({0}/MEMBERS.md) | [申请PR](#) | - | - | - |\n".format(m, len(lines) - 2))
+                    lines.append("| {1} | [{0}]({0}/README.md) | [成员]({0}/MEMBERS.md) | [申请PR](#) | - | - | - |\n".format(m, len(lines) - 1))
             with open("sig/LISTS.md", 'w', encoding = 'utf-8') as file:
                 file.writelines(lines)
 
