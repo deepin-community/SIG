@@ -36,16 +36,15 @@ DDE 移植小组实际上并不“小”，不同发行版对移植有着不同�
 
 邮件列表发送月报公布工作进度以及当前问题，必要时进行线上会议讨论相关问题，会议议题以及会议时间会参与方式等信息会提前在邮件列表或者群组内进行公布。
 
-ps: 章程目前还不完善，有兴趣的同学可以加入进来讨论。 
+小组仓库：https://github.com/deepin-community/sig-dde-porting
 
 ## 讨论渠道
 
 ### 专用交流渠道
-我们提供了 Matrix，Telegram 和 Libera IRC 的讨论群组方便开发者交流，三者通过桥接消息互通。
+我们提供了 Matrix，Telegram 的讨论群组方便开发者交流，通过桥接消息互通。
 
 - [Matrix](https://matrix.to/#/#dde-port:matrix.org)
 - [Telegram](https://t.me/ddeport)
-- [IRC](https://web.libera.chat/#dde-port)
 
 ### 通用交流渠道
 以下渠道交流内容属于泛 deepin/DDE，你可能需要使用“DDE”，“移植”等关键字筛选信息。
