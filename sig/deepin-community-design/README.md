@@ -29,7 +29,3 @@ deepin 社区设计小组是为 deepin 社区项目开展 UI/UX（概念）设�
 - 深度科技论坛： https://bbs.deepin.org/
 - 在 [deepin-community-design 仓库](https://github.com/deepin-community/sig-deepin-community-design)提出 Issue
 - QQ 群聊： 1170028970
-
-## 相关链接
-
-- [GitHub 上的小组团队](https://github.com/orgs/deepin-community/teams/deepin-community-design)
