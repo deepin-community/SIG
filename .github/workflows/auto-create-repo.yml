@@ -14,7 +14,7 @@ jobs:
     if: github.event.pull_request.merged
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
@@ -75,11 +75,9 @@ jobs:
                       'name': repo
                       }
               res = requests.post(create_repo_url, json = data_repo, headers = header) 
-              print("::set-output name=requests_res::" + res)
           try:
               data = read_yml()
               for repo in data.get("repos"):
-                  print("::set-output name=read_repo_name::" + repo.get('repo'))
                   if check_repo(repo.get('repo')) == None:
                       create_repo(repo.get('repo'))
           except BaseException as e:
