@@ -1,0 +1,23 @@
+---
+name: sig-deepin-in-spanish
+blog:
+rss:
+proposal:
+  issue: 52
+  by:
+    handle: alvarosamudio
+    id: 25090546
+data-created: '2022/09/29'
+data-archived: '-'
+team: sig-deepin-in-spanish
+repos:
+  maintained:
+    - sig-deepin-in-spanish
+  package:
+members:
+  - handle: alvarosamudio
+    id: 25090546
+  - handle: xoascf
+    id: 28744392
+  - handle: deepin-community-bot
+    id: 111260340

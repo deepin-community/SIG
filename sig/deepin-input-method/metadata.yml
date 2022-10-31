@@ -1,0 +1,21 @@
+---
+name: deepin-input-method
+blog:
+rss:
+proposal:
+  issue: 33
+  by:
+    handle: guonafu
+    id: 106046899
+data-created: '2022/08/25'
+data-archived: '-'
+team: deepin-input-method
+repos:
+  maintained:
+    - sig-deepin-input-method
+  package:
+members:
+  - handle: guonafu
+    id: 106046899
+  - handle: deepin-community-bot
+    id: 111260340

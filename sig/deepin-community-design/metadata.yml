@@ -1,0 +1,19 @@
+---
+name: deepin 社区设计小组
+blog:
+rss:
+proposal:
+  issue: 36
+  by:
+    handle: PossibleVing
+    id: 87505783
+date-created: '2022/08/24'
+data-archived: '-'
+team: deepin-community-design
+repos:
+  maintained:
+    - sig-deepin-community-design
+  package:
+members:
+  - handle: deepin-community-bot
+    id: 111260340

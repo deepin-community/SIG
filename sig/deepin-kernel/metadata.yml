@@ -1,0 +1,22 @@
+---
+name: sig-deepin-kernel
+blog:
+rss:
+proposal:
+  issue: 31
+  by:
+    handle: huangbibo
+    id: 88575167
+data-created: '2022/08/25'
+data-archived: '-'
+team: sig-deepin-kernel
+repos:
+  maintained:
+    - sig-deepin-kernel
+  package:
+    - kernel
+members:
+  - handle: huangbibo
+    id: 88575167
+  - handle: deepin-community-bot
+    id: 111260340

@@ -1,0 +1,19 @@
+---
+name: sig-deepin-security-packaging
+blog:
+rss:
+proposal:
+  issue: 42
+  by:
+    handle: Zerrio
+    id: 68323439
+data-created: '2022/08/26'
+data-archived: '-'
+team: sig-deepin-security-packaging
+repos:
+  maintained:
+    - sig-deepin-security-packaging
+  package:
+members:
+  - handle: deepin-community-bot
+    id: 111260340

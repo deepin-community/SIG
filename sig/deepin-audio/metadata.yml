@@ -1,0 +1,21 @@
+---
+name: Deepin Audio 维护小组
+blog:
+rss:
+proposal:
+  issue: 38
+  by:
+    handle: uos-eng
+    id: 62537373
+data-created: '2022/08/25'
+data-archived: '-'
+team: sig-deepin-audio
+repos:
+  maintained:
+    - sig-deepin-audio
+  package:
+members:
+  - handle: ALTNT
+    id: 61327700
+  - handle: deepin-community-bot
+    id: 111260340

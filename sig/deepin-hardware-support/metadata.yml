@@ -1,0 +1,23 @@
+---
+name: sig-deepin-hardware-support
+blog:
+rss:
+proposal:
+  issue: 51
+  by:
+    handle: opsiff
+    id: 36043992
+data-created: '2022/09/19'
+data-archived: '-'
+team: sig-deepin-hardware-support
+repos:
+  maintained:
+    - sig-deepin-hardware-support
+  package:
+members:
+  - handle: opsiff
+    id: 36043992
+  - handle: Zeno-sole
+    id: 43427321
+  - handle: tsic404
+    id: 48748112

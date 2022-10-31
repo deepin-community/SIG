@@ -1,0 +1,54 @@
+---
+name: deepin-qt SIG
+blog:
+rss:
+proposal:
+  issue: 17
+  by:
+    handle: NSUTanghaixiang
+    id: 33649855
+date-created: '2022/08/15'
+data-archived: '-'
+team: deepin-qt-team
+repos:
+  maintained:
+    - sig-deepin-qt
+  package:
+    - qt6-base
+    - qt6-charts
+    - qt6-connectivity
+    - qt6-datavis3d
+    - qt6-imageformats
+    - qt6-lottie
+    - qt6-multimedia
+    - qt6-networkauth
+    - qt6-quicktimeline
+    - qt6-remoteobjects
+    - qt6-scxml
+    - qt6-serialport
+    - qt6-shadertools
+    - qt6-svg
+    - qt6-translations
+    - qt6-virtualkeyboard
+    - qt6-wayland
+    - qt6-webchannel
+    - qt6-websockets
+    - qt6-quick3d
+    - qt6-webengine
+    - qt6-3d
+    - qt6-5compat
+    - qt6-declarative
+    - qt6-positioning
+    - qt6-sensors
+    - qt6-serialbus
+    - qt6-tools
+    - qt6-webview
+members:
+  - handle: toberyan
+    id: 24667453
+  - handle: NSUTanghaixiang
+    id: 33649855
+  - handle: Dami-star
+    id: 79623498
+  - handle: DuanTing218
+    id: 107612944

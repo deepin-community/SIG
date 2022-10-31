@@ -1,0 +1,23 @@
+---
+name: deepin-system-tools
+blog:
+rss:
+proposal:
+  issue: 13
+  by:
+    handle: Angie-JA-Dou
+    id: 13266558
+data-created: '2022/08/17'
+data-archived: '-'
+team: deepin-system-tools
+repos:
+  maintained:
+    - sig-deepin-system-tools
+  package:
+members:
+  - handle: Angie-JA-Dou
+    id: 13266558
+  - handle: WangXiangYu-wxy
+    id: 64002814
+  - handle: deepin-community-bot
+    id: 111260340

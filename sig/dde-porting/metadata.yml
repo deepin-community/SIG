@@ -1,0 +1,21 @@
+---
+name: DDE 移植兴趣小组
+blog: https://deepin-community.github.io/sig-dde-porting/
+rss: https://deepin-community.github.io/sig-dde-porting/atom.xml
+proposal:
+  issue: 9
+  by:
+    handle: wineee
+    id: 22803888
+date-created: '2022/08/15'
+data-archived: '-'
+team: sig-dde-porting
+repos:
+  maintained:
+    - sig-dde-porting
+  package:
+members:
+  - handle: BLumia
+    id: 10095765
+  - handle: wineee
+    id: 22803888

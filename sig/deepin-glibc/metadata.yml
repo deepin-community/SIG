@@ -1,0 +1,21 @@
+---
+name: deepin-glibc
+blog:
+rss:
+proposal:
+  issue: 32
+  by:
+    handle: wxphaha
+    id: 88472141
+data-created: '2022/08/22'
+data-archived: '-'
+team: deepin-glibc
+repos:
+  maintained:
+    - sig-deepin-glibc
+  package:
+members:
+  - handle: ALTNT
+    id: 61327700
+  - handle: deepin-community-bot
+    id: 111260340

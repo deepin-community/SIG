@@ -1,0 +1,21 @@
+---
+name: deepin-sysdev-team
+blog:
+rss:
+proposal:
+  issue: 14
+  by:
+    handle: venchh
+    id: 88131797
+data-created: '2022/08/17'
+data-archived: '-'
+team: deepin-sysdev-team
+repos:
+  maintained:
+    - sig-deepin-sysdev-team
+  package:
+members:
+  - handle: gnefuh
+    id: 69186510
+  - handle: deepin-community-bot
+    id: 111260340

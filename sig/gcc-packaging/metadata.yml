@@ -1,0 +1,21 @@
+---
+name: sig-gcc-packaging
+blog:
+rss:
+proposal:
+  issue: 26
+  by:
+    handle: hengdinx
+    id: 9566309
+data-created: '2022/08/24'
+data-archived: '-'
+team: sig-gcc-packaging
+repos:
+  maintained:
+    - sig-gcc-packaging
+  package:
+members:
+  - handle: ALTNT
+    id: 61327700
+  - handle: deepin-community-bot
+    id: 111260340

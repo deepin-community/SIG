@@ -1,0 +1,19 @@
+---
+name: deepin-wayland-xorg
+blog:
+rss:
+proposal:
+  issue: 19
+  by:
+    handle: 1358241081
+    id: 71873721
+data-created: '2022/08/18'
+data-archived: '-'
+team: deepin-wayland-xorg
+repos:
+  maintained:
+    - sig-deepin-wayland-xorg
+  package:
+members:
+  - handle: deepin-community-bot
+    id: 111260340

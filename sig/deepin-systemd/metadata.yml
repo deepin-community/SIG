@@ -1,0 +1,22 @@
+---
+name: sig-deepin-systemd
+blog:
+rss:
+proposal:
+  issue: 22
+  by:
+    handle: ALTNT
+    id: 61327700
+data-created: '2022/08/18'
+data-archived: '-'
+team: sig-deepin-systemd
+repos:
+  maintained:
+    - sig-deepin-grub
+    - sig-deepin-systemd
+  package:
+members:
+  - handle: ALTNT
+    id: 61327700
+  - handle: deepin-community-bot
+    id: 111260340

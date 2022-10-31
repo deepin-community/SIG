@@ -1,0 +1,23 @@
+---
+name: deepin-pkg
+blog:
+rss:
+proposal:
+  issue: 15
+  by:
+    handle: jinqingchen-deepin
+    id: 84484300
+data-created: '2022/08/17'
+data-archived: '-'
+team: deepin-pkg
+repos:
+  maintained:
+    - sig-deepin-pkg
+  package:
+members:
+  - handle: renyehui
+    id: 84442758
+  - handle: jinqingchen-deepin
+    id: 84484300
+  - handle: deepin-community-bot
+    id: 111260340

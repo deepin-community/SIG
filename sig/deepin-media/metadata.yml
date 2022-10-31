@@ -1,0 +1,25 @@
+---
+name: deepin-media
+blog:
+rss:
+proposal:
+  issue: 18
+  by:
+    handle: lzwind
+    id: 100665065
+data-created: '2022/08/17'
+data-archived: '-'
+team: deepin-media
+repos:
+  maintained:
+    - sig-deepin-media
+  package:
+    - ffmpeg
+    - ffmpegthumbnailer
+members:
+  - handle: wyu71
+    id: 97944796
+  - handle: lzwind
+    id: 100665065
+  - handle: deepin-community-bot
+    id: 111260340

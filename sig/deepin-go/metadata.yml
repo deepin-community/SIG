@@ -1,0 +1,20 @@
+---
+name: sig-deepin-go
+blog:
+rss:
+proposal:
+  issue: 39
+  by:
+    handle: robertkill
+    id: 42627624
+data-created: '2022/08/25'
+data-archived: '-'
+team: sig-deepin-go
+repos:
+  maintained:
+  package:
+members:
+  - handle: zsien
+    id: 8380597
+  - handle: deepin-community-bot
+    id: 111260340

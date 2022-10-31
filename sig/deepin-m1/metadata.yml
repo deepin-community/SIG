@@ -1,0 +1,20 @@
+---
+name: deepin-m1
+blog:
+rss:
+proposal:
+  issue: 5
+  by:
+    handle: justforlxz
+    id: 12298476
+data-created: '2022/08/02'
+data-archived: '-'
+team: sig-deepin-m1
+repos:
+  maintained:
+  package:
+members:
+  - handle: justforlxz
+    id: 12298476
+  - handle: deepin-community-bot
+    id: 111260340

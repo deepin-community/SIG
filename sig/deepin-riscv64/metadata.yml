@@ -1,0 +1,26 @@
+---
+name: deepin-riscv64
+blog:
+rss:
+proposal:
+  issue: 1
+  by:
+    handle: Zeno-sole
+    id: 43427321
+data-created: '2022/07/21'
+data-archived: '-'
+team: deepin-riscv64
+repos:
+  maintained:
+  package:
+members:
+  - handle: Rabenda
+    id: 13116853
+  - handle: leemeans
+    id: 15212302
+  - handle: Zeno-sole
+    id: 43427321
+  - handle: tsic404
+    id: 48748112
+  - handle: changliuxy
+    id: 110147328
