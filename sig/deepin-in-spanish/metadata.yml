@@ -1,14 +1,15 @@
 ---
 name: sig-deepin-in-spanish
-blog:
+blog: https://deepin-community.github.io/sig-deepin-in-spanish/
 rss:
 proposal:
   issue: 52
   by:
+    display-name: Alvaro Samudio
     handle: alvarosamudio
     id: 25090546
-data-created: '2022/09/29'
-data-archived: '-'
+date-created: '2022/09/29'
+date-archived: '-'
 team: sig-deepin-in-spanish
 repos:
   maintained:

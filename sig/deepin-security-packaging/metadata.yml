@@ -7,8 +7,8 @@ proposal:
   by:
     handle: Zerrio
     id: 68323439
-data-created: '2022/08/26'
-data-archived: '-'
+date-created: '2022/08/26'
+date-archived: '-'
 team: sig-deepin-security-packaging
 repos:
   maintained:

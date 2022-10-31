@@ -7,8 +7,8 @@ proposal:
   by:
     handle: hengdinx
     id: 9566309
-data-created: '2022/08/24'
-data-archived: '-'
+date-created: '2022/08/24'
+date-archived: '-'
 team: sig-gcc-packaging
 repos:
   maintained:

@@ -7,8 +7,8 @@ proposal:
   by:
     handle: Zeno-sole
     id: 43427321
-data-created: '2022/07/21'
-data-archived: '-'
+date-created: '2022/07/21'
+date-archived: '-'
 team: deepin-riscv64
 repos:
   maintained:
