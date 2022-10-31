@@ -62,22 +62,33 @@ jobs:
           }
           create_repo_url = 'https://api.github.com/repos/deepin-community/template-repository/generate'
 
+          def set_output(name, value):
+              output_file = os.environ.get("GITHUB_OUTPUT")
+              with open(output_file, "w") as output:
+                  output.write(name + "=" + value + "\n")
+                  
           def read_yml():
               with open("repos.yml", "r+") as intergration_file:
                   return yaml.load(intergration_file, Loader=yaml.BaseLoader)
+                  
           def check_repo(repo):
               res = requests.get("https://api.github.com/repos/deepin-community/{repo}".format(repo=repo))
+              set_output("requests_get_res", str(res))
               if res.status_code == 200:
                   return repo
+                  
           def create_repo(repo):
               data_repo = {
                       'owner':'deepin-community',
                       'name': repo
                       }
               res = requests.post(create_repo_url, json = data_repo, headers = header) 
+              set_output("requests_get_data_repo", str(res))
+
           try:
               data = read_yml()
               for repo in data.get("repos"):
+                  set_output("read_yml", str(repo.get('repo')))
                   if check_repo(repo.get('repo')) == None:
                       create_repo(repo.get('repo'))
           except BaseException as e:
