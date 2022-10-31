@@ -1,14 +1,16 @@
 repos:
   - repo: zssh
-    group: sig-deepin-riscv64
+    group: deepin-pkg
     info: Zmodem SSH   
 
   - repo: htop
-    group: sig-deepin-riscv64
+    group: deepin-pkg
     info: Htop 是一个基于 ncurse 的进程查看器，类似于 top
 
   - repo: rsync
-    group: sig-deepin-riscv64
+    group: deepin-pkg
     info: rsync 是一个快速、多用途的文件复制工具，它可以在本地复制文件，或在本地和远程 站点之间传输文件
 
-
+  - repo: ruby-afm
+    group: deepin-pkg
+    info: This simple library can read Adobe Font Metrics (afm) files and use the data conveniently.
