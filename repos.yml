@@ -1,0 +1,14 @@
+repos:
+  - repo: zssh
+    group: sig-deepin-riscv64
+    info: Zmodem SSH   
+
+  - repo: htop
+    group: sig-deepin-riscv64
+    info: Htop 是一个基于 ncurse 的进程查看器，类似于 top
+
+  - repo: rsync
+    group: sig-deepin-riscv64
+    info: rsync 是一个快速、多用途的文件复制工具，它可以在本地复制文件，或在本地和远程 站点之间传输文件
+
+
