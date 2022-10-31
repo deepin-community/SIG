@@ -14,13 +14,10 @@ jobs:
     if: github.event.pull_request.merged
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
-      - name: install depends
-        run: |
-          sudo apt-get install curl    
       - name: install depends for load scripts
         run: |
           npm install @octokit/rest
