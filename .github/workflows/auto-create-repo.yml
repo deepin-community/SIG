@@ -11,6 +11,7 @@ env:
 
 jobs:
   create_repo:
+    if: github.event.pull_request.merged
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -18,7 +19,6 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
       - name: install depends
-        if: github.event.pull_request.merged
         run: |
           sudo apt-get install curl    
       - name: install depends for load scripts
@@ -49,7 +49,6 @@ jobs:
             });
             core.setOutput('app_token', token)
       - name: create_repo
-        if: github.event.pull_request.merged
         id: create_repo
         shell: python
         env:
