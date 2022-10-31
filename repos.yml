@@ -14,3 +14,7 @@ repos:
   - repo: ruby-afm
     group: deepin-pkg
     info: This simple library can read Adobe Font Metrics (afm) files and use the data conveniently.
+
+  - repo: test-repo
+    group: deepin-pkg
+    info: This simple library can read Adobe Font Metrics (afm) files and use the data conveniently.
