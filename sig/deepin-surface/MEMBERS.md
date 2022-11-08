@@ -9,7 +9,6 @@
 
 ## 小组管理员
 
-- [zccrs](https://github.com/zccrs)
 - [shiptux](https://github.com/shiptux)
 
 ## 小组成员
@@ -17,3 +16,4 @@
 - [sudo_free](https://bbs.deepin.org/user/19562)
 - [xiekehui](https://bbs.deepin.org/user/230018)
 - [glory2012](https://github.com/glory2012)
+- [zccrs](https://github.com/zccrs)
