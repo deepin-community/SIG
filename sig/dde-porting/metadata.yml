@@ -12,10 +12,15 @@ date-archived: '-'
 team: sig-dde-porting
 repos:
   maintained:
+    - deepin-overlay
     - sig-dde-porting
   package:
 members:
   - handle: BLumia
     id: 10095765
+  - handle: justforlxz
+    id: 12298476
+  - handle: Rabenda
+    id: 13116853
   - handle: wineee
     id: 22803888

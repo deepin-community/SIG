@@ -14,6 +14,18 @@ repos:
   maintained:
     - sig-deepin-qt
   package:
+    - qtbase-opensource-src
+    - qtcharts-opensource-src
+    - qtimageformats-opensource-src
+    - qtmultimedia-opensource-src
+    - qtquickcontrols-opensource-src
+    - qtsvg-opensource-src
+    - qttools-opensource-src
+    - qttranslations-opensource-src
+    - qtvirtualkeyboard-opensource-src
+    - qtwebchannel-opensource-src
+    - qtx11extras-opensource-src
+    - qtdoc-opensource-src
     - qt6-base
     - qt6-charts
     - qt6-connectivity
@@ -43,11 +55,15 @@ repos:
     - qt6-serialbus
     - qt6-tools
     - qt6-webview
+    - qtquickcontrols2-opensource-src
+    - qtlottie-opensource-src
 members:
   - handle: toberyan
     id: 24667453
   - handle: NSUTanghaixiang
     id: 33649855
+  - handle: eric2023
+    id: 35980915
   - handle: Dami-star
     id: 79623498
   - handle: DuanTing218
