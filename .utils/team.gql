@@ -1,0 +1,30 @@
+query($team_slug: String!, $login: String! $endCursor: String) {
+  organization(login: $login) {
+    team(slug: $team_slug) {
+      repositories {
+        edges {
+          node {
+            name
+          }
+          permission
+        }
+      }
+      childTeams(first: 5) {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
+      members(first: 50, after: $endCursor) {
+        edges {
+          node {
+            login,
+            databaseId,
+          }
+          role
+        }
+      }
+    }
+  }
+}

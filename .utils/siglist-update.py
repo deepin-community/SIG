@@ -5,6 +5,7 @@ from dataclasses import dataclass
 from datetime import date, datetime
 from typing import Any
 import yaml
+from utils import val_of_key
 
 
 class SigInfo:
@@ -62,16 +63,6 @@ def get_sig_dirs() -> list[os.DirEntry[str]]:
             continue
         result.append(dir)
     return result
-
-
-def val_of_key(obj: dict, key_path: list[str], fallback: Any) -> Any:
-    curObj = obj
-    while len(key_path) > 0:
-        try:
-            curObj = curObj[key_path.pop(0)]
-        except KeyError:
-            return fallback
-    return curObj
 
 
 def get_missing_sigs(existing_sig_dirs: list[os.DirEntry[str]]) -> tuple[list[str], list[str]]:
