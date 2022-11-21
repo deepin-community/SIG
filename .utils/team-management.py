@@ -23,19 +23,30 @@ def call_gh_api(method: str, path: str, raw_fields: list[str] = [], dryrun: bool
     '''
     raw_fields: ["field1='val'", "field2='val'"]
     '''
-    args = ['gh', 'api', 
-            '--method', method,
-            '-H', 'Accept: application/vnd.github+json',
-            path]
+    arg = "gh api --method {0} -H 'Accept: application/vnd.github+json' {1}".format(method, path)
+    # args = ['gh', 'api', 
+    #         '--method', method,
+    #         '-H', 'Accept: application/vnd.github+json',
+    #         path]
     for raw_field in raw_fields:
-        args += ['-f', raw_field]
+        # args += ['-f' + raw_field]
+        arg += " -f {0}".format(raw_field)
     
     if dryrun == True:
-        print(args)
+        print(arg)
+        print('Exec (dry-run): ' + arg)
         return 0
     else:
-        proc = subprocess.run(args)
-        return proc.returncode
+        print('Exec (preview): ' + arg)
+        return os.system(arg)
+        # HACK: do NOT use subprocess since it seems it will add quote to argument
+        #       in a unintended way, 
+        #       e.g. we don't want:
+        #           gh api blah -f "role='member'"
+        #       instead we want just:
+        #           gh api blah -f role='member'
+        # proc = subprocess.run(args)
+        # return proc.returncode
 
 
 def require_file_arg(parser: argparse.ArgumentParser):
@@ -176,7 +187,7 @@ def main():
     parser.add_argument('-o', '--organization',
                         action='store',
                         help='the GitHub organization related to this operation',
-                        default='deepin-community')
+                        default='peeweep-test')
     parser.add_argument('-d', '--dry-run',
                         action='store_true',
                         help='turn on dry-run for debugging')
