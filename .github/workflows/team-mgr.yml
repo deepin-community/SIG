@@ -1,0 +1,58 @@
+name: Team Management
+on:
+  push:
+    branches:
+      - 'master'
+  workflow_dispatch:
+    inputs:
+      metadata-path:
+        description: 'The path of the metadata file, without file name and trailing slash'     
+        required: true
+        default: 'debian-review'
+
+env:
+  APP_ID: 164400
+  APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
+
+jobs:
+  team-mgr:
+    name: "Team Config Manager"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: Get token using github-script
+        id: get-token
+        uses: ./.github/actions/get-pat
+        with:
+          APP_ID: ${{ env.APP_ID }}
+          APP_PRIVATE_KEY: ${{ env.APP_PRIVATE_KEY }}
+      - uses: extractions/setup-just@v1
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' 
+      - name: Install python depencencies
+        run: pip install pyyaml
+      - name: Team Management Main Step
+        env:
+          GH_TOKEN: ${{ steps.get-token.outputs.APP_TOKEN }}
+          METADATA_PATH: ${{ inputs.metadata-path }}
+        run: |
+          git checkout HEAD
+          echo $METADATA_PATH
+          if [ -z "$METADATA_PATH" ]; \
+            then \
+              echo "generate from last git commit"; \
+              git diff-tree --name-only -r HEAD; \
+              git diff-tree --no-commit-id --name-only -r HEAD | grep "/metadata.yml$" | sed -E "s/(.*)\/metadata.yml$/\1/g" > metadata.paths; \
+            else \
+              echo "generate from the provided metadata path variable"; \
+              echo $METADATA_PATH | tr ":" "\n" > metadata.paths; \
+            fi
+          cat metadata.paths
+          readarray -t path_arr < metadata.paths; \
+            for i in "${path_arr[@]}"; \
+            do \
+              just update-team-member-n-repo $i/metadata.yml; \
+            done;

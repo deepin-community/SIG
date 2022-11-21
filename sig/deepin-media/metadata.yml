@@ -16,10 +16,10 @@ repos:
   package:
     - ffmpeg
     - ffmpegthumbnailer
+    - ncnn
+    - opencv-mobile
 members:
   - handle: wyu71
     id: 97944796
   - handle: lzwind
     id: 100665065
-  - handle: deepin-community-bot
-    id: 111260340

@@ -25,7 +25,7 @@ def call_gh_api(method: str, path: str, raw_fields: list[str] = [], dryrun: bool
     '''
     args = ['gh', 'api', 
             '--method', method,
-            '-H', '"Accept: application/vnd.github+json"',
+            '-H', 'Accept: application/vnd.github+json',
             path]
     for raw_field in raw_fields:
         args += ['-f', raw_field]
