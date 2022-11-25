@@ -18,6 +18,40 @@ repos:
     - ffmpegthumbnailer
     - ncnn
     - opencv-mobile
+    - phonon-backend-vlc
+    - vlc
+    - libva
+    - libva-utils
+    - intel-media-driver
+    - intel-vaapi-driver
+    - intel-gmmlib
+    - libvdpau
+    - mpg123
+    - mpv
+    - nv-codec-headers
+    - mpeg2dec
+    - gst-rtsp-server
+    - gstreamer-vaapi
+    - gst-omx
+    - gst-libav1.0
+    - gst-plugins-ugly1.0
+    - gst-plugins-bad1.0
+    - gst-plugins-good1.0
+    - gst-plugins-base1.0
+    - gstreamer1.0
+    - openjpeg2
+    - freeimage
+    - libsdl2
+    - davs2
+    - xavs2
+    - aom
+    - a52dec
+    - audacity
+    - svt-av1
+    - qtmpris
+    - smplayer
+    - guvcview
+    - hwinfo    
 members:
   - handle: wyu71
     id: 97944796
