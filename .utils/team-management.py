@@ -9,6 +9,10 @@ from typing import Any
 from utils import val_of_key
 
 
+def ensure_not_none(var, default):
+    return default if var is None else var
+
+
 def create_repo(org: str, reponame: str, templaterepo_org_n_name: str = ""):
     args = ['gh', 'repo',
             'create', "{0}/{1}".format(org, reponame),
@@ -131,8 +135,8 @@ def action_team_repo_management(parser: argparse.ArgumentParser):
 
     with open(reffile_path, 'r', encoding = 'utf-8') as reffile:
         with open(curfile_path, 'r', encoding = 'utf-8') as curfile:
-            cur_repos = json.load(curfile)
-            ref_repos = json.load(reffile)
+            cur_repos = ensure_not_none(json.load(curfile), [])
+            ref_repos = ensure_not_none(json.load(reffile), [])
             need_removal = [item for item in cur_repos if item not in ref_repos]
             need_addition = [item for item in ref_repos if item not in cur_repos]
             for ghrepo in need_addition:
@@ -160,8 +164,8 @@ def action_team_member_management(parser: argparse.ArgumentParser):
 
     with open(reffile_path, 'r', encoding = 'utf-8') as reffile:
         with open(curfile_path, 'r', encoding = 'utf-8') as curfile:
-            cur_accounts = json.load(curfile)
-            ref_accounts = json.load(reffile)
+            cur_accounts = ensure_not_none(json.load(curfile), [])
+            ref_accounts = ensure_not_none(json.load(reffile), [])
             need_removal = [item for item in cur_accounts if item not in ref_accounts]
             need_addition = [item for item in ref_accounts if item not in cur_accounts]
             for ghaccount in need_addition:
