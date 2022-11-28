@@ -97,7 +97,7 @@ def action_ensure_team_exists(parser: argparse.ArgumentParser):
     args = parser.parse_args()
     file_path = Path(args.file)
     if not file_path.exists():
-        print("Missing input files")
+        print("Missing input files", file_path, os.getcwd())
         exit(61)
     with open(file_path, 'r', encoding = 'utf-8') as file:
         metadata = yaml.safe_load(file)
