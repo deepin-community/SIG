@@ -1,0 +1,19 @@
+---
+name: Hygon
+blog:
+rss:
+proposal:
+  issue:
+  by:
+    handle:
+    id:
+data-created: '-'
+data-archived: '-'
+email-suffix: '@hygon.cn'
+team: corporate-contributor-hygon
+repos:
+  maintained:
+  package:
+members:
+  - handle: puterfly
+    id: 10797129

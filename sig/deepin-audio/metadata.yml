@@ -17,5 +17,3 @@ repos:
 members:
   - handle: ALTNT
     id: 61327700
-  - handle: deepin-community-bot
-    id: 111260340
