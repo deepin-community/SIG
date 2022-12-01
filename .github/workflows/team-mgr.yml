@@ -50,6 +50,7 @@ jobs:
               echo "generate from the provided metadata path variable"; \
               echo $METADATA_PATH | tr ":" "\n" > metadata.paths; \
             fi
+          sed -i '/^\./d' metadata.paths
           cat metadata.paths
           readarray -t path_arr < metadata.paths; \
             for i in "${path_arr[@]}"; \

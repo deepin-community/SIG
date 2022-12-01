@@ -31,7 +31,7 @@ SIG 的创建请求通过向 GitHub 中 [deepin-community 组织下的 SIG 仓�
 
 您需要 Fork 此仓库，复制此目录下的 `.template.zh_CN` 文件夹内的文件到一个新的目录，以小组 ID 作为新目录的名字，并编辑此目录下的文件以使其符合您要创建的小组的实际情况，最终推送修改并发起 Pull Request。
 
-在编辑模板信息时，请注意模板中给出的描述。在 `MEMBERS.md` 声明的信息会被公开呈现，其中列出的管理员将被邀请加入 deepin-community 组织。
+在编辑模板信息时，请注意模板中给出的描述。在 `metadata.yml` 声明的信息会被公开呈现，其中列出的成员将被邀请加入 deepin-community 组织。
 
 在发起 Pull Request 时，请以 `[新 SIG 提案] SIG 名称` 为格式作为 Pull Request 的标题，并按下面段落的格式，在描述区域提供小组的创建原因和管理员 GitHub 账号信息。
 

@@ -20,9 +20,12 @@ jobs:
         id: check-need-update
         run: python .utils/siglist-update.py --check-need-update
         continue-on-error: true
+      - name: Check If SIG MEMBERS.md is Up-to-date
+        id: create-members-md
+        run: python .utils/siglist-update.py --create-members-md
+        continue-on-error: true
       - name: Update SIG List File
         run: python .utils/siglist-update.py --update-sig-list
         if: steps.check-need-update.outcome != 'success'
       - name: Commit the Change
         uses: stefanzweifel/git-auto-commit-action@v4
-        if: steps.check-need-update.outcome != 'success'

@@ -1,0 +1,27 @@
+# handle is the user's GitHub login id.
+# Assume their GitHub user page is https://github.com/userhandle/
+# Then the handle should be userhandle
+# Access https://api.github.com/users/userhandle to get the
+# user's id. If you don't know how to do, then you can also remove the id field.
+# team should be sig-foldername (the folder name with `sig-` prefix)
+# Please remove the above comments before submit PR
+---
+name: the display name of the SIG
+blog: https://link.to/the/blog
+rss: https://link.to/the-blog/rss/atom.xml
+proposal:
+  by:
+    handle: userhandle
+    id: 123456
+date-created: '2022/12/21'
+date-archived: '-'
+team: sig-xxx-xxxxx
+repos:
+  maintained:
+    - sig-xxx-xxxxx
+  package:
+members:
+  - handle: userhandle
+    id: 123456
+  - handle: userhandle2
+    id: 123457

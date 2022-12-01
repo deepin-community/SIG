@@ -54,8 +54,11 @@ class SigInfo:
         return "| {1} | [{0}]({0}/README.md) |{2}| [成员]({0}/MEMBERS.md) |{5}|{4}|{3}| - |\n".format(self.id, index, self.blog_md(), self.created_date.strftime("%Y/%m/%d"), self.proposer_md(), self.proposal_md())
 
 
-def get_sig_dirs() -> list[os.DirEntry[str]]:
-    path = "sig/"
+
+def get_team_dirs(path: str) -> list[os.DirEntry[str]]:
+    """
+    path : need the trailing slash
+    """
     dirs = os.scandir( path )
     result : list[os.DirEntry[str]] = []
     for dir in dirs:
@@ -63,6 +66,14 @@ def get_sig_dirs() -> list[os.DirEntry[str]]:
             continue
         result.append(dir)
     return result
+
+
+def get_sig_dirs() -> list[os.DirEntry[str]]:
+    return get_team_dirs("sig/")
+
+
+def get_corporation_dirs() -> list[os.DirEntry[str]]:
+    return get_team_dirs("corporation/")
 
 
 def get_missing_sigs(existing_sig_dirs: list[os.DirEntry[str]]) -> tuple[list[str], list[str]]:
@@ -76,6 +87,21 @@ def get_missing_sigs(existing_sig_dirs: list[os.DirEntry[str]]) -> tuple[list[st
             else:
                 existing.append(dir.name)
     return (missing, existing)
+
+
+def create_members_md(existing_sig_dirs: list[os.DirEntry[str]]) -> list[str]:
+    missing : list[str] = []
+    for dir in existing_sig_dirs:
+        if not Path(dir.path + "/MEMBERS.md").exists() and Path(dir.path + "/metadata.yml").exists():
+            with open(dir.path + "/metadata.yml", 'r', encoding = 'utf-8') as metadata_file:
+                metadata = yaml.safe_load(metadata_file)
+                members : list = val_of_key(metadata, ['members'], [])
+                with open(dir.path + "/MEMBERS.md", 'w', encoding = 'utf-8') as file:
+                    file.writelines("## Team Members\n\n")
+                    for member in members:
+                        file.writelines("- [{0}](https://github.com/{0})\n".format(val_of_key(member, ['handle'], "")))
+            missing.append(dir.name)
+    return missing
 
 
 def main():
@@ -103,6 +129,13 @@ def main():
                 print("× " + m + " NOT FOUND in LISTS.md!")
             if len(missing) > 0:
                 exit(2)
+        
+        case "--create-members-md":
+            dirs = get_sig_dirs()
+            dirs += get_corporation_dirs()
+            missing = create_members_md(dirs)
+            for m in missing:
+                print("- Generated MEMBERS.md for " + m + "!")
 
         case "--update-sig-list":
             dirs = get_sig_dirs()

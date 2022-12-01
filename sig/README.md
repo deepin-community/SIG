@@ -31,7 +31,7 @@ When you're ready, move on to the next steps.
 
 Fork this repository, copy the files in the `.template` folder in this directory to a new folder named with your group ID, and edit the files in it accordingly, finally push the changes and submit a pull request.
 
-When editing the template files, pay attention to the description in them. Information in `MEMBERS.md` will be public, and the leaders listed there will be invited to join the deepin-community organization.
+When editing the template files, pay attention to the description in them. Information in `metadata.yml` will be public, and the members listed there will be invited to join the deepin-community organization.
 
 When submitting a pull request, please use `[New SIG Proposal] SIG name` as its title, and write down the reason for creation and the GitHub accounts of group leaders as the following example.
 
