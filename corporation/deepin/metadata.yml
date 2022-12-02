@@ -1,0 +1,31 @@
+---
+name: deepin
+blog:
+rss:
+proposal:
+  issue:
+  by:
+    handle:
+    id:
+data-created: '-'
+data-archived: '-'
+email-suffix: '@deepin.org'
+team: corporate-contributor-deepin
+repos:
+  maintained:
+  package:
+members:
+  - handle: zccrs
+    id: 13449038
+  - handle: justforlxz
+    id: 12298476
+  - handle: wineee
+    id: 22803888
+  - handle: BLumia
+    id: 10095765
+  - handle: Zeno-sole
+    id: 43427321
+  - handle: tsic404
+    id: 48748112
+  - handle: myml
+    id: 13045857
