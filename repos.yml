@@ -18,3 +18,7 @@ repos:
   - repo: python-reportlab
     group: deepin-pkg
     info: Documentation for the ReportLab Python library
+
+  - repo: kpat
+    group: deepin-pkg
+    info: solitaire card games
