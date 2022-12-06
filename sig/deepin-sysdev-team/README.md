@@ -41,11 +41,11 @@
 
 ## 讨论渠道
 
-微信群、[邮箱列表](https://www.freelists.org/list/sig-deepin-sysdev-team)
+[邮箱列表](https://www.freelists.org/list/sig-deepin-sysdev-team),[matrix](https://matrix.to/#/#deepin-sig-sysdev-team:matrix.org),[telegram](https://t.me/+A6QWANqt-9U4N2E1)
 
 ## 相关链接
 
-- [邮箱列表](https://www.freelists.org/list/sig-deepin-sysdev-team)
 - [deepin社区论坛](https://bbs.deepin.org/)
-- [GitHub 上的小组团队](https://github.com/deepin-community/sig-deepin-sysdev-team)
-
+- [telegram](https://t.me/+A6QWANqt-9U4N2E1)
+- [matrix](https://matrix.to/#/#deepin-sig-sysdev-team:matrix.org)
+- [邮箱列表](https://www.freelists.org/list/sig-deepin-sysdev-team)
