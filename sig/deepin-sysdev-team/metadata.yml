@@ -15,7 +15,9 @@ repos:
     - sig-deepin-sysdev-team
   package:
 members:
-  - handle: gnefuh
-    id: 69186510
-  - handle: deepin-community-bot
-    id: 111260340
+  - handle: Zeno-sole
+    id: 43427321
+  - handle: tsic404
+    id: 48748112
+  - handle: venchh
+    id: 88131797
