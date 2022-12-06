@@ -13,6 +13,7 @@ email-suffix: '@uniontech.com'
 team: corporate-contributor-uniontech
 repos:
   maintained:
+   - coding-quarter
   package:
 members:
   - handle: Groveer
@@ -349,3 +350,5 @@ members:
     id: 104487271
   - handle: "dengbo11"
     id: 79958313
+  - handle: Whale107
+    id: 72391936
