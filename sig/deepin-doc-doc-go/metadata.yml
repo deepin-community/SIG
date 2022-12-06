@@ -1,0 +1,23 @@
+---
+name: deepin-doc-doc-go
+blog:
+rss:
+proposal:
+  issue: 78
+  by:
+    handle: xzl01
+    id: 31403725
+date-created: '2022/12/7'
+date-archived: '-'
+team: sig-deepin-doc-doc-go
+repos:
+  maintained:
+    - deepin-doc-doc-go
+  package:
+members:
+  - handle: xzl01
+    id: 31403725
+  - handle: asterwyx
+    id: 46272753
+  - handle: chenchongbiao
+    id: 52627687
