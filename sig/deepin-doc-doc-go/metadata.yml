@@ -12,7 +12,7 @@ date-archived: '-'
 team: sig-deepin-doc-doc-go
 repos:
   maintained:
-    - deepin-doc-doc-go
+    - sig-deepin-doc-doc-go
   package:
 members:
   - handle: xzl01
