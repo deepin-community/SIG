@@ -1,0 +1,21 @@
+events:
+- type: join
+  actor_id: 35980915
+  actor_handle: eric2023
+  created_at: 2022-11-16 16:07:42+08:00
+- type: join
+  actor_id: 24667453
+  actor_handle: toberyan
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 33649855
+  actor_handle: NSUTanghaixiang
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 79623498
+  actor_handle: Dami-star
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 107612944
+  actor_handle: DuanTing218
+  created_at: 2022-10-31 14:17:33+08:00

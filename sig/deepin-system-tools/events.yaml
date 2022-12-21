@@ -1,0 +1,13 @@
+events:
+- type: join
+  actor_id: 13266558
+  actor_handle: Angie-JA-Dou
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 64002814
+  actor_handle: WangXiangYu-wxy
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 111260340
+  actor_handle: deepin-community-bot
+  created_at: 2022-10-31 14:17:33+08:00

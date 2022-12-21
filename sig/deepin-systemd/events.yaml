@@ -1,0 +1,9 @@
+events:
+- type: join
+  actor_id: 61327700
+  actor_handle: ALTNT
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 111260340
+  actor_handle: deepin-community-bot
+  created_at: 2022-10-31 14:17:33+08:00

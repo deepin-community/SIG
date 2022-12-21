@@ -1,0 +1,29 @@
+events:
+- type: join
+  actor_id: 13449038
+  actor_handle: zccrs
+  created_at: 2022-12-02 17:59:09+08:00
+- type: join
+  actor_id: 12298476
+  actor_handle: justforlxz
+  created_at: 2022-12-02 17:59:09+08:00
+- type: join
+  actor_id: 22803888
+  actor_handle: wineee
+  created_at: 2022-12-02 17:59:09+08:00
+- type: join
+  actor_id: 10095765
+  actor_handle: BLumia
+  created_at: 2022-12-02 17:59:09+08:00
+- type: join
+  actor_id: 43427321
+  actor_handle: Zeno-sole
+  created_at: 2022-12-02 17:59:09+08:00
+- type: join
+  actor_id: 48748112
+  actor_handle: tsic404
+  created_at: 2022-12-02 17:59:09+08:00
+- type: join
+  actor_id: 13045857
+  actor_handle: myml
+  created_at: 2022-12-02 17:59:09+08:00

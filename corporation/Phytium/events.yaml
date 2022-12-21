@@ -1,0 +1,57 @@
+events:
+- type: join
+  actor_id: 7457472
+  actor_handle: TianKehan
+  created_at: 2022-11-28 16:21:03+08:00
+- type: join
+  actor_id: 21163752
+  actor_handle: liqianljp
+  created_at: 2022-11-28 16:21:03+08:00
+- type: join
+  actor_id: 22336369
+  actor_handle: gjioui
+  created_at: 2022-11-28 16:21:03+08:00
+- type: join
+  actor_id: 34112311
+  actor_handle: tianwei08222
+  created_at: 2022-11-28 16:21:03+08:00
+- type: join
+  actor_id: 37957860
+  actor_handle: ditvelo
+  created_at: 2022-11-28 16:21:03+08:00
+- type: join
+  actor_id: 44566043
+  actor_handle: xuyan213
+  created_at: 2022-11-28 16:21:03+08:00
+- type: join
+  actor_id: 50582326
+  actor_handle: ls1156563722
+  created_at: 2022-11-28 16:21:03+08:00
+- type: join
+  actor_id: 62878031
+  actor_handle: MendezShuai
+  created_at: 2022-11-28 16:21:03+08:00
+- type: join
+  actor_id: 100766608
+  actor_handle: one-pixel-2022
+  created_at: 2022-11-28 16:21:03+08:00
+- type: join
+  actor_id: 114204265
+  actor_handle: csynew
+  created_at: 2022-11-28 16:21:03+08:00
+- type: join
+  actor_id: 114654801
+  actor_handle: phytiumss
+  created_at: 2022-11-28 16:21:03+08:00
+- type: join
+  actor_id: 115761125
+  actor_handle: Sheng0613
+  created_at: 2022-11-28 16:21:03+08:00
+- type: join
+  actor_id: 115778845
+  actor_handle: TongWu233
+  created_at: 2022-11-28 16:21:03+08:00
+- type: join
+  actor_id: 118252763
+  actor_handle: chenbaozi-ft
+  created_at: 2022-11-28 16:21:03+08:00

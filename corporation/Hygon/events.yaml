@@ -1,0 +1,5 @@
+events:
+- type: join
+  actor_id: 10797129
+  actor_handle: puterfly
+  created_at: 2022-11-28 16:21:03+08:00

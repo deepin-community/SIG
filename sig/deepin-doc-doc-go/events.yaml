@@ -1,0 +1,13 @@
+events:
+- type: join
+  actor_id: 31403725
+  actor_handle: xzl01
+  created_at: 2022-12-07 17:52:41+08:00
+- type: join
+  actor_id: 46272753
+  actor_handle: asterwyx
+  created_at: 2022-12-07 17:52:41+08:00
+- type: join
+  actor_id: 52627687
+  actor_handle: chenchongbiao
+  created_at: 2022-12-07 17:52:41+08:00

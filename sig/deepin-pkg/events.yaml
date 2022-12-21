@@ -1,0 +1,13 @@
+events:
+- type: join
+  actor_id: 84442758
+  actor_handle: renyehui
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 84484300
+  actor_handle: jinqingchen-deepin
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 111260340
+  actor_handle: deepin-community-bot
+  created_at: 2022-10-31 14:17:33+08:00

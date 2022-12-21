@@ -1,0 +1,13 @@
+events:
+- type: join
+  actor_id: 25090546
+  actor_handle: alvarosamudio
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 28744392
+  actor_handle: xoascf
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 111260340
+  actor_handle: deepin-community-bot
+  created_at: 2022-10-31 14:17:33+08:00

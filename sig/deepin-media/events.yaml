@@ -1,0 +1,17 @@
+events:
+- type: leave
+  actor_id: 111260340
+  actor_handle: deepin-community-bot
+  created_at: 2022-11-21 15:24:59+08:00
+- type: join
+  actor_id: 97944796
+  actor_handle: wyu71
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 100665065
+  actor_handle: lzwind
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 111260340
+  actor_handle: deepin-community-bot
+  created_at: 2022-10-31 14:17:33+08:00

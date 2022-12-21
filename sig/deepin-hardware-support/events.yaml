@@ -1,0 +1,13 @@
+events:
+- type: join
+  actor_id: 36043992
+  actor_handle: opsiff
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 43427321
+  actor_handle: Zeno-sole
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 48748112
+  actor_handle: tsic404
+  created_at: 2022-10-31 14:17:33+08:00

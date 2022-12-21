@@ -1,0 +1,17 @@
+events:
+- type: join
+  actor_id: 12298476
+  actor_handle: justforlxz
+  created_at: 2022-11-16 16:07:42+08:00
+- type: join
+  actor_id: 13116853
+  actor_handle: Rabenda
+  created_at: 2022-11-16 16:07:42+08:00
+- type: join
+  actor_id: 10095765
+  actor_handle: BLumia
+  created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 22803888
+  actor_handle: wineee
+  created_at: 2022-10-31 14:17:33+08:00
