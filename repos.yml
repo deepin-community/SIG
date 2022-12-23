@@ -22,3 +22,7 @@ repos:
   - repo: kpat
     group: deepin-pkg
     info: solitaire card games
+
+  - repo: rustc
+    group: deepin-sysdev-team
+    info: The Rust Programming Language.
