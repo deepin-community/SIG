@@ -33,7 +33,7 @@ def get_now_date() -> datetime.datetime:
 
 def get_all_metadata() -> Dict[str, Dict]:
     all_metadata: Dict[str, Dict] = {}
-    for dir in get_sig_dirs():
+    for dir in get_sig_dirs() + get_corporation_dirs():
         fname = dir.path + "/metadata.yml"
         if not Path(fname).exists():
             print("metadata no exists", dir.path)
