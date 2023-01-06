@@ -26,3 +26,7 @@ repos:
   - repo: rustc
     group: deepin-sysdev-team
     info: The Rust Programming Language.
+
+  - repo: gyp
+    group: deepin-pkg
+    info: Cross-platform build script generator.
