@@ -30,3 +30,7 @@ repos:
   - repo: gyp
     group: deepin-pkg
     info: Cross-platform build script generator.
+
+  - repo: tslib
+    group: deepin-pkg
+    info: Tslib is an abstraction layer for touchscreen panel events.
