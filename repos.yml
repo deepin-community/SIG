@@ -34,3 +34,12 @@ repos:
   - repo: tslib
     group: deepin-pkg
     info: Tslib is an abstraction layer for touchscreen panel events.
+    
+  - repo: assimp
+    group: deepin-sysdev-team
+    info: assimp 3D model import library (testdata)
+    
+  - repo: draco
+    group: deepin-sysdev-team
+    info: Encoder and decoder for 3D geometric meshes and point clouds
+  
