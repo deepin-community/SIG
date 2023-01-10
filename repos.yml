@@ -43,3 +43,7 @@ repos:
     group: deepin-sysdev-team
     info: Encoder and decoder for 3D geometric meshes and point clouds
   
+  - repo: openssh-known-hosts
+    group: deepin-sysdev-team
+    info: download, filter and merge known_hosts for OpenSSH
+
