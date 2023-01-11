@@ -19,3 +19,7 @@ events:
   actor_id: 110147328
   actor_handle: changliuxy
   created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 18461360
+  actor_handle: Clansty
+  created_at: 2023-01-11 14:57:12+00:00
