@@ -24,7 +24,7 @@
 
 ### 加入标准： 
 
-1. 对riscv-v架构有基本了解
+1. 对riscv64架构有基本了解
 2. 了解debian打包规则
 3. 熟系Makefile cmake等构建工具的使用方法
 
@@ -36,10 +36,10 @@
 
 加入之后会在邮件列表进行公示
 
-##  repository
+## repository
 
-[deepin-riscv](https://github.com/linuxdeepin/deepin-riscv)
-
+[sig-deepin-riscv64](https://github.com/deepin-community/sig-deepin-riscv64)
+[deepin-riscv-board](https://github.com/deepin-community/deepin-riscv-board)
 
 ## 小组章程
 
@@ -53,4 +53,4 @@ ps: 章程目前还不完善，有兴趣的同学可以加入进来讨论。
 
 ## 相关链接
 
-- [GitHub 上的小组团队](https://github.com/orgs/deepin-community/teams/deepin-riscv64)
+- [GitHub 上的小组成员](https://github.com/deepin-community/SIG/blob/master/sig/deepin-riscv64/MEMBERS.md)
