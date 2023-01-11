@@ -26,6 +26,8 @@ repos:
     - qtwebchannel-opensource-src
     - qtx11extras-opensource-src
     - qtdoc-opensource-src
+    - qtquickcontrols2-opensource-src
+    - qtlottie-opensource-src
     - qt6-base
     - qt6-charts
     - qt6-connectivity
@@ -55,8 +57,7 @@ repos:
     - qt6-serialbus
     - qt6-tools
     - qt6-webview
-    - qtquickcontrols2-opensource-src
-    - qtlottie-opensource-src
+    - qt6-languageserver
 members:
   - handle: toberyan
     id: 24667453
