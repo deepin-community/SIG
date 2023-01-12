@@ -45,6 +45,13 @@ jobs:
               installationId: app_installation.data.id
             });
             core.setOutput('app_token', token)
+      - name: init osc
+        run: |
+          sudo apt install osc
+          mkdir ~/.config/osc
+          echo ${{ secrets.OSCRC }} > ~/.config/osc/oscrc
+          osc co deepin:Develop:community template-repository
+
       - name: create_repo
         id: create_repo
         shell: python
@@ -84,9 +91,15 @@ jobs:
                       }
               res = requests.post(create_repo_url, json = data_repo, headers = header) 
               print("create_repo ",res.text)
+              os.popen("osc mkpac " + repo).read()
+              os.popen("cp template-repository/_service "  + " repo").read()
+              os.popen("sed -i 's|template-repository|" + repo + "|g' " + repo + "/_service").read()
+              os.popen("osc add " + repo + "/_service").read()
+              os.popen('''osc ci -m "init"''').read()
 
           try:
               data = read_yml()
+              os.chdir("deepin:Develop:community")
               for repo in data.get("repos"):
                   print(repo.get('repo'))
                   if check_repo(repo.get('repo')) == None:
