@@ -55,3 +55,43 @@ repos:
     group: deepin-sysdev-team
     info: The package provides a reporter for the Mocha JavaScript test framework in the LCOV format.
   
+  - repo: tl-expected
+    group: deepin-pkg
+    info: C++11/14/17 std::expected with functional-style extensions
+
+  - repo: qr-code-generator
+    group: deepin-pkg
+    info: QR Code generator library in multiple languages
+
+  - repo: safe-iop
+    group: deepin-pkg
+    info: Safe integer operation library for C
+
+  - repo: android-platform-external-boringssl
+    group: deepin-pkg
+    info: Google's internal fork of OpenSSL for the Android SDK
+
+  - repo: android-platform-external-libselinux
+    group: deepin-pkg
+    info: Security-Enhanced Linux for Android
+
+  - repo: android-platform-external-libunwind
+    group: deepin-pkg
+    info: libunwind for Android
+
+  - repo: android-platform-libnativehelper
+    group: deepin-pkg
+    info: Support functions for Android's class libraries
+
+  - repo: android-platform-system-core
+    group: deepin-pkg
+    info: Android tools and basic libraries
+
+  - repo: android-platform-system-extras
+    group: deepin-pkg
+    info: Android extra libraries
+
+  - repo: android-sdk-meta
+    group: deepin-pkg
+    info: Android SDK meta packages
+
