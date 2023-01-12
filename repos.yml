@@ -55,3 +55,6 @@ repos:
     group: deepin-sysdev-team
     info: The package provides a reporter for the Mocha JavaScript test framework in the LCOV format.
   
+  - repo: tl-expected
+    group: deepin-pkg
+    info: C++11/14/17 std::expected with functional-style extensions
