@@ -47,3 +47,11 @@ repos:
     group: deepin-sysdev-team
     info: download, filter and merge known_hosts for OpenSSH
 
+  - repo: node-esprima
+    group: deepin-sysdev-team
+    info: ECMAScript parsing infrastructure for multipurpose analysis
+  
+  - repo: node-mocha
+    group: deepin-sysdev-team
+    info: The package provides a reporter for the Mocha JavaScript test framework in the LCOV format.
+  
