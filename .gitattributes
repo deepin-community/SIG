@@ -2,3 +2,4 @@
 *.yaml   text eol=lf
 *.yml    text eol=lf
 *.py     text eol=lf
+*.md     text eol=lf
