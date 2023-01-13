@@ -2,8 +2,8 @@
 name: deepin-riscv64
 blog:
 rss:
+matrix: '#deepin-risc-v:matrix.org'
 proposal:
-  issue: 1
   by:
     handle: Zeno-sole
     id: 43427321

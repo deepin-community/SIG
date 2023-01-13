@@ -15,7 +15,7 @@ class SigInfo:
     display_name: dict[str, str] = {}
     package_repos: list[str] = []
     maintain_repos: list[str] = []
-    proposal_issue_id: int = -1
+    matrix_room: str = ""
     proposed_by_handle: str = ""
     proposed_by_display: str = ""
     created_date: date = datetime.date(datetime.now())
@@ -30,7 +30,8 @@ class SigInfo:
                 self.display_name['default'] = path.name if 'name' not in metadata else metadata['name']
                 if 'blog' in metadata:
                     self.blog_url = metadata['blog']
-                self.proposal_issue_id = val_of_key(metadata, ['proposal', 'issue'], -1)
+                if 'matrix' in metadata:
+                    self.matrix_room = metadata['matrix']
                 self.proposed_by_handle = val_of_key(metadata, ['proposal', 'by', 'handle'], "")
                 self.proposed_by_display = val_of_key(metadata, ['proposal', 'by', 'display-name'], self.proposed_by_handle)
                 if 'date-created' in metadata:
@@ -44,14 +45,14 @@ class SigInfo:
     def blog_md(self) -> str:
         return " - " if not self.blog_url else "[博客]({0})".format(self.blog_url)
 
-    def proposal_md(self) -> str:
-        return " - " if self.proposal_issue_id <= 0 else "[申请PR](https://github.com/deepin-community/SIG/pull/{0})".format(self.proposal_issue_id)
+    def matrix_md(self) -> str:
+        return " - " if not self.matrix_room else "[{0}](https://matrix.to/#/{0})".format(self.matrix_room)
 
     def proposer_md(self) -> str:
         return " - " if not self.proposed_by_handle else "[{1}](https://github.com/{0})".format(self.proposed_by_handle, self.proposed_by_display)
     
     def table_line(self, index: int) -> str:
-        return "| {1} | [{0}]({0}/README.md) |{2}| [成员]({0}/MEMBERS.md) |{5}|{4}|{3}| - |\n".format(self.id, index, self.blog_md(), self.created_date.strftime("%Y/%m/%d"), self.proposer_md(), self.proposal_md())
+        return "| {1} | [{0}]({0}/README.md) |{2}| [成员]({0}/MEMBERS.md) |{5}|{4}|{3}| - |\n".format(self.id, index, self.blog_md(), self.created_date.strftime("%Y/%m/%d"), self.proposer_md(), self.matrix_md())
 
 
 
@@ -143,6 +144,12 @@ def main():
             if len(missing) == 0:
                 print("Don't need to update anything, peacefully exiting :)")
                 exit(0)
+            # sort by date
+            missing_sigs : list[SigInfo] = []
+            for m in missing:
+                sig_info = SigInfo("./sig/{0}".format(m))
+                missing_sigs.append(sig_info)
+            missing_sigs.sort(key=lambda sig: sig.created_date)
             lines : list[str] = []
             with open("sig/LISTS.md", 'r', encoding = 'utf-8') as file:
                 lines = file.readlines()
@@ -150,10 +157,9 @@ def main():
                 if not lines[-1]:
                     lines = lines[:-1]
                 # append missing SIGs
-                for m in missing:
-                    print("Generating information for: {0}".format(m))
-                    sig_info = SigInfo("./sig/{0}".format(m))
-                    lines.append(sig_info.table_line(len(lines) - 1))
+                for sig in missing_sigs:
+                    print("Generating information for: {0}".format(sig.id))
+                    lines.append(sig.table_line(len(lines) - 1))
             with open("sig/LISTS.md", 'w', encoding = 'utf-8') as file:
                 file.writelines(lines)
 

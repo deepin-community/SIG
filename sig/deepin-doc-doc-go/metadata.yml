@@ -2,8 +2,8 @@
 name: deepin-doc-doc-go
 blog:
 rss:
+matrix: '#deepin_doc_doc_go:deepin.org'
 proposal:
-  issue: 78
   by:
     handle: xzl01
     id: 31403725

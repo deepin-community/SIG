@@ -2,8 +2,8 @@
 name: deepin-qt SIG
 blog:
 rss:
+matrix: '#_oftc_#deepin-qt:matrix.org'
 proposal:
-  issue: 17
   by:
     handle: NSUTanghaixiang
     id: 33649855

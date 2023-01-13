@@ -2,8 +2,8 @@
 name: deepin-sysdev-team
 blog:
 rss:
+matrix: '#deepin-sig-sysdev-team:matrix.org'
 proposal:
-  issue: 14
   by:
     handle: venchh
     id: 88131797

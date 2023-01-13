@@ -2,8 +2,8 @@
 name: DDE 移植兴趣小组
 blog: https://deepin-community.github.io/sig-dde-porting/
 rss: https://deepin-community.github.io/sig-dde-porting/atom.xml
+matrix: '#dde-port:deepin.org'
 proposal:
-  issue: 9
   by:
     handle: wineee
     id: 22803888

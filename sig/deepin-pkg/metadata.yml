@@ -2,8 +2,8 @@
 name: deepin-pkg
 blog:
 rss:
+matrix: '#deepin-pkg:deepin.org'
 proposal:
-  issue: 15
   by:
     handle: jinqingchen-deepin
     id: 84484300
