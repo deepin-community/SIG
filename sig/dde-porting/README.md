@@ -46,6 +46,8 @@ DDE 移植小组实际上并不“小”，不同发行版对移植有着不同�
 - [Matrix](https://matrix.to/#/#dde-port:matrix.org)
 - [Telegram](https://t.me/ddeport)
 
+对网络有困难的成员，可以[申请 deepin 的 matrix 帐号](https://cooperation.uniontech.com/public/form/41b23e5518074c1b958d11e5c8d2d54e)，并使用 [此链接](https://chat.getdeepin.org/#/room/#dde-port:deepin.org) 访问房间。
+
 ### 通用交流渠道
 以下渠道交流内容属于泛 deepin/DDE，你可能需要使用“DDE”，“移植”等关键字筛选信息。
 
