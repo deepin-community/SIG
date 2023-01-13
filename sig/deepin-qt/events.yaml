@@ -19,3 +19,15 @@ events:
   actor_id: 107612944
   actor_handle: DuanTing218
   created_at: 2022-10-31 14:17:33+08:00
+- type: join
+  actor_id: 122600866
+  actor_handle: tsl115
+  created_at: 2023-01-13 09:41:46+00:00
+- type: leave
+  actor_id: 107612944
+  actor_handle: DuanTing218
+  created_at: 2023-01-13 09:41:46+00:00
+- type: leave
+  actor_id: 33649855
+  actor_handle: NSUTanghaixiang
+  created_at: 2023-01-13 09:41:46+00:00
