@@ -23,3 +23,15 @@ events:
   actor_id: 52627687
   actor_handle: chenchongbiao
   created_at: 2023-01-10 01:08:48+00:00
+- type: join
+  actor_id: 31403725
+  actor_handle: xzl01
+  created_at: 2023-01-19 05:10:14+00:00
+- type: join
+  actor_id: 46272753
+  actor_handle: asterwyx
+  created_at: 2023-01-19 05:10:14+00:00
+- type: join
+  actor_id: 52627687
+  actor_handle: chenchongbiao
+  created_at: 2023-01-19 05:10:14+00:00
