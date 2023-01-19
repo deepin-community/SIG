@@ -1,7 +1,7 @@
 ---
-name: deepin-doc-doc-go
-blog:
-rss:
+name: deepin 文档小组
+blog: https://deepin-community.github.io/sig-deepin-doc-doc-go/
+rss: https://deepin-community.github.io/sig-deepin-doc-doc-go/atom.xml
 matrix: '#deepin_doc_doc_go:deepin.org'
 proposal:
   by:
