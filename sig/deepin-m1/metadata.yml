@@ -1,9 +1,8 @@
 ---
-name: deepin-m1
+name: deepin M1 适配小组
 blog: https://deepin-community.github.io/sig-deepin-m1/
-rss:
+rss: https://deepin-community.github.io/sig-deepin-m1/atom.xml
 proposal:
-  issue: 5
   by:
     handle: justforlxz
     id: 12298476
