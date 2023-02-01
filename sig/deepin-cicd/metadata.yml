@@ -1,0 +1,19 @@
+name: Deepin system cicd SIG
+blog: https://deepin-community.github.io/sig-deepin-cicd/
+rss: https://deepin-community.github.io/sig-deepin-cicd/atom.xml
+proposal:
+  by:
+    handle: hudeng-go
+    id: 69233028
+date-created: '2023/02/02'
+date-archived: '-'
+team: sig-deepin-cicd
+repos:
+  maintained:
+    - sig-deepin-cicd
+  package:
+members:
+  - handle: tsic404
+    id: 48748112
+  - handle: goldendeng
+    id: 17328702
