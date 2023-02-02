@@ -28,3 +28,4 @@
 | 26 | [deepin-hardware-support](deepin-hardware-support/README.md) | - | [成员](deepin-hardware-support/MEMBERS.md) | - |[opsiff](https://github.com/opsiff)|2022/09/19| - |
 | 27 | [deepin-in-spanish](deepin-in-spanish/README.md) |[博客](https://deepin-community.github.io/sig-deepin-in-spanish/)| [成员](deepin-in-spanish/MEMBERS.md) | - |[Alvaro Samudio](https://github.com/alvarosamudio)|2022/09/29| - |
 | 28 | [deepin-doc-doc-go](deepin-doc-doc-go/README.md) |[博客](https://deepin-community.github.io/sig-deepin-doc-doc-go/)| [成员](deepin-doc-doc-go/MEMBERS.md) |[#deepin_doc_doc_go:deepin.org](https://matrix.to/#/#deepin_doc_doc_go:deepin.org)|[xzl01](https://github.com/xzl01)|2022/12/07| - |
+| 29 | [deepin-cicd](deepin-cicd/README.md) |[博客](https://deepin-community.github.io/sig-deepin-cicd/)| [成员](deepin-cicd/MEMBERS.md) | - |[hudeng-go](https://github.com/hudeng-go)|2023/02/02| - |
