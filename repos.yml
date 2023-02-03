@@ -95,3 +95,6 @@ repos:
     group: deepin-pkg
     info: Android SDK meta packages
 
+- repo: equivs
+    group: deepin-sysdev-team
+    info: Circumvent Debian package dependencies
