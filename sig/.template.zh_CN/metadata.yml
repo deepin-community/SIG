@@ -9,6 +9,7 @@
 name: 填写小组名称
 blog: 博客链接（没有则留空）
 rss: 博客 RSS 订阅链接（没有则留空）
+matrix: '#example-room:example.com'
 proposal:
   by:
     handle: userhandle

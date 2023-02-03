@@ -9,6 +9,7 @@
 name: the display name of the SIG
 blog: https://link.to/the/blog
 rss: https://link.to/the-blog/rss/atom.xml
+matrix: '#example-room:example.com'
 proposal:
   by:
     handle: userhandle
