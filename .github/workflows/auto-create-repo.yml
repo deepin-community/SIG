@@ -49,7 +49,7 @@ jobs:
         run: |
           sudo apt install osc
           mkdir ~/.config/osc
-          echo ${{ secrets.OSCRC }} > ~/.config/osc/oscrc
+          echo "${{ secrets.OSCRC }}" > ~/.config/osc/oscrc
           osc co deepin:Develop:community template-repository
 
       - name: create_repo
