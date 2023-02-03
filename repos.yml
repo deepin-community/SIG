@@ -95,6 +95,10 @@ repos:
     group: deepin-pkg
     info: Android SDK meta packages
 
-- repo: equivs
+  - repo: equivs
     group: deepin-sysdev-team
     info: Circumvent Debian package dependencies
+ 
+  - repo: python3-fontforge
+    group: deepin-sysdev-team
+    info: FontForge is a font editor. Use it to create, edit and convert fonts in OpenType
