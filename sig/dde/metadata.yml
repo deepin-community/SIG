@@ -1,0 +1,44 @@
+---
+name: DDE 桌面环境小组
+blog: https://deepin-community.github.io/sig-dde/
+rss: https://deepin-community.github.io/sig-dde/atom.xml
+matrix: '#dde:matrix.org'
+proposal:
+  by:
+    handle: BLumia
+    id: 10095765
+date-created: '2023/02/06'
+date-archived: '-'
+team: sig-dde
+repos:
+  maintained:
+    - sig-dde
+  package:
+    - network-manager-openconnect
+    - golang-defaults
+    - tl-expected
+    - android-platform-external-boringssl
+    - android-platform-external-libselinux
+    - android-platform-external-libunwind
+    - android-platform-libnativehelper
+    - android-platform-system-core
+    - android-platform-system-extras
+    - android-sdk-meta
+    - policykit-1
+    - qr-code-generator
+    - safe-iop
+members:
+  - handle: tsic404
+    id: 48748112
+  - handle: Decodetalkers
+    id: 60290287
+  - handle: ComixHe
+    id: 54773474
+  - handle: dengbo11
+    id: 79958313
+  - handle: zsien
+    id: 8380597
+  - handle: l631197874
+    id: 58616982
+  - handle: BLumia
+    id: 10095765
