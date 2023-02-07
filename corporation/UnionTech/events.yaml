@@ -1167,8 +1167,11 @@ events:
   actor_id: 19620385
   actor_handle: shuaijie
   created_at: 2023-01-10 01:08:48+00:00
-# 已离职员工补充
 - type: join
   actor_id: 7995379
-  actor_handle: listenerri 
+  actor_handle: listenerri
   created_at: 2018-10-01 01:08:48+00:00
+- type: join
+  actor_id: 35895073
+  actor_handle: LiHua000
+  created_at: 2023-02-07 03:28:57+00:00

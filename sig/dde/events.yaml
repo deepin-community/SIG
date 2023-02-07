@@ -1,0 +1,29 @@
+events:
+- type: join
+  actor_id: 48748112
+  actor_handle: tsic404
+  created_at: 2023-02-07 03:28:57+00:00
+- type: join
+  actor_id: 60290287
+  actor_handle: Decodetalkers
+  created_at: 2023-02-07 03:28:57+00:00
+- type: join
+  actor_id: 54773474
+  actor_handle: ComixHe
+  created_at: 2023-02-07 03:28:57+00:00
+- type: join
+  actor_id: 79958313
+  actor_handle: dengbo11
+  created_at: 2023-02-07 03:28:57+00:00
+- type: join
+  actor_id: 8380597
+  actor_handle: zsien
+  created_at: 2023-02-07 03:28:57+00:00
+- type: join
+  actor_id: 58616982
+  actor_handle: l631197874
+  created_at: 2023-02-07 03:28:57+00:00
+- type: join
+  actor_id: 10095765
+  actor_handle: BLumia
+  created_at: 2023-02-07 03:28:57+00:00
