@@ -1,7 +1,7 @@
 repos:
   - repo: zssh
     group: deepin-pkg
-    info: Zmodem SSH   
+    info: Zmodem SSH
 
   - repo: htop
     group: deepin-pkg
@@ -34,15 +34,15 @@ repos:
   - repo: tslib
     group: deepin-pkg
     info: Tslib is an abstraction layer for touchscreen panel events.
-    
+
   - repo: assimp
     group: deepin-sysdev-team
     info: assimp 3D model import library (testdata)
-    
+
   - repo: draco
     group: deepin-sysdev-team
     info: Encoder and decoder for 3D geometric meshes and point clouds
-  
+
   - repo: openssh-known-hosts
     group: deepin-sysdev-team
     info: download, filter and merge known_hosts for OpenSSH
@@ -50,11 +50,11 @@ repos:
   - repo: node-esprima
     group: deepin-sysdev-team
     info: ECMAScript parsing infrastructure for multipurpose analysis
-  
+
   - repo: node-mocha
     group: deepin-sysdev-team
     info: The package provides a reporter for the Mocha JavaScript test framework in the LCOV format.
-  
+
   - repo: tl-expected
     group: deepin-pkg
     info: C++11/14/17 std::expected with functional-style extensions
@@ -98,7 +98,11 @@ repos:
   - repo: equivs
     group: deepin-sysdev-team
     info: Circumvent Debian package dependencies
- 
+
   - repo: python3-fontforge
     group: deepin-sysdev-team
     info: FontForge is a font editor. Use it to create, edit and convert fonts in OpenType
+
+  - repo: neofetch
+    group: deepin-sysdev-team
+    info: A command-line system information tool written in bash
