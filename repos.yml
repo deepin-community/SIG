@@ -106,3 +106,7 @@ repos:
   - repo: neofetch
     group: deepin-sysdev-team
     info: A command-line system information tool written in bash
+
+  - repo: wireguard
+    group: deepin-sysdev-team
+    info: fast, modern, secure kernel VPN tunnel (metapackage)
