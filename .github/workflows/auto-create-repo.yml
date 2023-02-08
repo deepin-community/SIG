@@ -92,7 +92,7 @@ jobs:
               res = requests.post(create_repo_url, json = data_repo, headers = header) 
               print("create_repo ",res.text)
               os.popen("osc mkpac " + repo).read()
-              os.popen("cp template-repository/_service "  + " repo").read()
+              os.popen("cp template-repository/_service " + repo).read()
               os.popen("sed -i 's|template-repository|" + repo + "|g' " + repo + "/_service").read()
               os.popen("osc add " + repo + "/_service").read()
               os.popen('''osc ci -m "init"''').read()
