@@ -114,3 +114,7 @@ repos:
   - repo: intltool-debian
     group: deepin-sysdev-team
     info: Help i18n of RFC822 compliant config files
+
+  - repo: stow
+    group: deepin-sysdev-team
+    info: Organizer for /usr/local software packages
