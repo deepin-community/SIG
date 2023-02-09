@@ -110,3 +110,7 @@ repos:
   - repo: wireguard
     group: deepin-sysdev-team
     info: fast, modern, secure kernel VPN tunnel (metapackage)
+
+  - repo: intltool-debian
+    group: deepin-sysdev-team
+    info: Help i18n of RFC822 compliant config files
