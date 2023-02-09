@@ -118,3 +118,7 @@ repos:
   - repo: stow
     group: deepin-sysdev-team
     info: Organizer for /usr/local software packages
+
+  - repo: fstrcmp
+    group: deepin-sysdev-team
+    info: A library which may be used to make a variety fuzzy comparisons, on strings and arrays of bytes, including wide character strings and multi-byte character strings.
