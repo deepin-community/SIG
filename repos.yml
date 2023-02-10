@@ -122,3 +122,7 @@ repos:
   - repo: fstrcmp
     group: deepin-sysdev-team
     info: A library which may be used to make a variety fuzzy comparisons, on strings and arrays of bytes, including wide character strings and multi-byte character strings.
+
+  - repo: git-buildpackage
+    group: deepin-sysdev-team
+    info: Suite to help with Debian packages in Git repositories
