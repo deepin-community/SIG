@@ -126,3 +126,7 @@ repos:
   - repo: .guide.deepin.org
     group: sig-deepin-doc-doc-go
     info: deepin系统的用户手册 https://guide.deepin.org
+    
+  - repo: sbuild
+    group: deepin-sysdev-team
+    info: Tool for building Debian binary packages from Debian sources
