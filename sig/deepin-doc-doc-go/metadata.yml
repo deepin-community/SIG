@@ -13,6 +13,7 @@ team: sig-deepin-doc-doc-go
 repos:
   maintained:
     - sig-deepin-doc-doc-go
+    - .guide.deepin.org
   package:
 members:
   - handle: xzl01
