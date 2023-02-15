@@ -135,3 +135,23 @@ repos:
   - repo: sbuild
     group: deepin-sysdev-team
     info: Tool for building Debian binary packages from Debian sources
+  
+  - repo: flit
+    group: deepin-sysdev-team
+    info: simple way to put Python packages and modules on PyPI (PEP 517)
+    
+  - repo: python-tomli
+    group: deepin-sysdev-team
+    info: "lil' TOML parser for Python"
+    
+  - repo: python-tomli-w
+    group: deepin-sysdev-team
+    info: "lil' TOML writer for Python"
+    
+  - repo: responses
+    group: deepin-sysdev-team
+    info: Utility library for mocking out the requests Python 3 library
+
+  - repo: python-build
+    group: deepin-sysdev-team
+    info: Simple, correct PEP517 package builder (Python 3)
