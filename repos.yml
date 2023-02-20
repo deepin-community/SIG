@@ -159,3 +159,7 @@ repos:
   - repo: deepin-desktop-environment
     group: deepin-sysdev-team
     info: Deepin New Desktop Environment - Next
+  
+  - repo: sshpass
+    group: deepin-sysdev-team
+    info: Non-interactive ssh password authentication
