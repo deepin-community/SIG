@@ -106,4 +106,24 @@ jobs:
                       create_repo(repo.get('repo'))
           except BaseException as e:
               logging.error(e)
-              exit(-10)         
+              exit(-10)
+
+      - name: notify
+        uses: actions/github-script@v5
+        with:
+                  script: |
+                    if(context.payload.sender.id == context.payload.issue.user.id){
+                      await github.rest.issues.createComment({
+                        issue_number: context.issue.number,
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        body: 'Created Successfully'
+                      })
+                      return
+                    }
+                    await github.rest.issues.addLabels({
+                      issue_number: context.issue.number,
+                      owner: context.repo.owner,
+                      repo: context.repo.repo,
+                      labels: ['notify']
+                    })
