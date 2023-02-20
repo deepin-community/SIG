@@ -111,19 +111,11 @@ jobs:
       - name: notify
         uses: actions/github-script@v5
         with:
-                  script: |
-                    if(context.payload.sender.id == context.payload.issue.user.id){
-                      await github.rest.issues.createComment({
-                        issue_number: context.issue.number,
-                        owner: context.repo.owner,
-                        repo: context.repo.repo,
-                        body: 'Created Successfully'
-                      })
-                      return
-                    }
-                    await github.rest.issues.addLabels({
-                      issue_number: context.issue.number,
-                      owner: context.repo.owner,
-                      repo: context.repo.repo,
-                      labels: ['notify']
-                    })
+            script: |
+                await github.rest.issues.createComment({
+                  issue_number: context.issue.number,
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  body: 'Created Successfully'
+                })
+                return
