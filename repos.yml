@@ -155,3 +155,7 @@ repos:
   - repo: python-build
     group: deepin-sysdev-team
     info: Simple, correct PEP517 package builder (Python 3)
+
+  - repo: deepin-desktop-environment
+    group: deepin-sysdev-team
+    info: Deepin New Desktop Environment - Next
