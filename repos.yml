@@ -163,3 +163,7 @@ repos:
   - repo: sshpass
     group: deepin-sysdev-team
     info: Non-interactive ssh password authentication
+
+  - repo: deepin-gbp-dch-plugins
+    group: deepin-cicd
+    info: gbp dch plugin used for generating changelog
