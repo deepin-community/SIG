@@ -167,3 +167,7 @@ repos:
   - repo: deepin-gbp-dch-plugins
     group: deepin-cicd
     info: gbp dch plugin used for generating changelog
+
+  - repo: brise
+    group: deepin-sysdev-team
+    info: Rime Input Method Engine, the schema data RIME is the acronym of Rime Input Method Engine.
