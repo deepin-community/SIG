@@ -80,10 +80,6 @@ jobs:
                   output.write(name + "=" + value + "\n")
                   
           def get_pr_diff():
-              with open("repos.yml", "r+") as intergration_file:
-                  return yaml.load(intergration_file, Loader=yaml.BaseLoader)
-                  
-          def check_repo(repo):
               res = requests.get("https://api.github.com/repos/deepin-community/SIG/pulls/" + os.environ.get("CHANGE_ID") ,headers = header1)
               data = res.text
               f = open("diff","w")
@@ -91,6 +87,12 @@ jobs:
               f.close()
               reponame = os.system("cat diff | grep '+  - repo:'| awk '{print $4}' ")
               return str(reponame)
+                  
+          def check_repo(repo):
+              res = requests.get("https://api.github.com/repos/deepin-community/{repo}".format(repo=repo))
+              print("check_repo ",res.text)
+              if res.status_code == 200:
+                  return repo
 
           def create_repo(repo):
               data_repo = {
