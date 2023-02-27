@@ -171,3 +171,11 @@ repos:
   - repo: brise
     group: deepin-sysdev-team
     info: Rime Input Method Engine, the schema data RIME is the acronym of Rime Input Method Engine.
+  
+  - repo: gnustep-base
+    group: deepin-sysdev-team
+    info: GNUstep Base library - common files
+
+  - repo: mozjs60
+    group: deepin-sysdev-team
+    info: Spidermonkey JavaScript engine
