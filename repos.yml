@@ -179,3 +179,11 @@ repos:
   - repo: mozjs60
     group: deepin-sysdev-team
     info: Spidermonkey JavaScript engine
+
+  - repo: gnustep-base
+    group: deepin-sysdev-team
+    info: GNUstep Base library - common files
+
+  - repo: mozjs60
+    group: deepin-sysdev-team
+    info: Spidermonkey JavaScript engine
