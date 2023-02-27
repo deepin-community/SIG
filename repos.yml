@@ -179,3 +179,7 @@ repos:
   - repo: mozjs60
     group: deepin-sysdev-team
     info: Spidermonkey JavaScript engine
+
+  - repo: radeontop
+    group: deepin-sysdev-team
+    info: Utility to show Radeon GPU utilization
