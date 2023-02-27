@@ -111,8 +111,8 @@ jobs:
               for repo in data:
                 if repo != '0':
                     print(repo)
-                      if check_repo(repo) == None:
-                          create_repo(repo)
+                    if check_repo(repo) == None:
+                        reate_repo(repo)
           except BaseException as e:
               logging.error(e)
               exit(-10)
