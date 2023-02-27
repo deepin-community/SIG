@@ -57,6 +57,7 @@ jobs:
         shell: python
         env:
           GITHUB_TOKEN: ${{ steps.get-token.outputs.app_token }}
+          CHANGE_ID: ${{ github.event.pull_request.number }}
         run: |
           import requests
           import yaml
@@ -67,23 +68,35 @@ jobs:
               "Accept": "application/vnd.github+json",
               "Authorization":"Bearer " + os.environ.get("GITHUB_TOKEN")
           }
+          header1 = {
+              "Accept": "application/vnd.github.v3.diff"
+          }
           create_repo_url = 'https://api.github.com/repos/deepin-community/template-repository/generate'
+
 
           def set_output(name, value):
               output_file = os.environ.get("GITHUB_OUTPUT")
               with open(output_file, "w") as output:
                   output.write(name + "=" + value + "\n")
                   
-          def read_yml():
-              with open("repos.yml", "r+") as intergration_file:
-                  return yaml.load(intergration_file, Loader=yaml.BaseLoader)
+          def get_pr_diff():
+              res = requests.get("https://api.github.com/repos/deepin-community/SIG/pulls/" + os.environ.get("CHANGE_ID") ,headers = header1)
+              data = res.text
+              f = open("diff","w")
+              f.write(data)
+              f.close()
+              reponame = os.system("cat diff | grep '+  - repo:'| awk '{print $4}' ")
+              data1 = str(reponame)
+              data1 = data1.split('\n')
+              print(data1)
+              return data1
                   
           def check_repo(repo):
               res = requests.get("https://api.github.com/repos/deepin-community/{repo}".format(repo=repo))
               print("check_repo ",res.text)
               if res.status_code == 200:
                   return repo
-                   
+
           def create_repo(repo):
               data_repo = {
                       'owner':'deepin-community',
@@ -98,12 +111,13 @@ jobs:
               os.popen('''osc ci -m "init"''').read()
 
           try:
-              data = read_yml()
+              data = get_pr_diff()
               os.chdir("deepin:Develop:community")
-              for repo in data.get("repos"):
-                  print(repo.get('repo'))
-                  if check_repo(repo.get('repo')) == None:
-                      create_repo(repo.get('repo'))
+              for repo in data:
+                if repo != '':
+                    print(repo)
+                    if check_repo(repo) == None:
+                        create_repo(repo)
           except BaseException as e:
               logging.error(e)
               exit(-10)
