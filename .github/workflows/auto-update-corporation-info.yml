@@ -1,0 +1,108 @@
+name: auto update corporation information
+on:
+  workflow_dispatch:
+    inputs:
+      githubid:
+        required: true
+        type: string
+      githubname:
+        required: true
+        type: string
+      action:
+        default: "addORupdate" # "delete" 代表删除
+      corporation:
+        default: "UnionTech"  # corporation 目录下的名称（deepin、Hygon、LeapIO ...）
+
+#env:
+#  APP_ID: 229710
+#  APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
+
+jobs:
+  create_pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: install depends for load scripts
+        run: |
+          npm install js-yaml
+          #npm install @octokit/rest
+          #npm install @octokit/auth-app
+
+      #- name: Get token using github-script
+      #  id: get-token
+      #  uses: actions/github-script@v6
+      #  with:
+      #    script: |
+      #      const { Octokit } = require("@octokit/rest");
+      #      const { createAppAuth } = require("@octokit/auth-app");
+      #      const appOctokit = new Octokit({
+      #        authStrategy: createAppAuth,
+      #        auth: {
+      #          appId: process.env.APP_ID,
+      #          privateKey: process.env.APP_PRIVATE_KEY,
+      #        }
+      #      });
+      #      const app_installation = await appOctokit.rest.apps.getRepoInstallation({
+      #        owner: context.payload.organization.login,
+      #        repo: context.payload.repository.name
+      #      });
+      #      const { token } = await appOctokit.auth({
+      #        type: "installation",
+      #        installationId: app_installation.data.id
+      #      });
+      #      core.setOutput('app_token', token)
+
+      - name: Update corporation info
+        uses: actions/github-script@v6
+        with:
+          #github-token: ${{ steps.get-token.outputs.app_token }}
+          script: |
+            const yaml = require('js-yaml');
+            const fs = require('fs');
+            const metaFilePath = 'corporation/${{ inputs.corporation }}/metadata.yml';
+            const githubid = ${{ inputs.githubid }};
+            const githubname = "${{ inputs.githubname }}";
+            const action = '${{ inputs.githubid }}';
+            metaContent = yaml.load(fs.readFileSync(metaFilePath), 'utf8');
+
+            /*metaContent.members.forEach(info => {
+              console.log(info);
+            })*/
+
+            index = metaContent.members.map((item) => item.id).indexOf(githubid);
+            console.log(index);
+            if (index > 0) {
+              if (action == "delete") {
+                metaContent.members = metaContent.members.filter((item) => item.id != githubid)
+              } else {
+                metaContent.members[index] = {handle: githubname, id: githubid};
+              }
+            } else {
+              // add member
+              metaContent.members.push({handle: githubname, id: githubid});
+            }
+
+            //console.log(metaContent);
+            fs.writeFile(metaFilePath, yaml.dump(metaContent, {
+                                              'sortKeys': false        // sort object keys
+                                            }), (err) => {
+                if (err) {
+                    console.log(err);
+                }
+            });
+
+      - name: Remove node_modules dir
+        run: rm -rf node_modules package-lock.json package.json
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          branch: auci-${{ github.run_id }}
+          title: auto update  corporation/${{ inputs.corporation }}/metadata.yml
+          body: ${{ inputs.githubname }} update,corporation is ${{ inputs.corporation }}.
+          commit-message: "chore: Update metadata.yml"
+          committer: github-actions <github-actions@users.noreply.github.com>
+          author: hudeng-go <hudeng-go@github.com>
+          signoff: true
+          delete-branch: true
