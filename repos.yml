@@ -187,3 +187,7 @@ repos:
   - repo: gammaray
     group: deepin-sysdev-team
     info: Tool for examining the internals of Qt application
+
+  - repo: linux-deepin-hwe
+    group: deepin-sysdev-team
+    info: kernel virtual package
