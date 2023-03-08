@@ -183,3 +183,7 @@ repos:
   - repo: radeontop
     group: deepin-sysdev-team
     info: Utility to show Radeon GPU utilization
+
+  - repo: gammaray
+    group: deepin-sysdev-team
+    info: Tool for examining the internals of Qt application
