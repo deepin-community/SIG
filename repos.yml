@@ -191,3 +191,7 @@ repos:
   - repo: linux-deepin-hwe
     group: deepin-sysdev-team
     info: kernel virtual package
+  
+  - repo: openjdk-8
+    group: deepin-sysdev-team
+    info: OpenJDK Development Kit (JDK)
