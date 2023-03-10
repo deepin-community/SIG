@@ -199,3 +199,7 @@ repos:
   - repo: nemo-qml-plugin-dbus
     group: deepin-sysdev-team
     info: Nemo QML Plugin D-Bus
+    
+  - repo: jtreg6
+    group: deepin-sysdev-team
+    info: Regression Test Harness for the OpenJDK platform
