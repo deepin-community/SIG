@@ -203,3 +203,7 @@ repos:
   - repo: jtreg6
     group: deepin-sysdev-team
     info: Regression Test Harness for the OpenJDK platform
+
+  - repo: nvidia-graphics-drivers
+    group: deepin-sysdev-team
+    info: Nvidia driver
