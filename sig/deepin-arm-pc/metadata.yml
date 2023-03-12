@@ -1,0 +1,29 @@
+---
+name: deepin-arm-pc
+blog:
+rss:
+matrix: '#deepin-arm-pc:matrix.org'
+proposal:
+  by:
+    handle: glory-cix
+    id: 126052243
+date-created: '2023/03/06'
+date-archived: '-'
+team: deepin-arm-pc
+repos:
+  maintained:
+  package:
+members:
+  - handle: glory-cix
+    id: 126052243
+  - handle: xzl01
+    id: 31403725
+  - handle: cix-fugang
+    id: 126057890 
+  - handle: Arm-China
+    id: 116262049
+  - handle: TREN01
+    id: 127081130    
+   
+    
+    
