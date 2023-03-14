@@ -239,3 +239,11 @@ repos:
   - repo: ncdu
     group: deepin-sysdev-team
     info: Ncdu is a ncurses-based du viewer. It provides a fast and easy-to-use interface through famous du utility.
+
+  - repo: s-tui
+    group: deepin-sysdev-team
+    info: Terminal based CPU stress and monitoring tool
+
+  - repo: stress
+    group: deepin-sysdev-team
+    info: Stress test a computer system in various selectable ways
