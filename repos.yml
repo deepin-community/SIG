@@ -131,23 +131,23 @@ repos:
   - repo: .guide.deepin.org
     group: sig-deepin-doc-doc-go
     info: deepin系统的用户手册 https://guide.deepin.org
-    
+
   - repo: sbuild
     group: deepin-sysdev-team
     info: Tool for building Debian binary packages from Debian sources
-  
+
   - repo: flit
     group: deepin-sysdev-team
     info: simple way to put Python packages and modules on PyPI (PEP 517)
-    
+
   - repo: python-tomli
     group: deepin-sysdev-team
     info: "lil' TOML parser for Python"
-    
+
   - repo: python-tomli-w
     group: deepin-sysdev-team
     info: "lil' TOML writer for Python"
-    
+
   - repo: responses
     group: deepin-sysdev-team
     info: Utility library for mocking out the requests Python 3 library
@@ -159,7 +159,7 @@ repos:
   - repo: deepin-desktop-environment
     group: deepin-sysdev-team
     info: Deepin New Desktop Environment - Next
-  
+
   - repo: sshpass
     group: deepin-sysdev-team
     info: Non-interactive ssh password authentication
@@ -191,15 +191,15 @@ repos:
   - repo: linux-deepin-hwe
     group: deepin-sysdev-team
     info: kernel virtual package
-  
+
   - repo: openjdk-8
     group: deepin-sysdev-team
     info: OpenJDK Development Kit (JDK)
-    
+
   - repo: nemo-qml-plugin-dbus
     group: deepin-sysdev-team
     info: Nemo QML Plugin D-Bus
-    
+
   - repo: jtreg6
     group: deepin-sysdev-team
     info: Regression Test Harness for the OpenJDK platform
@@ -207,6 +207,30 @@ repos:
   - repo: nvidia-graphics-drivers
     group: deepin-sysdev-team
     info: Nvidia driver
+
+  - repo: seatd
+    group: deepin-sysdev-team
+    info: A minimal seat management daemon
+
+  - repo: wlroots
+    group: deepin-sysdev-team
+    info: A modular Wayland compositor library
+
+  - repo: sway
+    group: deepin-sysdev-team
+    info: i3-compatible Wayland compositor
+
+  - repo: swaybg
+    group: deepin-sysdev-team
+    info: Sway background daemon
+
+  - repo: swayidle
+    group: deepin-sysdev-team
+    info: Idle management daemon for Sway
+
+  - repo: waybar
+    group: deepin-sysdev-team
+    info: Highly customizable Wayland bar for Sway and Wlroots based compositors.
 
   - repo: reprepro
     group: deepin-sysdev-team
