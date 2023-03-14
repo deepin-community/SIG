@@ -235,3 +235,7 @@ repos:
   - repo: reprepro
     group: deepin-sysdev-team
     info: Debian package repository producer
+
+  - repo: ncdu
+    group: deepin-sysdev-team
+    info: Ncdu is a ncurses-based du viewer. It provides a fast and easy-to-use interface through famous du utility.
