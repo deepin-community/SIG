@@ -231,3 +231,7 @@ repos:
   - repo: waybar
     group: deepin-sysdev-team
     info: Highly customizable Wayland bar for Sway and Wlroots based compositors.
+
+  - repo: reprepro
+    group: deepin-sysdev-team
+    info: Debian package repository producer
