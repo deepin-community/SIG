@@ -207,3 +207,7 @@ repos:
   - repo: nvidia-graphics-drivers
     group: deepin-sysdev-team
     info: Nvidia driver
+
+  - repo: reprepro
+    group: deepin-sysdev-team
+    info: Debian package repository producer
