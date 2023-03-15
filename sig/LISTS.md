@@ -32,3 +32,4 @@
 | 30 | [linglong](linglong/README.md) |[博客](https://deepin-community.github.io/sig-linglong/)| [成员](linglong/MEMBERS.md) |[#linglong:deepin.org](https://matrix.to/#/#linglong:deepin.org)|[black-desk](https://github.com/black-desk)|2023/02/03| - |
 | 31 | [dde](dde/README.md) |[博客](https://deepin-community.github.io/sig-dde/)| [成员](dde/MEMBERS.md) |[#dde:matrix.org](https://matrix.to/#/#dde:matrix.org)|[BLumia](https://github.com/BLumia)|2023/02/06| - |
 | 32 | [deepin-virt](deepin-virt/README.md) |[博客](https://deepin-community.github.io/sig-deepin-virt/)| [成员](deepin-virt/MEMBERS.md) | - |[hudeng-go](https://github.com/hudeng-go)|2023/02/10| - |
+| 33 | [deepin-arm-pc](deepin-arm-pc/README.md) | - | [成员](deepin-arm-pc/MEMBERS.md) |[#deepin-arm-pc:matrix.org](https://matrix.to/#/#deepin-arm-pc:matrix.org)|[glory-cix](https://github.com/glory-cix)|2023/03/06| - |
