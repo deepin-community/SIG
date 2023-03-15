@@ -251,3 +251,7 @@ repos:
   - repo: urwid
     group: deepin-sysdev-team
     info: Console user interface library for Python
+  
+  - repo: debootstrap
+    group: deepin-sysdev-team
+    info: 自举建立一个基本 Debian 系统
