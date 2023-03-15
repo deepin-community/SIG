@@ -247,3 +247,7 @@ repos:
   - repo: stress
     group: deepin-sysdev-team
     info: Stress test a computer system in various selectable ways
+
+  - repo: urwid
+    group: deepin-sysdev-team
+    info: Console user interface library for Python
