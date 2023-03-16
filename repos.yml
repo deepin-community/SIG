@@ -259,3 +259,7 @@ repos:
   - repo: mmdebstrap
     group: deepin-sysdev-team
     info: create a Debian chroot
+
+  - repo: catch
+    group: deepin-sysdev-team
+    info: C++ Automated Test Cases in Headers
