@@ -256,6 +256,6 @@ repos:
     group: deepin-sysdev-team
     info: 自举建立一个基本 Debian 系统
 
-  - repo: mmbootstrap
+  - repo: mmdebstrap
     group: deepin-sysdev-team
     info: create a Debian chroot
