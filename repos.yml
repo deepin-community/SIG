@@ -267,3 +267,7 @@ repos:
   - repo: luceneplusplus
     group: deepin-sysdev-team
     info: secure POP3/IMAP server - Lucene support
+ 
+  - repo: deepin-unstable-source
+    group: deepin-sysdev-team
+    info: v23 内测源
