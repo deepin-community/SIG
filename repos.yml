@@ -263,3 +263,7 @@ repos:
   - repo: catch
     group: deepin-sysdev-team
     info: C++ Automated Test Cases in Headers
+    
+  - repo: luceneplusplus
+    group: deepin-sysdev-team
+    info: secure POP3/IMAP server - Lucene support
