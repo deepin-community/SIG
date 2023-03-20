@@ -251,7 +251,7 @@ repos:
   - repo: urwid
     group: deepin-sysdev-team
     info: Console user interface library for Python
-  
+
   - repo: debootstrap
     group: deepin-sysdev-team
     info: 自举建立一个基本 Debian 系统
@@ -263,11 +263,15 @@ repos:
   - repo: catch
     group: deepin-sysdev-team
     info: C++ Automated Test Cases in Headers
-    
+
   - repo: luceneplusplus
     group: deepin-sysdev-team
     info: secure POP3/IMAP server - Lucene support
- 
+
   - repo: deepin-unstable-source
     group: deepin-sysdev-team
     info: v23 内测源
+
+  - repo: powertop
+    group: deepin-sysdev-team
+    info: PowerTOP is a Linux tool to diagnose issues with power consumption and power management
