@@ -275,3 +275,7 @@ repos:
   - repo: powertop
     group: deepin-sysdev-team
     info: PowerTOP is a Linux tool to diagnose issues with power consumption and power management
+
+  - repo: qdirstat
+    group: deepin-sysdev-team
+    info: Qt-based directory statistics
