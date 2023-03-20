@@ -279,7 +279,11 @@ repos:
   - repo: qdirstat
     group: deepin-sysdev-team
     info: Qt-based directory statistics
-  
+
   - repo: libunique
     group: deepin-sysdev-team
     info: Unique is a library for writing single instance application.
+
+  - repo: golang-github-mdlayher-netlink-dev
+    group: deepin-sysdev-team
+    info: This package provides low-level access to Linux netlink sockets (AF_NETLINK)
