@@ -275,3 +275,7 @@ repos:
   - repo: powertop
     group: deepin-sysdev-team
     info: PowerTOP is a Linux tool to diagnose issues with power consumption and power management
+
+  - repo: golang-github-mdlayher-netlink-dev
+    group: deepin-sysdev-team
+    info: This package provides low-level access to Linux netlink sockets (AF_NETLINK)
