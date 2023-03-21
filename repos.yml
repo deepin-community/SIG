@@ -287,3 +287,12 @@ repos:
   - repo: golang-github-mdlayher-netlink-dev
     group: deepin-sysdev-team
     info: This package provides low-level access to Linux netlink sockets (AF_NETLINK)
+
+  - repo: golang-github-mdlayher-socket
+    group: deepin-sysdev-team
+    info: low-level network socket for Go
+
+  - repo: golang-github-josharian-native
+    group: deepin-sysdev-team
+    info: native byte order for Go
+
