@@ -303,3 +303,7 @@ repos:
   - repo: libkkc-data
     group: deepin-sysdev-team
     info: language model data for libkkc
+
+  - repo: kwayland
+    group: deepin-sysdev-team
+    info: KWayland provides a Qt-style Server library wrapper for the Wayland libraries
