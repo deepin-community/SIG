@@ -299,3 +299,7 @@ repos:
   - repo: gnome-common
     group: deepin-sysdev-team
     info: common scripts and macros to develop with GNOME
+
+  - repo: libkkc-data
+    group: deepin-sysdev-team
+    info: language model data for libkkc
