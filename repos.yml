@@ -296,3 +296,6 @@ repos:
     group: deepin-sysdev-team
     info: native byte order for Go
 
+  - repo: gnome-common
+    group: deepin-sysdev-team
+    info: common scripts and macros to develop with GNOME
