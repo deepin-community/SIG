@@ -307,3 +307,7 @@ repos:
   - repo: kwayland
     group: deepin-sysdev-team
     info: KWayland provides a Qt-style Server library wrapper for the Wayland libraries
+    
+  - repo: db-defaults
+    group: deepin-sysdev-team
+    info: Berkeley Database Utilities
