@@ -311,3 +311,7 @@ repos:
   - repo: db-defaults
     group: deepin-sysdev-team
     info: Berkeley Database Utilities
+    
+  - repo: golang-1.20
+    group: deepin-sysdev-team
+    info: Go programming language compiler - metapackage
