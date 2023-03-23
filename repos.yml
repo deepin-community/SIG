@@ -319,3 +319,7 @@ repos:
   - repo: blockdiag
     group: deepin-sysdev-team
     info: generate block-diagram image file from spec-text file
+
+  - repo: arch-install-scripts
+    group: deepin-sysdev-team
+    info: Scripts for installing Arch Linux
