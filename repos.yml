@@ -323,3 +323,7 @@ repos:
   - repo: arch-install-scripts
     group: deepin-sysdev-team
     info: Scripts for installing Arch Linux
+
+  - repo: fonts-smiley-sans
+    group: deepin-sysdev-team
+    info: Smiley Sans is a Chinese sans serif font that seeks a balance between humanistic and geometric features
