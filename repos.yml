@@ -328,6 +328,10 @@ repos:
     group: deepin-sysdev-team
     info: Smiley Sans is a Chinese sans serif font that seeks a balance between humanistic and geometric features
   
+  - repo: golang-golang-x-arch
+    group: deepin-sysdev-team
+    info: Library with machine architecture information
+    
   - repo: golang-golang-x-vuln
     group: deepin-sysdev-team
     info: Go Vulnerability Management
