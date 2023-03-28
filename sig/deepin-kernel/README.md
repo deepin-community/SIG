@@ -37,13 +37,13 @@ Matrix工具：
 注册和使用方法参考以下链接:
 https://wiki.deepin.org/zh/%E5%BE%85%E5%88%86%E7%B1%BB/02_%E6%8C%89%E8%BD%AF%E4%BB%B6%E5%8A%9F%E8%83%BD%E5%88%92%E5%88%86/01_%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D/05_%E7%BD%91%E7%BB%9C_%E9%82%AE%E4%BB%B6_%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF_%E4%BC%9A%E8%AE%AE_%E8%BF%9C%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF/Matrix
 
-!16799898029487(16799898029487.png)
-!1679989996388(1679989996388.png)
+![16799898029487](https://user-images.githubusercontent.com/92847452/228169719-d849e66d-0e82-4f00-aa12-e9af6edbbed2.png)
+![1679989996388](https://user-images.githubusercontent.com/92847452/228169651-cb635c53-0eb1-4ec2-a93d-b9d264ba145d.png)
 
 登陆到Matrix后,进入内核讨论房间即可实时讨论
 https://chat.getdeepin.org/#/room/#deepin-kernel:deepin.org
 
-!16799903007582(16799903007582.png)
+![16799903007582](https://user-images.githubusercontent.com/92847452/228169510-c1ee1c33-6a75-46a3-9189-fb25eab2b5c9.png)
 
 ### 交流渠道2
 
