@@ -331,3 +331,7 @@ repos:
   - repo: brise
     group: deepin-sysdev-team
     info: Rime Input Method Engine, the schema data RIME is the acronym of Rime Input Method Engine.
+
+  - repo: texlive-bin
+    group: deepin-sysdev-team
+    info: TeX Live binaries
