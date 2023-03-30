@@ -343,3 +343,15 @@ repos:
   - repo: libdebian-copyright-perl
     group: deepin-sysdev-team
     info: Perl module to parse Debian copyright files
+
+  - repo: golang-golang-x-arch
+    group: deepin-sysdev-team
+    info: Library with machine architecture information
+    
+  - repo: golang-golang-x-vuln
+    group: deepin-sysdev-team
+    info: Go Vulnerability Management
+    
+  - repo: golang-golang-x-exp
+    group: deepin-sysdev-team
+    info: Go experimental and deprecated packages
