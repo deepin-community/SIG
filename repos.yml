@@ -340,6 +340,10 @@ repos:
     group: deepin-sysdev-team
     info: A tool to visualize the dependency tree of a Debian package
 
+  - repo: libdebian-copyright-perl
+    group: deepin-sysdev-team
+    info: Perl module to parse Debian copyright files
+
   - repo: golang-golang-x-arch
     group: deepin-sysdev-team
     info: Library with machine architecture information
