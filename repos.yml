@@ -327,7 +327,19 @@ repos:
   - repo: fonts-smiley-sans
     group: deepin-sysdev-team
     info: Smiley Sans is a Chinese sans serif font that seeks a balance between humanistic and geometric features
-  
+
+  - repo: brise
+    group: deepin-sysdev-team
+    info: Rime Input Method Engine, the schema data RIME is the acronym of Rime Input Method Engine.
+
+  - repo: texlive-bin
+    group: deepin-sysdev-team
+    info: TeX Live binaries
+
+  - repo: debtree
+    group: deepin-sysdev-team
+    info: A tool to visualize the dependency tree of a Debian package
+
   - repo: golang-golang-x-arch
     group: deepin-sysdev-team
     info: Library with machine architecture information
