@@ -355,3 +355,7 @@ repos:
   - repo: golang-golang-x-exp
     group: deepin-sysdev-team
     info: Go experimental and deprecated packages
+
+  - repo: edk2
+    group: deepin-sysdev-team
+    info: EDK II is a modern, feature-rich, cross-platform firmware development environment for the UEFI and UEFI Platform Initialization
