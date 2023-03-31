@@ -359,3 +359,15 @@ repos:
   - repo: edk2
     group: deepin-sysdev-team
     info: EDK II is a modern, feature-rich, cross-platform firmware development environment for the UEFI and UEFI Platform Initialization
+  
+  - repo: golang-x11-client
+    group: deepin-sysdev-team
+    info: GO client for X window
+
+  - repo: dde-polkit-agent
+    group: deepin-sysdev-team
+    info: A agent used in Deepin Desktop Environment
+
+  - repo: deepin-system-upgrade
+    group: deepin-sysdev-team
+    info: A tool to upgrade system from V20 to V23
