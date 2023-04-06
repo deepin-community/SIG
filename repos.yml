@@ -359,3 +359,8 @@ repos:
   - repo: edk2
     group: deepin-sysdev-team
     info: EDK II is a modern, feature-rich, cross-platform firmware development environment for the UEFI and UEFI Platform Initialization
+    
+
+  - repo: distrobox
+    group: deepin-sysdev-team
+    info: Another tool for containerized command line environments on Linux
