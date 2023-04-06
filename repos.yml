@@ -364,3 +364,7 @@ repos:
   - repo: distrobox
     group: deepin-sysdev-team
     info: Another tool for containerized command line environments on Linux
+
+  - repo: gtkmm4.0
+    group: deepin-sysdev-team
+    info: C++ wrappers for GTK4
