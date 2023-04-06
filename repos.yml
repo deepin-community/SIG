@@ -327,3 +327,35 @@ repos:
   - repo: fonts-smiley-sans
     group: deepin-sysdev-team
     info: Smiley Sans is a Chinese sans serif font that seeks a balance between humanistic and geometric features
+
+  - repo: brise
+    group: deepin-sysdev-team
+    info: Rime Input Method Engine, the schema data RIME is the acronym of Rime Input Method Engine.
+
+  - repo: texlive-bin
+    group: deepin-sysdev-team
+    info: TeX Live binaries
+
+  - repo: debtree
+    group: deepin-sysdev-team
+    info: A tool to visualize the dependency tree of a Debian package
+
+  - repo: libdebian-copyright-perl
+    group: deepin-sysdev-team
+    info: Perl module to parse Debian copyright files
+
+  - repo: golang-golang-x-arch
+    group: deepin-sysdev-team
+    info: Library with machine architecture information
+    
+  - repo: golang-golang-x-vuln
+    group: deepin-sysdev-team
+    info: Go Vulnerability Management
+    
+  - repo: golang-golang-x-exp
+    group: deepin-sysdev-team
+    info: Go experimental and deprecated packages
+
+  - repo: edk2
+    group: deepin-sysdev-team
+    info: EDK II is a modern, feature-rich, cross-platform firmware development environment for the UEFI and UEFI Platform Initialization
