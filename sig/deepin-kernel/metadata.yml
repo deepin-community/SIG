@@ -18,5 +18,7 @@ repos:
 members:
   - handle: huangbibo
     id: 88575167
+  - handle: tangmeng
+    id: 92847452
   - handle: deepin-community-bot
     id: 111260340
