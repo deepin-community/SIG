@@ -360,7 +360,6 @@ repos:
     group: deepin-sysdev-team
     info: EDK II is a modern, feature-rich, cross-platform firmware development environment for the UEFI and UEFI Platform Initialization
     
-
   - repo: distrobox
     group: deepin-sysdev-team
     info: Another tool for containerized command line environments on Linux
@@ -368,3 +367,7 @@ repos:
   - repo: gtkmm4.0
     group: deepin-sysdev-team
     info: C++ wrappers for GTK4
+
+  - repo: obs-studio
+    group: deepin-pkg
+    info: 'OBS Studio - Free and open source software for live streaming and screen recording'
