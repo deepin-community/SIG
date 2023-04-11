@@ -3,3 +3,7 @@ events:
   actor_id: 6214861
   actor_handle: mudongliang
   created_at: 2023-03-22 01:30:22+00:00
+- type: join
+  actor_id: 48514182
+  actor_handle: liwenke1
+  created_at: 2023-04-11 08:05:47+00:00
