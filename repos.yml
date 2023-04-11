@@ -369,5 +369,5 @@ repos:
     info: C++ wrappers for GTK4
 
   - repo: obs-studio
-    group: deepin-pkg
+    group: deepin-sysdev-team
     info: 'OBS Studio - Free and open source software for live streaming and screen recording'
