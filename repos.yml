@@ -371,3 +371,7 @@ repos:
   - repo: obs-studio
     maintainer: 8MiYile
     info: 'OBS Studio - Free and open source software for live streaming and screen recording'
+
+  - repo: pristine-tar
+    group: deepin-cicd
+    info: 'regenerate pristine tarballs'
