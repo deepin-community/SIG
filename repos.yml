@@ -375,3 +375,7 @@ repos:
   - repo: pristine-tar
     group: deepin-cicd
     info: 'regenerate pristine tarballs'
+
+  - repo: golang-github-opencontainers-image-spec
+    group: deepin-sysdev-team
+    info: Open Container Initiative (OCI) Image Format Specification
