@@ -7,3 +7,43 @@ events:
   actor_id: 48514182
   actor_handle: liwenke1
   created_at: 2023-04-11 08:05:47+00:00
+- type: join
+  actor_id: 36987782
+  actor_handle: alazymechnaic
+  created_at: 2023-04-14 05:26:11+00:00
+- type: join
+  actor_id: 24356136
+  actor_handle: keepTheFlowerOfTime
+  created_at: 2023-04-14 05:26:11+00:00
+- type: join
+  actor_id: 85945386
+  actor_handle: luo8979061
+  created_at: 2023-04-14 05:26:11+00:00
+- type: join
+  actor_id: 52622318
+  actor_handle: sgd88888
+  created_at: 2023-04-14 05:26:11+00:00
+- type: join
+  actor_id: 76643630
+  actor_handle: KuroB0T
+  created_at: 2023-04-14 05:26:11+00:00
+- type: join
+  actor_id: 72687314
+  actor_handle: LiKe-rm
+  created_at: 2023-04-14 05:26:11+00:00
+- type: join
+  actor_id: 41195187
+  actor_handle: chenjiahe01
+  created_at: 2023-04-14 05:26:11+00:00
+- type: join
+  actor_id: 34079701
+  actor_handle: LoserZzy
+  created_at: 2023-04-14 05:26:11+00:00
+- type: join
+  actor_id: 43291769
+  actor_handle: sdpyly
+  created_at: 2023-04-14 05:26:11+00:00
+- type: join
+  actor_id: 20652605
+  actor_handle: SmallYi
+  created_at: 2023-04-14 05:26:11+00:00
