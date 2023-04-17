@@ -375,3 +375,7 @@ repos:
   - repo: pristine-tar
     group: deepin-cicd
     info: 'regenerate pristine tarballs'
+
+  - repo: apt-file
+    group: deepin-sysdev-team
+    info: 'search for files in Debian packages'
