@@ -379,3 +379,7 @@ repos:
   - repo: apt-file
     group: deepin-sysdev-team
     info: 'search for files in Debian packages'
+
+  - repo: xml-core
+    group: deepin-sysdev-team
+    info: 'XML infrastructure and XML catalog file support'
