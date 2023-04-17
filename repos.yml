@@ -383,3 +383,7 @@ repos:
   - repo: xml-core
     group: deepin-sysdev-team
     info: 'XML infrastructure and XML catalog file support'
+
+  - repo: sgml-data
+    group: deepin-sysdev-team
+    info: 'SGML infrastructure and SGML catalog file support'
