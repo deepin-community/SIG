@@ -387,3 +387,11 @@ repos:
   - repo: sgml-data
     group: deepin-sysdev-team
     info: 'SGML infrastructure and SGML catalog file support'
+
+  - repo: vulkan-tools
+    group: deepin-sysdev-team
+    info: 'Vulkan tools'
+
+  - repo: vulkan-validationlayers
+    group: deepin-sysdev-team
+    info: 'Vulkan validation layers'
