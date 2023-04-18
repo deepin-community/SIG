@@ -403,3 +403,11 @@ repos:
   - repo: fonts-cascadia-code
     group: deepin-sysdev-team
     info: Cascadia is a fun new coding font that comes bundled with Windows Terminal
+
+  - repo: gnome-pkg-tools
+    group: deepin-sysdev-team
+    info: 'GNOME package tools'
+
+  - repo: vte
+    group: deepin-sysdev-team
+    info: 'Terminal emulator widget for GTK+ 2.0'
