@@ -395,3 +395,11 @@ repos:
   - repo: vulkan-validationlayers
     group: deepin-sysdev-team
     info: 'Vulkan validation layers'
+
+  - repo: spirv-tools
+    group: deepin-sysdev-team
+    info: 'SPIR-V Tools'
+
+  - repo: spirv-headers
+    group: deepin-sysdev-team
+    info: 'SPIR-V Headers'
