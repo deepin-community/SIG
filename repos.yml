@@ -399,3 +399,7 @@ repos:
   - repo: corkscrew
     group: deepin-sysdev-team
     info: 'corkscrew is a simple tool for tunneling SSH through HTTP proxies'
+
+  - repo: fonts-cascadia-code
+    group: deepin-sysdev-team
+    info: Cascadia is a fun new coding font that comes bundled with Windows Terminal
