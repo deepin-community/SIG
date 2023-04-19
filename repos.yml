@@ -411,3 +411,11 @@ repos:
   - repo: vte
     group: deepin-sysdev-team
     info: 'Terminal emulator widget for GTK+ 2.0'
+
+  - repo: pango1.0
+    group: deepin-sysdev-team
+    info: 'Layout and rendering of internationalized text'
+
+  - repo: gdk-pixbuf
+    group: deepin-sysdev-team
+    info: 'Image loading and manipulation library'
