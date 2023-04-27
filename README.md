@@ -12,4 +12,4 @@
 
 此仓库由 SIG 委员会进行维护。您可以通过创建 Issue 或 Discission 的形式与 SIG 委员会取得联系来获取帮助。
 
-*受 GitHub Actions 限制，此仓库的相关功能暂时转到 [peeweep-test/.github](https://github.com/peeweep-test/.github/) 提供*
+*受 GitHub Actions 限制，此仓库的相关功能暂时转到 [peeweep-test/SIG](https://github.com/peeweep-test/SIG/) 提供*
