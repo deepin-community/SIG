@@ -641,3 +641,11 @@ repos:
   - repo: hotspot
     group: dde
     info: 'GUI tool for performance analysis'
+
+  - repo: haskell-unicode-collation
+    group: deepin-sysdev-team
+    info: 'Haskell implementation of the Unicode Collation Algorithm'
+
+  - repo: haskell-unicode-data
+    group: deepin-sysdev-team
+    info: 'Access Unicode character database'
