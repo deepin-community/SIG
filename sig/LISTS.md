@@ -34,3 +34,4 @@
 | 32 | [deepin-virt](deepin-virt/README.md) |[博客](https://deepin-community.github.io/sig-deepin-virt/)| [成员](deepin-virt/MEMBERS.md) | - |[hudeng-go](https://github.com/hudeng-go)|2023/02/10| - |
 | 33 | [deepin-arm-pc](deepin-arm-pc/README.md) | - | [成员](deepin-arm-pc/MEMBERS.md) |[#deepin-arm-pc:matrix.org](https://matrix.to/#/#deepin-arm-pc:matrix.org)|[glory-cix](https://github.com/glory-cix)|2023/03/06| - |
 | 34 | [openEuler](openEuler/README.md) | - | [成员](openEuler/MEMBERS.md) | - |[lvcongqing](https://github.com/lvcongqing)|2023/04/18| - |
+| 35 | [Phytium](Phytium/README.md) | - | [成员](Phytium/MEMBERS.md) | - |[JiakunShuai](https://github.com/JiakunShuai)|2023/05/05| - |
