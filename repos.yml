@@ -419,3 +419,201 @@ repos:
   - repo: gdk-pixbuf
     group: deepin-sysdev-team
     info: 'Image loading and manipulation library'
+
+  - repo: imwheel
+    group: deepin-sysdev-team
+    info: 'A program to configure the mouse wheel to send keypresses'
+
+  - repo: librist
+    group: deepin-sysdev-team
+    info: 'RIST is a protocol for low-latency, high-quality, and secure streaming of audio and video'
+
+  - repo: gtk-layer-shell
+    group: deepin-sysdev-team
+    info: 'GTK library for layer-shell protocol'
+
+  - repo: fdk-aac
+    group: deepin-sysdev-team
+    info: 'Fraunhofer FDK AAC Codec Library - frontend binary'
+
+  - repo: el-api
+    group: deepin-sysdev-team
+    info: EL is a simple language designed to meet the needs of the presentation layer in Java web applications.      
+
+  - repo: webkit2gtk
+    group: deepin-sysdev-team
+    info: Web content engine library for GTK.     
+
+  - repo: libmpack
+    group: deepin-sysdev-team
+    info: 'MessagePack for C'
+
+  - repo: libmpack-lua
+    group: deepin-sysdev-team
+    info: 'MessagePack for Lua'
+
+  - repo: maven-debian-helper
+    group: deepin-sysdev-team
+    info: maven-debian-helper is a set of tools used to generate Debian packages from Maven projects and build them in a manner that complies with the Debian policies.
+
+  - repo: mathjax
+    group: deepin-sysdev-team
+    info: MathJax was designed with the goal of consolidating the recent advances in web
+    technologies into a single, definitive, math-on-the-web platform supporting
+    the major browsers and operating systems.
+
+  - repo: lua-lpeg
+    group: deepin-sysdev-team
+    info: 'LPeg is a pattern-matching library for Lua, based on Parsing Expression Grammars (PEGs)'
+
+  - repo: libmoose-perl
+    group: deepin-sysdev-team
+    info: 'It provides a modern, object-oriented methodology for object construction and class writing'
+
+  - repo: libmodule-runtime-perl
+    group: deepin-sysdev-team
+    info: 'Perl module for runtime module handling'
+
+  - repo: libmodule-implementation-perl
+    group: deepin-sysdev-team
+    info: 'module for loading one of several alternate implementations of a module'
+
+  - repo: libnamespace-autoclean-perl
+    group: deepin-sysdev-team
+    info: 'module to remove imported symbols after compilation'
+
+  - repo: libmro-compat-perl
+    group: deepin-sysdev-team
+    info: 'method resolution order and method caching in general'
+
+  - repo: libmodule-refresh-perl
+    group: deepin-sysdev-team
+    info: 'tool to refresh %INC files when updated on disk'
+
+  - repo: libmodule-install-perl
+    group: deepin-sysdev-team
+    info: 'framework for installing Perl modules'
+
+  - repo: libmodule-install-authortests-perl
+    group: deepin-sysdev-team
+    info: 'designate tests only run by module authors'
+
+  - repo: libmodule-install-extratests-perl
+    group: deepin-sysdev-team
+    info: 'contextual tests that the harness can ignore'
+
+  - repo: libmodule-pluggable-perl
+    group: deepin-sysdev-team
+    info: 'module for giving modules the ability to have plugins'
+
+  - repo: libmodule-runtime-conflicts-perl
+    group: deepin-sysdev-team
+    info: 'module to provide information on conflicts for Module::Runtime'
+  
+  - repo: autodep8
+    group: deepin-sysdev-team
+    info: 'DEP-8 test control file generator'
+
+  - repo: libmoo-perl
+    group: deepin-sysdev-team
+    info: 'Minimalist Object Orientation library (with Moose compatibility)'
+
+  - repo: libcrypt-passwdmd5-perl
+    group: deepin-sysdev-team
+    info: 'interoperable MD5-based crypt() for Perl'
+
+  - repo: libwww-form-urlencoded-xs-perl
+    group: deepin-sysdev-team
+    info: 'XS implementation of application/x-www-form-urlencoded parser/builder'
+
+  - repo: libauthen-simple-perl
+    group: deepin-sysdev-team
+    info: 'simple and consistent perl framework for authentication'
+
+  - repo: libtest-time-perl
+    group: deepin-sysdev-team
+    info: 'module to override the time() and sleep() functions for testing'
+
+  - repo: libhash-multivalue-perl
+    group: deepin-sysdev-team
+    info: 'module for storing multiple values per key in a hash'
+
+  - repo: libhttp-multipartparser-perl
+    group: deepin-sysdev-team
+    info: 'HTTP multipart MIME parser'
+
+  - repo: libasa-perl
+    group: deepin-sysdev-team
+    info: 'Perl module for expanding a class or object's list of base classes'
+
+  - repo: libstream-buffered-perl
+    group: deepin-sysdev-team
+    info: 'temporary buffer to store strings in a seekable filehandle'
+
+  - repo: libwww-form-urlencoded-perl
+    group: deepin-sysdev-team
+    info: 'parser and builder for application/x-www-form-urlencoded format'
+
+  - repo: libapache-logformat-compiler-perl
+    group: deepin-sysdev-team
+    info: 'Perl module to pre-compile a LogFormat string'
+
+  - repo: libauthen-simple-passwd-perl
+    group: deepin-sysdev-team
+    info: 'Simple Passwd authentication'
+
+  - repo: libcgi-compile-perl
+    group: deepin-sysdev-team
+    info: 'module for compiling .cgi scripts to a code reference'
+
+  - repo: libcgi-emulate-psgi-perl
+    group: deepin-sysdev-team
+    info: 'PSGI adapter for CGI'
+
+  - repo: libcookie-baker-perl
+    group: deepin-sysdev-team
+    info: 'simple cookie string generator and parser'
+
+  - repo: libdevel-stacktrace-ashtml-perl
+    group: deepin-sysdev-team
+    info: 'module to display a stack trace in HTML'
+
+  - repo: libfcgi-procmanager-perl
+    group: deepin-sysdev-team
+    info: 'Perl module to help manage FastCGI applications'
+
+  - repo: libfilesys-notify-simple-perl
+    group: deepin-sysdev-team
+    info: 'simple file system monitor'
+
+  - repo: libhttp-entity-parser-perl
+    group: deepin-sysdev-team
+    info: 'PSGI compliant HTTP Entity Parser'
+
+  - repo: libhttp-headers-fast-perl
+    group: deepin-sysdev-team
+    info: 'faster implementation of HTTP::Headers'
+
+  - repo: libhttp-request-ascgi-perl
+    group: deepin-sysdev-team
+    info: 'module to setup a CGI environment from a HTTP::Request'
+
+  - repo: libio-handle-util-perl
+    group: deepin-sysdev-team
+    info: 'module providing helper functions for IO::Handle'
+
+  - repo: liblog-dispatch-array-perl
+    group: deepin-sysdev-team
+    info: 'module to log events to an array (reference)'
+
+  - repo: libtest-tcp-perl
+    group: deepin-sysdev-team
+    info: 'module to test TCP/IP programs'
+
+  - repo: libplack-perl
+    group: deepin-sysdev-team
+    info: 'interface between web servers and Perl web applications'
+
+  - repo: spdx-licenses
+    group: deepin-sysdev-team
+    info: 'Collection of license data provided by SPDX Workgroup'
