@@ -108,7 +108,7 @@ jobs:
                   if c and c != '':
                       component = c
 
-            os.popen("osc rdelete deepin:Develop:%s/%s -m 'Remove by sig pr' " % (component, repo)).read()
+              os.popen("osc rdelete deepin:Develop:%s/%s -m 'Remove by sig pr' " % (component, repo)).read()
 
           def create_repo(repo):
               component = "community"
