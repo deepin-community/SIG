@@ -617,3 +617,7 @@ repos:
   - repo: spdx-licenses
     group: deepin-sysdev-team
     info: 'Collection of license data provided by SPDX Workgroup'
+
+  - repo: libposix-strftime-compiler-perl
+    group: deepin-sysdev-team
+    info: 'GNU C library compatible strftime for loggers and servers'
