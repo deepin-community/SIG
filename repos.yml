@@ -621,3 +621,11 @@ repos:
   - repo: libposix-strftime-compiler-perl
     group: deepin-sysdev-team
     info: 'GNU C library compatible strftime for loggers and servers'
+
+  - repo: gsettings-desktop-schemas #main
+    group: deepin-sysdev-team
+    info: 'GSettings desktop-wide schemas'
+
+  - repo: lsof #main
+    group: deepin-sysdev-team
+    info: 'utility to list open files'
