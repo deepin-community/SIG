@@ -2,6 +2,7 @@
 name: deepin-surface
 blog:
 rss:
+matrix: '#deepin-surface:mozilla.org'
 proposal:
   issue: 10
   by:
@@ -9,8 +10,19 @@ proposal:
     id: 13449038
 date-created: '2022/08/10'
 date-archived: '-'
-team:
+team: sig-deepin-surface
 repos:
   maintained:
+    - sig-deepin-surface
   package:
 members:
+  - handle: shiptux
+    id: 22735550
+  - handle: iamhyc
+    id: 9068301
+  - handle: xiekehui
+    id:
+  - handle: glory2012
+    id: 1654418
+  - handle: zccrs
+    id: 13449038
