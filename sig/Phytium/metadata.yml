@@ -1,0 +1,54 @@
+# handle 为对应帐号的 GitHub 用户 handle，
+# 例如用户的 GitHub 主页是 https://github.com/userhandle/，
+# 则其 handle 即为 userhandle 。
+# 访问 https://api.github.com/users/userhandle 即可得到
+# 对应的用户 id，若实在不清楚可暂不填写 id。
+# team 名称一般为 sig-小组id（小组 id 即文件夹名）
+# 提交前请删除这些注释
+---
+name: Phytium  
+blog: 
+rss: 
+matrix: 
+proposal:
+  by:
+    handle: JiakunShuai
+    id: 132661023
+date-created: '2023/05/05'
+date-archived: '-'
+team: Phytium
+repos:
+  maintained:
+    - sig-Phytium
+  package:
+members:
+  - handle: JiakunShuai
+    id: 132661023
+  - handle: TianKehan
+    id: 7457472
+  - handle: liqianljp
+    id: 21163752
+  - handle: gjioui
+    id: 22336369
+  - handle: tianwei08222
+    id: 34112311
+  - handle: ditvelo
+    id: 37957860
+  - handle: xuyan213
+    id: 44566043
+  - handle: ls1156563722
+    id: 50582326
+  - handle: MendezShuai
+    id: 62878031
+  - handle: one-pixel-2022
+    id: 100766608
+  - handle: csynew
+    id: 114204265
+  - handle: phytiumss
+    id: 114654801
+  - handle: Sheng0613
+    id: 115761125
+  - handle: TongWu233
+    id: 115778845
+  - handle: chenbaozi-ft
+    id: 118252763

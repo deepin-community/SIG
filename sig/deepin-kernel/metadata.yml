@@ -18,5 +18,7 @@ repos:
 members:
   - handle: huangbibo
     id: 88575167
-  - handle: deepin-community-bot
-    id: 111260340
+  - handle: imtangmeng
+    id: 92847452
+  - handle: matrix-wsk
+    id: 73223869

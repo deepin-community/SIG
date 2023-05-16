@@ -131,23 +131,23 @@ repos:
   - repo: .guide.deepin.org
     group: sig-deepin-doc-doc-go
     info: deepin系统的用户手册 https://guide.deepin.org
-    
+
   - repo: sbuild
     group: deepin-sysdev-team
     info: Tool for building Debian binary packages from Debian sources
-  
+
   - repo: flit
     group: deepin-sysdev-team
     info: simple way to put Python packages and modules on PyPI (PEP 517)
-    
+
   - repo: python-tomli
     group: deepin-sysdev-team
     info: "lil' TOML parser for Python"
-    
+
   - repo: python-tomli-w
     group: deepin-sysdev-team
     info: "lil' TOML writer for Python"
-    
+
   - repo: responses
     group: deepin-sysdev-team
     info: Utility library for mocking out the requests Python 3 library
@@ -159,7 +159,7 @@ repos:
   - repo: deepin-desktop-environment
     group: deepin-sysdev-team
     info: Deepin New Desktop Environment - Next
-  
+
   - repo: sshpass
     group: deepin-sysdev-team
     info: Non-interactive ssh password authentication
@@ -183,3 +183,449 @@ repos:
   - repo: radeontop
     group: deepin-sysdev-team
     info: Utility to show Radeon GPU utilization
+
+  - repo: gammaray
+    group: deepin-sysdev-team
+    info: Tool for examining the internals of Qt application
+
+  - repo: linux-deepin-hwe
+    group: deepin-sysdev-team
+    info: kernel virtual package
+
+  - repo: openjdk-8
+    group: deepin-sysdev-team
+    info: OpenJDK Development Kit (JDK)
+
+  - repo: nemo-qml-plugin-dbus
+    group: deepin-sysdev-team
+    info: Nemo QML Plugin D-Bus
+
+  - repo: jtreg6
+    group: deepin-sysdev-team
+    info: Regression Test Harness for the OpenJDK platform
+
+  - repo: nvidia-graphics-drivers
+    group: deepin-sysdev-team
+    info: Nvidia driver
+
+  - repo: seatd
+    group: deepin-sysdev-team
+    info: A minimal seat management daemon
+
+  - repo: wlroots
+    group: deepin-sysdev-team
+    info: A modular Wayland compositor library
+
+  - repo: sway
+    group: deepin-sysdev-team
+    info: i3-compatible Wayland compositor
+
+  - repo: swaybg
+    group: deepin-sysdev-team
+    info: Sway background daemon
+
+  - repo: swayidle
+    group: deepin-sysdev-team
+    info: Idle management daemon for Sway
+
+  - repo: waybar
+    group: deepin-sysdev-team
+    info: Highly customizable Wayland bar for Sway and Wlroots based compositors.
+
+  - repo: reprepro
+    group: deepin-sysdev-team
+    info: Debian package repository producer
+
+  - repo: ncdu
+    group: deepin-sysdev-team
+    info: Ncdu is a ncurses-based du viewer. It provides a fast and easy-to-use interface through famous du utility.
+
+  - repo: s-tui
+    group: deepin-sysdev-team
+    info: Terminal based CPU stress and monitoring tool
+
+  - repo: stress
+    group: deepin-sysdev-team
+    info: Stress test a computer system in various selectable ways
+
+  - repo: urwid
+    group: deepin-sysdev-team
+    info: Console user interface library for Python
+
+  - repo: debootstrap
+    group: deepin-sysdev-team
+    info: 自举建立一个基本 Debian 系统
+
+  - repo: mmdebstrap
+    group: deepin-sysdev-team
+    info: create a Debian chroot
+
+  - repo: catch
+    group: deepin-sysdev-team
+    info: C++ Automated Test Cases in Headers
+
+  - repo: luceneplusplus
+    group: deepin-sysdev-team
+    info: secure POP3/IMAP server - Lucene support
+
+  - repo: deepin-unstable-source
+    group: deepin-sysdev-team
+    info: v23 内测源
+
+  - repo: powertop
+    group: deepin-sysdev-team
+    info: PowerTOP is a Linux tool to diagnose issues with power consumption and power management
+
+  - repo: qdirstat
+    group: deepin-sysdev-team
+    info: Qt-based directory statistics
+
+  - repo: libunique
+    group: deepin-sysdev-team
+    info: Unique is a library for writing single instance application.
+
+  - repo: golang-github-mdlayher-netlink-dev
+    group: deepin-sysdev-team
+    info: This package provides low-level access to Linux netlink sockets (AF_NETLINK)
+
+  - repo: golang-github-mdlayher-socket
+    group: deepin-sysdev-team
+    info: low-level network socket for Go
+
+  - repo: golang-github-josharian-native
+    group: deepin-sysdev-team
+    info: native byte order for Go
+
+  - repo: gnome-common
+    group: deepin-sysdev-team
+    info: common scripts and macros to develop with GNOME
+
+  - repo: libkkc-data
+    group: deepin-sysdev-team
+    info: language model data for libkkc
+
+  - repo: kwayland
+    group: deepin-sysdev-team
+    info: KWayland provides a Qt-style Server library wrapper for the Wayland libraries
+    
+  - repo: db-defaults
+    group: deepin-sysdev-team
+    info: Berkeley Database Utilities
+    
+  - repo: golang-1.20
+    group: deepin-sysdev-team
+    info: Go programming language compiler - metapackage
+
+  - repo: blockdiag
+    group: deepin-sysdev-team
+    info: generate block-diagram image file from spec-text file
+
+  - repo: arch-install-scripts
+    group: deepin-sysdev-team
+    info: Scripts for installing Arch Linux
+
+  - repo: fonts-smiley-sans
+    group: deepin-sysdev-team
+    info: Smiley Sans is a Chinese sans serif font that seeks a balance between humanistic and geometric features
+
+  - repo: brise
+    group: deepin-sysdev-team
+    info: Rime Input Method Engine, the schema data RIME is the acronym of Rime Input Method Engine.
+
+  - repo: texlive-bin
+    group: deepin-sysdev-team
+    info: TeX Live binaries
+
+  - repo: debtree
+    group: deepin-sysdev-team
+    info: A tool to visualize the dependency tree of a Debian package
+
+  - repo: libdebian-copyright-perl
+    group: deepin-sysdev-team
+    info: Perl module to parse Debian copyright files
+
+  - repo: golang-golang-x-arch
+    group: deepin-sysdev-team
+    info: Library with machine architecture information
+    
+  - repo: golang-golang-x-vuln
+    group: deepin-sysdev-team
+    info: Go Vulnerability Management
+    
+  - repo: golang-golang-x-exp
+    group: deepin-sysdev-team
+    info: Go experimental and deprecated packages
+
+  - repo: edk2
+    group: deepin-sysdev-team
+    info: EDK II is a modern, feature-rich, cross-platform firmware development environment for the UEFI and UEFI Platform Initialization
+
+  - repo: distrobox
+    group: deepin-sysdev-team
+    info: Another tool for containerized command line environments on Linux
+
+  - repo: gtkmm4.0
+    group: deepin-sysdev-team
+    info: C++ wrappers for GTK4
+
+  - repo: obs-studio
+    maintainer: 8MiYile
+    info: 'OBS Studio - Free and open source software for live streaming and screen recording'
+
+  - repo: pristine-tar
+    group: deepin-cicd
+    info: 'regenerate pristine tarballs'
+
+  - repo: apt-file
+    group: deepin-sysdev-team
+    info: 'search for files in Debian packages'
+
+  - repo: xml-core
+    group: deepin-sysdev-team
+    info: 'XML infrastructure and XML catalog file support'
+
+  - repo: sgml-data
+    group: deepin-sysdev-team
+    info: 'SGML infrastructure and SGML catalog file support'
+
+  - repo: vulkan-tools
+    group: deepin-sysdev-team
+    info: 'Vulkan tools'
+
+  - repo: vulkan-validationlayers
+    group: deepin-sysdev-team
+    info: 'Vulkan validation layers'
+
+  - repo: corkscrew
+    group: deepin-sysdev-team
+    info: 'corkscrew is a simple tool for tunneling SSH through HTTP proxies'
+
+  - repo: fonts-cascadia-code
+    group: deepin-sysdev-team
+    info: Cascadia is a fun new coding font that comes bundled with Windows Terminal
+
+  - repo: gnome-pkg-tools
+    group: deepin-sysdev-team
+    info: 'GNOME package tools'
+
+  - repo: vte
+    group: deepin-sysdev-team
+    info: 'Terminal emulator widget for GTK+ 2.0'
+
+  - repo: pango1.0
+    group: deepin-sysdev-team
+    info: 'Layout and rendering of internationalized text'
+
+  - repo: gdk-pixbuf
+    group: deepin-sysdev-team
+    info: 'Image loading and manipulation library'
+
+  - repo: imwheel
+    group: deepin-sysdev-team
+    info: 'A program to configure the mouse wheel to send keypresses'
+
+  - repo: librist
+    group: deepin-sysdev-team
+    info: 'RIST is a protocol for low-latency, high-quality, and secure streaming of audio and video'
+
+  - repo: gtk-layer-shell
+    group: deepin-sysdev-team
+    info: 'GTK library for layer-shell protocol'
+
+  - repo: fdk-aac
+    group: deepin-sysdev-team
+    info: 'Fraunhofer FDK AAC Codec Library - frontend binary'
+
+  - repo: el-api
+    group: deepin-sysdev-team
+    info: EL is a simple language designed to meet the needs of the presentation layer in Java web applications.      
+
+  - repo: webkit2gtk
+    group: deepin-sysdev-team
+    info: Web content engine library for GTK.     
+
+  - repo: libmpack
+    group: deepin-sysdev-team
+    info: 'MessagePack for C'
+
+  - repo: libmpack-lua
+    group: deepin-sysdev-team
+    info: 'MessagePack for Lua'
+
+  - repo: maven-debian-helper
+    group: deepin-sysdev-team
+    info: maven-debian-helper is a set of tools used to generate Debian packages from Maven projects and build them in a manner that complies with the Debian policies.
+
+  - repo: mathjax
+    group: deepin-sysdev-team
+    info: MathJax was designed with the goal of consolidating the recent advances in web
+    technologies into a single, definitive, math-on-the-web platform supporting
+    the major browsers and operating systems.
+
+  - repo: lua-lpeg
+    group: deepin-sysdev-team
+    info: 'LPeg is a pattern-matching library for Lua, based on Parsing Expression Grammars (PEGs)'
+
+  - repo: libmoose-perl
+    group: deepin-sysdev-team
+    info: 'It provides a modern, object-oriented methodology for object construction and class writing'
+
+  - repo: libmodule-runtime-perl
+    group: deepin-sysdev-team
+    info: 'Perl module for runtime module handling'
+
+  - repo: libmodule-implementation-perl
+    group: deepin-sysdev-team
+    info: 'module for loading one of several alternate implementations of a module'
+
+  - repo: libnamespace-autoclean-perl
+    group: deepin-sysdev-team
+    info: 'module to remove imported symbols after compilation'
+
+  - repo: libmro-compat-perl
+    group: deepin-sysdev-team
+    info: 'method resolution order and method caching in general'
+
+  - repo: libmodule-refresh-perl
+    group: deepin-sysdev-team
+    info: 'tool to refresh %INC files when updated on disk'
+
+  - repo: libmodule-install-perl
+    group: deepin-sysdev-team
+    info: 'framework for installing Perl modules'
+
+  - repo: libmodule-install-authortests-perl
+    group: deepin-sysdev-team
+    info: 'designate tests only run by module authors'
+
+  - repo: libmodule-install-extratests-perl
+    group: deepin-sysdev-team
+    info: 'contextual tests that the harness can ignore'
+
+  - repo: libmodule-pluggable-perl
+    group: deepin-sysdev-team
+    info: 'module for giving modules the ability to have plugins'
+
+  - repo: libmodule-runtime-conflicts-perl
+    group: deepin-sysdev-team
+    info: 'module to provide information on conflicts for Module::Runtime'
+  
+  - repo: autodep8
+    group: deepin-sysdev-team
+    info: 'DEP-8 test control file generator'
+
+  - repo: libmoo-perl
+    group: deepin-sysdev-team
+    info: 'Minimalist Object Orientation library (with Moose compatibility)'
+
+  - repo: libcrypt-passwdmd5-perl
+    group: deepin-sysdev-team
+    info: 'interoperable MD5-based crypt() for Perl'
+
+  - repo: libwww-form-urlencoded-xs-perl
+    group: deepin-sysdev-team
+    info: 'XS implementation of application/x-www-form-urlencoded parser/builder'
+
+  - repo: libauthen-simple-perl
+    group: deepin-sysdev-team
+    info: 'simple and consistent perl framework for authentication'
+
+  - repo: libtest-time-perl
+    group: deepin-sysdev-team
+    info: 'module to override the time() and sleep() functions for testing'
+
+  - repo: libhash-multivalue-perl
+    group: deepin-sysdev-team
+    info: 'module for storing multiple values per key in a hash'
+
+  - repo: libhttp-multipartparser-perl
+    group: deepin-sysdev-team
+    info: 'HTTP multipart MIME parser'
+
+  - repo: libasa-perl
+    group: deepin-sysdev-team
+    info: 'Perl module for expanding a class or object's list of base classes'
+
+  - repo: libstream-buffered-perl
+    group: deepin-sysdev-team
+    info: 'temporary buffer to store strings in a seekable filehandle'
+
+  - repo: libwww-form-urlencoded-perl
+    group: deepin-sysdev-team
+    info: 'parser and builder for application/x-www-form-urlencoded format'
+
+  - repo: libapache-logformat-compiler-perl
+    group: deepin-sysdev-team
+    info: 'Perl module to pre-compile a LogFormat string'
+
+  - repo: libauthen-simple-passwd-perl
+    group: deepin-sysdev-team
+    info: 'Simple Passwd authentication'
+
+  - repo: libcgi-compile-perl
+    group: deepin-sysdev-team
+    info: 'module for compiling .cgi scripts to a code reference'
+
+  - repo: libcgi-emulate-psgi-perl
+    group: deepin-sysdev-team
+    info: 'PSGI adapter for CGI'
+
+  - repo: libcookie-baker-perl
+    group: deepin-sysdev-team
+    info: 'simple cookie string generator and parser'
+
+  - repo: libdevel-stacktrace-ashtml-perl
+    group: deepin-sysdev-team
+    info: 'module to display a stack trace in HTML'
+
+  - repo: libfcgi-procmanager-perl
+    group: deepin-sysdev-team
+    info: 'Perl module to help manage FastCGI applications'
+
+  - repo: libfilesys-notify-simple-perl
+    group: deepin-sysdev-team
+    info: 'simple file system monitor'
+
+  - repo: libhttp-entity-parser-perl
+    group: deepin-sysdev-team
+    info: 'PSGI compliant HTTP Entity Parser'
+
+  - repo: libhttp-headers-fast-perl
+    group: deepin-sysdev-team
+    info: 'faster implementation of HTTP::Headers'
+
+  - repo: libhttp-request-ascgi-perl
+    group: deepin-sysdev-team
+    info: 'module to setup a CGI environment from a HTTP::Request'
+
+  - repo: libio-handle-util-perl
+    group: deepin-sysdev-team
+    info: 'module providing helper functions for IO::Handle'
+
+  - repo: liblog-dispatch-array-perl
+    group: deepin-sysdev-team
+    info: 'module to log events to an array (reference)'
+
+  - repo: libtest-tcp-perl
+    group: deepin-sysdev-team
+    info: 'module to test TCP/IP programs'
+
+  - repo: libplack-perl
+    group: deepin-sysdev-team
+    info: 'interface between web servers and Perl web applications'
+
+  - repo: spdx-licenses
+    group: deepin-sysdev-team
+    info: 'Collection of license data provided by SPDX Workgroup'
+
+  - repo: libposix-strftime-compiler-perl
+    group: deepin-sysdev-team
+    info: 'GNU C library compatible strftime for loggers and servers'
+
+  - repo: gsettings-desktop-schemas #main
+    group: deepin-sysdev-team
+    info: 'GSettings desktop-wide schemas'
+
+  - repo: lsof #main
+    group: deepin-sysdev-team
+    info: 'utility to list open files'

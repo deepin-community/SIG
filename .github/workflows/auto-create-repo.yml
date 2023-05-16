@@ -50,7 +50,7 @@ jobs:
           sudo apt install osc
           mkdir ~/.config/osc
           echo "${{ secrets.OSCRC }}" > ~/.config/osc/oscrc
-          osc co deepin:Develop:community template-repository
+          #osc co deepin:Develop:community template-repository
 
       - name: create_repo
         id: create_repo
@@ -85,11 +85,14 @@ jobs:
               f = open("diff","w")
               f.write(data)
               f.close()
-              reponame = os.popen("cat diff | grep '+  - repo:'| awk '{print $4}' ").read()
+              reponame = os.popen("cat diff | (grep '+  - repo:'||true) |awk '{print $4 $5}' ").read()
               data1 = str(reponame)
               data1 = data1.split('\n')
               print(data1)
-              return data1
+              delrepos = os.popen("cat diff | (grep '\-  - repo:'||true) |awk '{print $4 $5}' ").read()
+              data2 = str(delrepos)
+              data2 = data2.split('\n')
+              return data1, data2
                   
           def check_repo(repo):
               res = requests.get("https://api.github.com/repos/deepin-community/{repo}".format(repo=repo))
@@ -97,13 +100,33 @@ jobs:
               if res.status_code == 200:
                   return repo
 
+          def del_obs_package(repo):
+              # delete obs package
+              component = "community"
+              if '#' in repo:
+                  repo, c = repo.split('#', 1)
+                  if c and c != '':
+                      component = c
+
+              os.popen("osc rdelete deepin:Develop:%s/%s -m 'Remove by sig pr' " % (component, repo)).read()
+
           def create_repo(repo):
+              component = "community"
+              if '#' in repo:
+                  repo, c = repo.split('#', 1)
+                  if c and c != '':
+                      component = c
+
               data_repo = {
                       'owner':'deepin-community',
                       'name': repo
                       }
+
+              if component != "community":
+                  create_repo_url = create_repo_url + "-main"
               res = requests.post(create_repo_url, json = data_repo, headers = header) 
               print("create_repo ",res.text)
+              os.popen("osc co deepin:Develop:%s template-repository" % component)
               os.popen("osc mkpac " + repo).read()
               os.popen("cp template-repository/_service " + repo).read()
               os.popen("sed -i 's|template-repository|" + repo + "|g' " + repo + "/_service").read()
@@ -111,13 +134,18 @@ jobs:
               os.popen('''osc ci -m "init"''').read()
 
           try:
-              data = get_pr_diff()
+              data, dels = get_pr_diff()
               os.chdir("deepin:Develop:community")
               for repo in data:
                 if repo != '':
                     print(repo)
                     if check_repo(repo) == None:
                         create_repo(repo)
+              for repo in dels:
+                if repo != '':
+                    print(repo)
+                    del_obs_package(repo)
+
           except BaseException as e:
               logging.error(e)
               exit(-10)
