@@ -2,9 +2,9 @@
 
 ## 小组简介
 
-负责Deepin Arm工具链的维护
-负责Deepin仓库Arm开源软件包的维护，进行软件包构建、系统构建、Bug修复等工作。
-负责Deepin Arm PC镜像制作
+负责 deepin Arm 工具链的维护
+负责 deepin 仓库 Arm 开源软件包的维护，进行软件包构建、系统构建、Bug 修复等工作。
+负责 deepin Arm PC 镜像制作
 
 ## 活动范围与目标
 
