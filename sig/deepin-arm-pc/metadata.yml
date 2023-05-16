@@ -12,6 +12,7 @@ date-archived: '-'
 team: deepin-arm-pc
 repos:
   maintained:
+    - sig-deepin-arm-pc
   package:
 members:
   - handle: glory-cix
