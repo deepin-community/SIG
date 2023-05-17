@@ -58,6 +58,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ steps.get-token.outputs.app_token }}
           CHANGE_ID: ${{ github.event.pull_request.number }}
+          ORG: ${{ github.repository_owner }}
         run: |
           import requests
           import yaml
@@ -71,8 +72,7 @@ jobs:
           header1 = {
               "Accept": "application/vnd.github.v3.diff"
           }
-          create_repo_url = 'https://api.github.com/repos/deepin-community/template-repository/generate'
-
+          create_repo_url = "https://api.github.com/repos/" + os.environ.get("ORG") + "/template-repository/generate"
 
           def set_output(name, value):
               output_file = os.environ.get("GITHUB_OUTPUT")
@@ -80,7 +80,7 @@ jobs:
                   output.write(name + "=" + value + "\n")
                   
           def get_pr_diff():
-              res = requests.get("https://api.github.com/repos/deepin-community/SIG/pulls/" + os.environ.get("CHANGE_ID") ,headers = header1)
+              res = requests.get("https://api.github.com/repos/" + os.environ.get("ORG") + "/SIG/pulls/" + os.environ.get("CHANGE_ID") ,headers = header1)
               data = res.text
               f = open("diff","w")
               f.write(data)
@@ -95,7 +95,11 @@ jobs:
               return data1, data2
                   
           def check_repo(repo):
-              res = requests.get("https://api.github.com/repos/deepin-community/{repo}".format(repo=repo))
+              org = os.environ.get("ORG")
+              if '#' in repo:
+                  repo, c = repo.split('#', 1)
+
+              res = requests.get("https://api.github.com/repos/" + org + "/" + repo)
               print("check_repo ",res.text)
               if res.status_code == 200:
                   return repo
@@ -110,23 +114,15 @@ jobs:
 
               os.popen("osc rdelete deepin:Develop:%s/%s -m 'Remove by sig pr' " % (component, repo)).read()
 
-          def create_repo(repo):
+          def create_obs_package(repo):
+              print("create_repo: " + repo)
+              org = os.environ.get("ORG")
               component = "community"
               if '#' in repo:
                   repo, c = repo.split('#', 1)
                   if c and c != '':
                       component = c
 
-              data_repo = {
-                      'owner':'deepin-community',
-                      'name': repo
-                      }
-
-              url = create_repo_url
-              if component != "community":
-                  url = create_repo_url + "-main"
-              res = requests.post(url, json = data_repo, headers = header)
-              print("create_repo response: " + res.text)
               os.popen("if [ ! -d deepin:Develop:%s ];then osc co deepin:Develop:%s template-repository;fi" % (component, component)).read()
               os.chdir("deepin:Develop:%s" % component)
               os.popen("osc mkpac " + repo).read()
@@ -134,7 +130,28 @@ jobs:
               os.popen("sed -i 's|template-repository|" + repo + "|g' " + repo + "/_service").read()
               os.popen("osc add " + repo + "/_service").read()
               os.popen('''osc ci -m "init"''').read()
-              os.chdir("../../../")
+              os.chdir("../")
+
+          def create_repo(repo):
+              print("create_repo: " + repo)
+              org = os.environ.get("ORG")
+              component = "community"
+              if '#' in repo:
+                  repo, c = repo.split('#', 1)
+                  if c and c != '':
+                      component = c
+
+              data_repo = {
+                      'owner': org,
+                      'name': repo
+                      }
+
+              url = create_repo_url
+              if component != "community":
+                  url = "https://api.github.com/repos/" + org + "/template-repository-main/generate"
+              res = requests.post(url, json = data_repo, headers = header)
+              print("create_repo response: " + res.text)
+              print("create_repo url: " + url)
           try:
               data, dels = get_pr_diff()
               #os.chdir("deepin:Develop:community")
@@ -143,6 +160,7 @@ jobs:
                     print(repo)
                     if check_repo(repo) == None:
                         create_repo(repo)
+                create_obs_package(repo)
               for repo in dels:
                 if repo != '':
                     print(repo)
