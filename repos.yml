@@ -629,11 +629,3 @@ repos:
   - repo: lsof #main
     group: deepin-sysdev-team
     info: 'utility to list open files'
-
-  - repo: iptsd
-    group: deepin-surface
-    info: 'Userspace daemon for Intel Precise Touch & Stylus'
-
-  - repo: libwacom-surface
-    group: deepin-surface
-    info: 'Patches to support Microsoft Surface Devices with libwacom'
