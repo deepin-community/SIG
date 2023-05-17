@@ -6,7 +6,7 @@ on:
       - "repos.yml"
 
 env:
-  APP_ID: 229710
+  APP_ID: ${{ secrets.APP_ID }}
   APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
 
 jobs:
@@ -122,20 +122,22 @@ jobs:
                       'name': repo
                       }
 
+              url = create_repo_url
               if component != "community":
-                  create_repo_url = create_repo_url + "-main"
-              res = requests.post(create_repo_url, json = data_repo, headers = header) 
-              print("create_repo ",res.text)
-              os.popen("osc co deepin:Develop:%s template-repository" % component)
+                  url = create_repo_url + "-main"
+              res = requests.post(url, json = data_repo, headers = header)
+              print("create_repo response: " + res.text)
+              os.popen("if [ ! -d deepin:Develop:%s ];then osc co deepin:Develop:%s template-repository;fi" % (component, component)).read()
+              os.chdir("deepin:Develop:%s" % component)
               os.popen("osc mkpac " + repo).read()
               os.popen("cp template-repository/_service " + repo).read()
               os.popen("sed -i 's|template-repository|" + repo + "|g' " + repo + "/_service").read()
               os.popen("osc add " + repo + "/_service").read()
               os.popen('''osc ci -m "init"''').read()
-
+              os.chdir("../../../")
           try:
               data, dels = get_pr_diff()
-              os.chdir("deepin:Develop:community")
+              #os.chdir("deepin:Develop:community")
               for repo in data:
                 if repo != '':
                     print(repo)
