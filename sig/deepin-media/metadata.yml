@@ -51,7 +51,9 @@ repos:
     - qtmpris
     - smplayer
     - guvcview
-    - hwinfo    
+    - hwinfo
+    - x264
+    - x265
 members:
   - handle: wyu71
     id: 97944796
