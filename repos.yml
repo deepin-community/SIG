@@ -637,3 +637,7 @@ repos:
   - repo: libwacom-surface #community
     group: deepin-surface
     info: 'Patches to support Microsoft Surface Devices with libwacom'
+
+  - repo: hotspot
+    group: dde
+    info: 'GUI tool for performance analysis'
