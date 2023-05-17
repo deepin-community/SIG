@@ -630,10 +630,10 @@ repos:
     group: deepin-sysdev-team
     info: 'utility to list open files'
 
-  - repo: iptsd
+  - repo: iptsd #community
     group: deepin-surface
     info: 'Userspace daemon for Intel Precise Touch & Stylus'
 
-  - repo: libwacom-surface
+  - repo: libwacom-surface #community
     group: deepin-surface
     info: 'Patches to support Microsoft Surface Devices with libwacom'
