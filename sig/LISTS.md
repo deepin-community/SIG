@@ -5,7 +5,7 @@
 | 3 | [spark-store-deepin](spark-store-deepin/README.md) | - | [成员](spark-store-deepin/MEMBERS.md) | - |[shenmo7192](https://github.com/shenmo7192)|2022/08/01| - |
 | 4 | [deepin-m1](deepin-m1/README.md) |[博客](https://deepin-community.github.io/sig-deepin-m1/)| [成员](deepin-m1/MEMBERS.md) | - |[justforlxz](https://github.com/justforlxz)|2022/08/02| - |
 | 5 | [deepin-wiki](deepin-wiki/README.md) | - | [成员](deepin-wiki/MEMBERS.md) | - |[janeaaaa](https://github.com/janeaaaa)|2022/08/10| - |
-| 6 | [deepin-surface](deepin-surface/README.md) | - | [成员](deepin-surface/MEMBERS.md) | - |[zccrs](https://github.com/zccrs)|2022/08/10| - |
+| 6 | [deepin-surface](deepin-surface/README.md) | - | [成员](deepin-surface/MEMBERS.md) |[#deepin-surface:mozilla.org](https://matrix.to/#/#deepin-surface:mozilla.org)|[zccrs](https://github.com/zccrs)|2022/08/10| - |
 | 7 | [dde-porting](dde-porting/README.md) |[博客](https://deepin-community.github.io/sig-dde-porting/)| [成员](dde-porting/MEMBERS.md) |[#dde-port:deepin.org](https://matrix.to/#/#dde-port:deepin.org)|[wineee](https://github.com/wineee)|2022/08/15| - |
 | 8 | [deepin-qt](deepin-qt/README.md) | - | [成员](deepin-qt/MEMBERS.md) |[#_oftc_#deepin-qt:matrix.org](https://matrix.to/#/#_oftc_#deepin-qt:matrix.org)|[NSUTanghaixiang](https://github.com/NSUTanghaixiang)|2022/08/15| - |
 | 9 | [deepin-media](deepin-media/README.md) | - | [成员](deepin-media/MEMBERS.md) | - |[lzwind](https://github.com/lzwind)|2022/08/17| - |
