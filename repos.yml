@@ -1,4 +1,8 @@
 repos:
+  - repo: aapt
+    group: spark-store-deepin
+    info: The Android Asset Packaging Tool (aapt) takes your application resource files, such as the AndroidManifest.xml file and the XML files for your Activities, and compiles them. An R.java is also produced so you can reference your resources from your Java code. This tool allows you to view, create, and update Zip-compatible archives (zip, jar, apk). It can also compile resources into binary assets.
+
   - repo: zssh
     group: deepin-pkg
     info: Zmodem SSH
