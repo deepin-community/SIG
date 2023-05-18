@@ -50,7 +50,6 @@ jobs:
           sudo apt install osc
           mkdir ~/.config/osc
           echo "${{ secrets.OSCRC }}" > ~/.config/osc/oscrc
-          #osc co deepin:Develop:community template-repository
 
       - name: create_repo
         id: create_repo
@@ -113,6 +112,7 @@ jobs:
                       component = c
 
               os.popen("osc rdelete deepin:Develop:%s/%s -m 'Remove by sig pr' " % (component, repo)).read()
+              os.popen("osc rdelete deepin:Unstable:%s/%s -m 'Remove by sig pr' " % (component, repo)).read()
 
           def create_obs_package(repo):
               print("create_repo: " + repo)
@@ -125,6 +125,14 @@ jobs:
 
               os.popen("if [ ! -d deepin:Develop:%s ];then osc co deepin:Develop:%s template-repository;fi" % (component, component)).read()
               os.chdir("deepin:Develop:%s" % component)
+              os.popen("osc mkpac " + repo).read()
+              os.popen("cp template-repository/_service " + repo).read()
+              os.popen("sed -i 's|template-repository|" + repo + "|g' " + repo + "/_service").read()
+              os.popen("osc add " + repo + "/_service").read()
+              os.popen('''osc ci -m "init"''').read()
+              os.chdir("../")
+              os.popen("if [ ! -d deepin:Unstable:%s ];then osc co deepin:Unstable:%s template-repository;fi" % (component, component)).read()
+              os.chdir("deepin:Unstable:%s" % component)
               os.popen("osc mkpac " + repo).read()
               os.popen("cp template-repository/_service " + repo).read()
               os.popen("sed -i 's|template-repository|" + repo + "|g' " + repo + "/_service").read()
@@ -154,17 +162,16 @@ jobs:
               print("create_repo url: " + url)
           try:
               data, dels = get_pr_diff()
-              #os.chdir("deepin:Develop:community")
+              for repo in dels:
+                if repo != '':
+                    print(repo)
+                    del_obs_package(repo)
               for repo in data:
                 if repo != '':
                     print(repo)
                     if check_repo(repo) == None:
                         create_repo(repo)
-                create_obs_package(repo)
-              for repo in dels:
-                if repo != '':
-                    print(repo)
-                    del_obs_package(repo)
+                    create_obs_package(repo)
 
           except BaseException as e:
               logging.error(e)
