@@ -1,7 +1,7 @@
 repos:
   - repo: android-platform-frameworks-base
     group: spark-store-deepin
-    info: The Android Asset Packaging Tool (aapt) takes your application resource files, such as the AndroidManifest.xml file and the XML files for your Activities, and compiles them. An R.java is also produced so you can reference your resources from your Java code. This tool allows you to view, create, and update Zip-compatible archives (zip, jar, apk). It can also compile resources into binary assets.
+    info: The Android source repositories are quite chaotic.  They often include a mix of things under arbitrary umbrellas.  For example, there are parts of this particular repository that will only ever be built when building the complete Android OS (aka "target"), other parts that are only built as part of the SDK to support building Android apps (aka "host"), and other parts that are used both in the SDK and the Android OS. Most of the source code in this particular repostory will never be built or included on Debian because it is only used in the Android OS.
 
   - repo: zssh
     group: deepin-pkg
