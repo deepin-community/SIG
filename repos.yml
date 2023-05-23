@@ -637,3 +637,7 @@ repos:
   - repo: libwacom-surface #community
     group: deepin-surface
     info: 'Patches to support Microsoft Surface Devices with libwacom'
+    
+  - repo: grub-efi-arm64-signed #main
+    group: deepin-sysdev-team
+    info: 'GRand Unified Bootloader, version 2 (arm64 UEFI signed by deepin)'    
