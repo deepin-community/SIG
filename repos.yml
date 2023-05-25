@@ -658,6 +658,6 @@ repos:
     group: deepin-sysdev-team
     info: 'GRand Unified Bootloader, version 2 (arm64 UEFI signed by deepin)'
  
-  - repo: shim-signed
+  - repo: shim-signed #main
     group: deepin-sysdev-team
     info: 'deepin uefi shim'
