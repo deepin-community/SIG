@@ -665,3 +665,7 @@ repos:
   - repo: chromium #community
     group: deepin-sysdev-team
     info: 'chromium 网页浏览器'
+    
+  - repo: generate-ninja #community
+    group: deepin-sysdev-team
+    info: 'meta-build system for ninja'    
