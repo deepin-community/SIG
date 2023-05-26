@@ -661,3 +661,7 @@ repos:
   - repo: shim-signed #main
     group: deepin-sysdev-team
     info: 'deepin uefi shim'
+
+  - repo: chromium #community
+    group: deepin-sysdev-team
+    info: 'chromium 网页浏览器'
