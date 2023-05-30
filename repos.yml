@@ -668,4 +668,9 @@ repos:
     
   - repo: generate-ninja #community
     group: deepin-sysdev-team
-    info: 'meta-build system for ninja'    
+    info: 'meta-build system for ninja'
+
+  - repo: nexttrace
+    group: deepin-sysdev-team
+    info: An open source visual routing tool that pursues light weight, developed using Golang.
+    
