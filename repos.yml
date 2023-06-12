@@ -697,3 +697,15 @@ repos:
   - repo: janest-ocaml-compiler-libs #main
     group: deepin-sysdev-team
     info: OCaml compiler libraries repackaged
+
+  - repo: ocaml-findlib #main
+    group: deepin-sysdev-team
+    info: management tool for OCaml libraries
+
+  - repo: ocaml-qtest #main
+    group: deepin-sysdev-team
+    info: Inline (Unit) Tests for OCaml (Executable)
+    
+  - repo: ocaml-qcheck #main
+    group: deepin-sysdev-team
+    info: QuickCheck inspired property-based testing for OCaml (Development package)   
