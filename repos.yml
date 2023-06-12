@@ -717,3 +717,11 @@ repos:
   - repo: ocaml-alcotest #main
     group: deepin-sysdev-team
     info: lightweight and colourful test framework for OCaml
+
+  - repo: ocaml-fmt #main
+    group: deepin-sysdev-team
+    info: OCaml Format pretty-printer combinators (development)
+    
+  - repo: cmdliner  #main
+    group: deepin-sysdev-team
+    info: declarative definition of command line interfaces 
