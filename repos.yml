@@ -685,3 +685,7 @@ repos:
   - repo: ocaml-sedlex #main
     group: deepin-sysdev-team
     info: Unicode-friendly lexer generator for OCaml
+
+  - repo: ppxlib #main
+    group: deepin-sysdev-team
+    info: meta-programming for OCaml
