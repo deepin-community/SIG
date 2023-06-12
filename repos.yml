@@ -709,3 +709,7 @@ repos:
   - repo: ocaml-qcheck #main
     group: deepin-sysdev-team
     info: QuickCheck inspired property-based testing for OCaml (Development package)   
+    
+  - repo: ocaml-gen #main
+    group: deepin-sysdev-team
+    info: Iterators for OCaml, both restartable and consumable 
