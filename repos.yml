@@ -689,3 +689,11 @@ repos:
   - repo: ppxlib #main
     group: deepin-sysdev-team
     info: meta-programming for OCaml
+ 
+  - repo: ocaml-sexplib0 #main
+    group: deepin-sysdev-team
+    info: S-expression library (development)
+
+  - repo: janest-ocaml-compiler-libs #main
+    group: deepin-sysdev-team
+    info: OCaml compiler libraries repackaged
