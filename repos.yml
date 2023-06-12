@@ -713,3 +713,7 @@ repos:
   - repo: ocaml-gen #main
     group: deepin-sysdev-team
     info: Iterators for OCaml, both restartable and consumable 
+    
+  - repo: ocaml-alcotest #main
+    group: deepin-sysdev-team
+    info: lightweight and colourful test framework for OCaml
