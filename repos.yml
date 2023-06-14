@@ -725,3 +725,39 @@ repos:
   - repo: cmdliner  #main
     group: deepin-sysdev-team
     info: declarative definition of command line interfaces 
+
+  - repo: ruby-rbnacl
+    group: deepin-sysdev-team
+    info: 'Ruby binding to the Networking and Cryptography (NaCl) library'
+
+  - repo: ruby-little-plugger
+    group: deepin-sysdev-team
+    info: 'module that provides Gem based plugin management'
+
+  - repo: ruby-jwt
+    group: deepin-sysdev-team
+    info: 'JSON Web Token implementation in Ruby'
+
+  - repo: ruby-logging
+    group: deepin-sysdev-team
+    info: 'flexible and extendable logging library for Ruby'
+
+  - repo: ruby-os
+    group: deepin-sysdev-team
+    info: 'Simple and easy way to know if you're on windows or not (reliably)'
+
+  - repo: ruby-signet
+    group: deepin-sysdev-team
+    info: 'Signet is an OAuth 1.0 / OAuth 2.0 implementation'
+
+  - repo: ruby-fakeredis
+    group: deepin-sysdev-team
+    info: 'In-memory driver for redis-rb, useful for development and test environments'
+
+  - repo: ruby-googleauth
+    group: deepin-sysdev-team
+    info: 'Google Auth Library for Ruby'
+
+  - repo: grpc
+    group: deepin-sysdev-team
+    info: 'high performance general RPC framework (development)'
