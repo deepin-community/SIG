@@ -761,3 +761,7 @@ repos:
   - repo: grpc
     group: deepin-sysdev-team
     info: 'high performance general RPC framework (development)'
+
+  - repo: ruby-memoist #main
+    group: deepin-sysdev-team
+    info: 'Ruby library providing method memoization'
