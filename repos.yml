@@ -765,3 +765,7 @@ repos:
   - repo: ruby-memoist #main
     group: deepin-sysdev-team
     info: 'Ruby library providing method memoization'
+
+  - repo: libnet-ssleay-perl #main
+    group: deepin-sysdev-team
+    info: 'Perl module for Secure Sockets Layer (SSL)'
