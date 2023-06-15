@@ -769,3 +769,11 @@ repos:
   - repo: libnet-ssleay-perl #main
     group: deepin-sysdev-team
     info: 'Perl module for Secure Sockets Layer (SSL)'
+ 
+  - repo: libappimage #main
+    group: deepin-sysdev-team
+    info: 'implements functionality for dealing with AppImage files. '
+
+  - repo: xdg-utils-cxx #main
+    group: deepin-sysdev-team
+    info: 'Implementation of the Free Desktop Standards in C++'
