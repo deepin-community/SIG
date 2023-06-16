@@ -777,11 +777,3 @@ repos:
   - repo: xdg-utils-cxx #main
     group: deepin-sysdev-team
     info: 'Implementation of the Free Desktop Standards in C++'
-
-  - repo: redis-server #main
-    group: deepin-sysdev-team
-    info: 'Persistent key-value database with network interface'
-
-  - repo: redis-tools #main
-    group: deepin-sysdev-team
-    info: 'Persistent key-value database with network interface (client)'
