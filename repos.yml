@@ -657,7 +657,7 @@ repos:
   - repo: grub-efi-arm64-signed
     group: deepin-sysdev-team
     info: 'GRand Unified Bootloader, version 2 (arm64 UEFI signed by deepin)'
- 
+
   - repo: shim-signed #main
     group: deepin-sysdev-team
     info: 'deepin uefi shim'
@@ -689,7 +689,7 @@ repos:
   - repo: ppxlib #main
     group: deepin-sysdev-team
     info: meta-programming for OCaml
- 
+
   - repo: ocaml-sexplib0 #main
     group: deepin-sysdev-team
     info: S-expression library (development)
@@ -769,7 +769,7 @@ repos:
   - repo: libnet-ssleay-perl #main
     group: deepin-sysdev-team
     info: 'Perl module for Secure Sockets Layer (SSL)'
- 
+
   - repo: libappimage #main
     group: deepin-sysdev-team
     info: 'implements functionality for dealing with AppImage files. '
@@ -777,3 +777,7 @@ repos:
   - repo: xdg-utils-cxx #main
     group: deepin-sysdev-team
     info: 'Implementation of the Free Desktop Standards in C++'
+
+  - repo: golang-github-adrg-xdg
+    group: deepin-sysdev-team
+    info: 'This package contains a Go implementation of the XDG Base Directory Specification and XDG user directories. '
