@@ -781,3 +781,11 @@ repos:
   - repo: golang-github-adrg-xdg
     group: deepin-sysdev-team
     info: 'This package contains a Go implementation of the XDG Base Directory Specification and XDG user directories. '
+    
+  - repo: intel-gpu-tools  
+    group: deepin-sysdev-team
+    info: tools for debugging the Intel graphics driver  
+
+  - repo: axel 
+    group: deepin-sysdev-team
+    info: light command line download accelerator 
