@@ -793,3 +793,7 @@ repos:
   - repo: radeontop 
     group: deepin-sysdev-team
     info: Utility to show Radeon GPU utilization
+ 
+  - repo: procps 
+    group: deepin-sysdev-team
+    info: proc 文件系统工具
