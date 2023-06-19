@@ -789,3 +789,7 @@ repos:
   - repo: axel 
     group: deepin-sysdev-team
     info: light command line download accelerator 
+    
+  - repo: radeontop 
+    group: deepin-sysdev-team
+    info: Utility to show Radeon GPU utilization
