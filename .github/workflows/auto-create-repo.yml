@@ -47,7 +47,7 @@ jobs:
             core.setOutput('app_token', token)
       - name: init osc
         run: |
-          sudo apt install osc
+          sudo apt-get update && sudo apt-get install osc
           mkdir ~/.config/osc
           echo "${{ secrets.OSCRC }}" > ~/.config/osc/oscrc
           #osc co deepin:Develop:community template-repository
