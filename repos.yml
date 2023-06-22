@@ -801,3 +801,8 @@ repos:
   - repo: yyjson 
     group: deepin-sysdev-team
     info: 一个超快的 JSON 库
+
+  - repo: thefuck 
+    group: Avenger_285714
+    info: spelling corrector of console commands
+
