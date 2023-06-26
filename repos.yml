@@ -806,6 +806,3 @@ repos:
     group: Avenger_285714
     info: spelling corrector of console commands
 
-  - repo: lua-cjson #main
-    group: deepin-sysdev-team
-    info: 'JSON parser/encoder for Lua, development files'
