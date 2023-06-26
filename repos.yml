@@ -809,3 +809,7 @@ repos:
   - repo: lua-cjson #main
     group: deepin-sysdev-team
     info: 'JSON parser/encoder for Lua, development files'
+
+  - repo: r-cran-brew #mian
+    group: deepin-sysdev-team
+    info: GNU R templating framework for report generation
