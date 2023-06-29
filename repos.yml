@@ -813,3 +813,7 @@ repos:
   - repo: r-cran-brew #mian
     group: deepin-sysdev-team
     info: GNU R templating framework for report generation
+
+  - repo: neofetch
+    group: deepin-sysdev-team
+    info: 流行软件包移植
