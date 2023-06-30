@@ -36,4 +36,3 @@
 | 34 | [openEuler](openEuler/README.md) | - | [成员](openEuler/MEMBERS.md) | - |[lvcongqing](https://github.com/lvcongqing)|2023/04/18| - |
 | 35 | [Phytium](Phytium/README.md) | - | [成员](Phytium/MEMBERS.md) | - |[JiakunShuai](https://github.com/JiakunShuai)|2023/05/05| - |
 | 36 | [deepin-AI](deepin-AI/README.md) | - | [成员](deepin-AI/MEMBERS.md) |[#deepin-AI:matrix.org](https://matrix.to/#/#deepin-AI:matrix.org)|[electricface](https://github.com/electricface)|2023/05/31| - |
-| 37 | [deepin-livecd](deepin-livecd/README.md) | - | [成员](deepin-livecd/MEMBERS.md) | - |[gfdgd-xi](https://github.com/gfdgd-xi)|2023/06/13| - |
