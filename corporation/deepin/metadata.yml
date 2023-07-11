@@ -31,3 +31,5 @@ members:
     id: 13045857
   - handle: chenchongbiao
     id: 52627687
+  - handle: deepin-ci-robot
+    id: 103086293
