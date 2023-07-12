@@ -1215,3 +1215,15 @@ events:
   actor_id: 41325712
   actor_handle: rtczza
   created_at: 2023-07-07 10:27:26+00:00
+- type: join
+  actor_id: 114299867
+  actor_handle: jonah2022
+  created_at: 2023-07-12 03:07:50+00:00
+- type: join
+  actor_id: 92200077
+  actor_handle: bin-ly
+  created_at: 2023-07-12 03:07:50+00:00
+- type: join
+  actor_id: 48977230
+  actor_handle: luckhuanhuan
+  created_at: 2023-07-12 03:07:50+00:00
