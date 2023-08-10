@@ -19,3 +19,27 @@ events:
   actor_id: 60058876
   actor_handle: Avenger-285714
   created_at: 2023-08-07 02:46:25+00:00
+- type: join
+  actor_id: 58986464
+  actor_handle: SuperEffie
+  created_at: 2023-08-10 09:55:04+00:00
+- type: join
+  actor_id: 17869922
+  actor_handle: kobe337
+  created_at: 2023-08-10 09:55:04+00:00
+- type: join
+  actor_id: 62528742
+  actor_handle: xuqi27837288
+  created_at: 2023-08-10 09:55:04+00:00
+- type: join
+  actor_id: 24642999
+  actor_handle: babyfengfjx
+  created_at: 2023-08-10 09:55:04+00:00
+- type: join
+  actor_id: 96416089
+  actor_handle: luodeepin
+  created_at: 2023-08-10 09:55:04+00:00
+- type: join
+  actor_id: 96415804
+  actor_handle: vivianxf
+  created_at: 2023-08-10 09:55:04+00:00
