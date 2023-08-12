@@ -5,8 +5,10 @@ rss:
 proposal:
   issue: 31
   by:
-    handle: huangbibo
-    id: 88575167
+    - handle: matrix-wsk
+      id: 73223869
+    - handle: Avenger-285714
+      id: 60058876
 date-created: '2022/08/25'
 date-archived: '-'
 team: sig-deepin-kernel

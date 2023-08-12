@@ -9,7 +9,7 @@
 
 ## 小组管理员
 
-- [ut000170](https://github.com/ut000170)
+- [Avenger-285714](https://github.com/Avenger-285714)
 
 ## 小组成员
 - [zhifouzzz](https://github.com/zhifouzzz)
