@@ -1239,3 +1239,7 @@ events:
   actor_id: 138179606
   actor_handle: HJC5305
   created_at: 2023-08-16 05:59:09+00:00
+- type: join
+  actor_id: 124755957
+  actor_handle: N0rthHXD
+  created_at: 2023-08-18 07:41:50+00:00
