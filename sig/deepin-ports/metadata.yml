@@ -1,28 +1,28 @@
 ---
-name: deepin-riscv64
+name: deepin-ports
 blog:
 rss:
-matrix: '#deepin-risc-v:matrix.org'
+matrix: '#deepin-ports:matrix.org'
 proposal:
   by:
     handle: Zeno-sole
     id: 43427321
 date-created: '2022/07/21'
 date-archived: '-'
-team: deepin-riscv64
+team: deepin-ports
 repos:
   maintained:
   package:
 members:
   - handle: Rabenda
     id: 13116853
-  - handle: leemeans
-    id: 15212302
   - handle: Zeno-sole
     id: 43427321
   - handle: tsic404
     id: 48748112
-  - handle: changliuxy
-    id: 110147328
-  - handle: Clansty
-    id: 18461360
+  - handle: UTsweetyfish
+    id: 124018391
+  - handle: YukariChiba
+    id: 12855915
+  - handle: Gui-Yue
+    id: 78520005
