@@ -6,4 +6,5 @@
 - [goldendeng](https://github.com/goldendeng)
 - [UTsweetyfish](https://github.com/UTsweetyfish)
 - [Revy](https://github.com/Rabenda)
+- [YukariChiba](https://github.com/YukariChiba)
   
