@@ -1,6 +1,6 @@
 |No.|SIG|博客|成员|Matrix|创建人|创建时间|结束时间|
 |----|---|---|---|---|---|---|---|
-| 1 | [deepin-riscv64](deepin-riscv64/README.md) | - | [成员](deepin-riscv64/MEMBERS.md) |[#deepin-risc-v:matrix.org](https://matrix.to/#/#deepin-risc-v:matrix.org)|[Zeno-sole](https://github.com/Zeno-sole)|2022/07/21| - |
+| 1 | [deepin-ports](deepin-ports/README.md) | - | [成员](deepin-ports/MEMBERS.md) |[#deepin-ports:matrix.org](https://matrix.to/#/#deepin-ports:matrix.org)|[Zeno-sole](https://github.com/Zeno-sole)|2022/07/21| - |
 | 2 | [deepin-testsig](deepin-testsig/README.md) | - | [成员](deepin-testsig/MEMBERS.md) | - |[babyfengfjx](https://github.com/babyfengfjx)|2022/07/26| - |
 | 3 | [spark-store-deepin](spark-store-deepin/README.md) | - | [成员](spark-store-deepin/MEMBERS.md) | - |[shenmo7192](https://github.com/shenmo7192)|2022/08/01| - |
 | 4 | [deepin-m1](deepin-m1/README.md) |[博客](https://deepin-community.github.io/sig-deepin-m1/)| [成员](deepin-m1/MEMBERS.md) | - |[justforlxz](https://github.com/justforlxz)|2022/08/02| - |
@@ -36,4 +36,4 @@
 | 34 | [openEuler](openEuler/README.md) | - | [成员](openEuler/MEMBERS.md) | - |[lvcongqing](https://github.com/lvcongqing)|2023/04/18| - |
 | 35 | [Phytium](Phytium/README.md) | - | [成员](Phytium/MEMBERS.md) | - |[JiakunShuai](https://github.com/JiakunShuai)|2023/05/05| - |
 | 36 | [deepin-AI](deepin-AI/README.md) | - | [成员](deepin-AI/MEMBERS.md) |[#deepin-AI:matrix.org](https://matrix.to/#/#deepin-AI:matrix.org)|[electricface](https://github.com/electricface)|2023/05/31| - |
-| 37 | [deepin-livecd](deepin-livecd/README.md) | - | [成员](deepin-livecd/MEMBERS.md) | - | - |2023/06/30| - |
+| 37 | [deepin-livecd](deepin-livecd/README.md) | - | [成员](deepin-livecd/MEMBERS.md) | - | - |2023/09/28| - |

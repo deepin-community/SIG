@@ -9,12 +9,12 @@
 
 ## 小组管理员
 
-- [Zeno-sole](https://github.com/Zeno-sole)
-- [tsic404](https://github.com/tsic404) 
+- [Zeno-sole](https://github.com/Zeno-sole) (Github)
+- [Revy](https://github.com/Rabenda) (Github)
+- [tsic404](https://github.com/tsic404) (Github)
 
 ## 小组成员
 
-- [tsic404](https://github.com/tsic404) (Github)
-- [Clay Stan](https://github.com/ClayStan)  (Github)
-- [Revy](https://github.com/Rabenda) (Github)
-- [Clansty](https://github.com/Clansty) (Github)
+- [UTsweetyfish](https://github.com/UTsweetyfish) (Github)
+- [YukariChiba](https://github.com/YukariChiba) (Github)
+- [Gui-Yue](https://github.com/Gui-Yue) (Github)
