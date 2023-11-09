@@ -12,7 +12,7 @@ date-archived: '-'
 team: deepin-shared-libs
 repos:
   maintained:
-    - deepin-shared-libs
+    - sig-deepin-shared-libs
   package:
 members:
   - handle: ziggy1030
