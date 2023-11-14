@@ -10,8 +10,12 @@
 ## NixOS
 - [rewine](https://github.com/wineee)
 
+## UbuntuDDE
+- [openarun](https://github.com/openarun)
+
 ## Debian
 - [ClayStan](https://github.com/ClayStan)
+- [openarun](https://github.com/openarun)
 
 ## DDE
 - [BLumia](https://github.com/BLumia)
