@@ -12,7 +12,8 @@
 
   开源核心永远不是白嫖和复刻，只有共享协作才能提高效率，不要畏于分享你的个人看法和承认错误!
 
-  注:"deepin-shared-libs" SIG时刻保持开源初心，目前已与开源项目ShiroDEB(https://github.com/shirodeb)达成合作，大家可以借助"deepin-shared-libs" SIG提供的libs、文档来学习源码编译同时，利用ShiroDEB和"deepin-shared-libs" SIG提供的开源材料定制个性化编译脚本。
+  注:"deepin-shared-libs" SIG时刻保持开源初心，目前已与开源项目[ShiroDEB](https://github.com/shirodeb)
+达成合作，大家可以借助"deepin-shared-libs" SIG提供的libs、文档来学习源码编译同时，利用ShiroDEB和"deepin-shared-libs" SIG提供的开源材料定制个性化编译脚本。
 
 
 ### FAQ:
@@ -89,8 +90,6 @@ Github小组仓库Issues、Discussion板块
 
 ## 相关链接
 
-Github小组仓库
-	https://github.com/deepin-community/sig-deepin-shared-libs
+[Github小组仓库](https://github.com/deepin-community/sig-deepin-shared-libs)
 
-Gitee小组仓库镜像(只读镜像）
-	https://gitee.com/ziggy615/sig-deepin-shared-libs
+[Gitee小组仓库镜像<(只读镜像)>](https://gitee.com/ziggy615/sig-deepin-shared-libs)
