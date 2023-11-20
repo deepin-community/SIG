@@ -1,0 +1,28 @@
+# handle 为对应帐号的 GitHub 用户 handle，
+# 例如用户的 GitHub 主页是 https://github.com/userhandle/，
+# 则其 handle 即为 userhandle 。
+# 访问 https://api.github.com/users/userhandle 即可得到
+# 对应的用户 id，若实在不清楚可暂不填写 id。
+# team 名称一般为 sig-小组id（小组 id 即文件夹名）
+# 提交前请删除这些注释
+---
+name: 填写小组名称
+blog: 博客链接（没有则留空）
+rss: 博客 RSS 订阅链接（没有则留空）
+matrix: '#example-room:example.com'
+proposal:
+  by:
+    handle: userhandle
+    id: 123456
+date-created: '2022/12/21'
+date-archived: '-'
+team: sig-xxx-xxxxx
+repos:
+  maintained:
+    - sig-xxx-xxxxx
+  package:
+members:
+  - handle: userhandle
+    id: 123456
+  - handle: userhandle2
+    id: 123457
