@@ -1251,3 +1251,7 @@ events:
   actor_id: 45532217
   actor_handle: zhao-george
   created_at: 2023-11-15 08:35:29+00:00
+- type: join
+  actor_id: 122600866
+  actor_handle: tsl115
+  created_at: 2023-11-21 08:45:12+00:00
