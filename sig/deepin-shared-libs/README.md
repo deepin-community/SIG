@@ -88,8 +88,12 @@ A: 参考Q2，但希望在引用的时候标注出处。
 
 Github小组仓库Issues、Discussion板块
 
+[Matrix]	#deepin-shared-libs:matrix.org
+
 ## 相关链接
 
 [Github小组仓库](https://github.com/deepin-community/sig-deepin-shared-libs)
 
 [Gitee小组仓库镜像<(只读镜像)>](https://gitee.com/ziggy615/sig-deepin-shared-libs)
+
+[shirodeb-recipes](https://github.com/shirodeb/recipes)
