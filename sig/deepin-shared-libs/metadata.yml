@@ -2,7 +2,7 @@
 name: deepin-shared-libs
 blog: 
 rss: 
-matrix:
+matrix: '#deepin-shared-libs:matrix.org'
 proposal:
   by:
     handle: ziggy1030
