@@ -40,6 +40,6 @@
 
 ## 相关链接
 
-- [GitHub 上的小组仓库](https://github.com/thatleosky/deepin-ThemeDesign)
+[GitHub 上的小组仓库](https://github.com/thatleosky/deepin-ThemeDesign)
 
 
