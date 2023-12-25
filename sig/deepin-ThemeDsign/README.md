@@ -1,4 +1,4 @@
-# Deepin-ThemeDsign 深度主题工坊
+# deepin-ThemeDsign 深度主题工坊
 
 ## 小组简介
 
