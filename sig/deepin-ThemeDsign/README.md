@@ -1,8 +1,8 @@
-# deepin-ThemeDsign 深度主题工坊
+# deepin-ThemeDesign 深度主题工坊
 
 ## 小组简介
 
-欢迎来到 deepin-ThemeDsign，我们是一个致力于促进个性化系统主题设计与分享的兴趣小组。我们致力于为用户提供更丰富、多样的外观体验。我们支持原创设计与非原创打包，以便为用户提供更多元的选择。
+欢迎来到 deepin-ThemeDesign，我们是一个致力于促进个性化系统主题设计与分享的兴趣小组。我们致力于为用户提供更丰富、多样的外观体验。我们支持原创设计与非原创打包，以便为用户提供更多元的选择。
 
 同时，我们还会维护和发展主题打包工具，以确保用户可以轻松地获取并应用自己喜欢的主题风格。
 
@@ -43,6 +43,6 @@
 
 ## 相关链接
 
-- [GitHub 上的小组仓库](https://github.com/thatleosky/deepin-ThemeDsign)
+- [GitHub 上的小组仓库](https://github.com/thatleosky/deepin-ThemeDesign)
 
 
