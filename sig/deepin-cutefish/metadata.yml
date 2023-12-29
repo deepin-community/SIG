@@ -1,0 +1,19 @@
+---
+name: deepin-cutefish [deepin可爱鱼桌面环境移植兴趣小组]
+blog: 
+rss: 
+matrix: https://bbs.deepin.org/user/293765
+proposal:
+  by:
+    handle: deepin-cutefish
+    id: 155169691
+date-created: '2022/12/21'
+date-archived: '-'
+team: sig-deepin-cutefish
+repos:
+  maintained:
+    - sig-deepin-cutefish
+  package:
+members:
+  - handle: deepin-cutefish
+    id: 155169691
