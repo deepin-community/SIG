@@ -1,0 +1,21 @@
+---
+name: deepin Intel 小组
+blog:
+rss:
+proposal:
+  issue:
+  by:
+    handle: quanxianwang
+    id: 803339
+date-created: '2024/01/01'
+date-archived: '-'
+team: sig-deepin-Intel
+repos:
+  maintained:
+    - sig-deepin-Intel
+  package:
+members:
+  - handle: quanxianwang
+    id: 803339
+  - handle: Baolizha
+    id: 29588229
