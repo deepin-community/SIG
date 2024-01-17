@@ -38,3 +38,5 @@
 | 36 | [deepin-AI](deepin-AI/README.md) | - | [成员](deepin-AI/MEMBERS.md) |[#deepin-AI:matrix.org](https://matrix.to/#/#deepin-AI:matrix.org)|[electricface](https://github.com/electricface)|2023/05/31| - |
 | 37 | [deepin-shared-libs](deepin-shared-libs/README.md) | - | [成员](deepin-shared-libs/MEMBERS.md) | - |[ziggy1030](https://github.com/ziggy1030)|2023/08/24| - |
 | 38 | [deepin-translation-program](deepin-translation-program/README.md) | - | [成员](deepin-translation-program/MEMBERS.md) | - |[Geogehuo](https://github.com/Geogehuo)|2023/11/17| - |
+| 39 | [deepin-ThemeDesign](deepin-ThemeDesign/README.md) | - | [成员](deepin-ThemeDesign/MEMBERS.md) |[#deepin-themedesign:matrix.org](https://matrix.to/#/#deepin-themedesign:matrix.org)|[thatleosky](https://github.com/thatleosky)|2023/12/22| - |
+| 40 | [deepin-Intel](deepin-Intel/README.md) | - | [成员](deepin-Intel/MEMBERS.md) | - |[quanxianwang](https://github.com/quanxianwang)|2024/01/01| - |
