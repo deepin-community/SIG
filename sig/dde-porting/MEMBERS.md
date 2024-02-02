@@ -1,21 +1,24 @@
-## Arch
+## [Arch](https://archlinux.org/)
 - [felixonmars](https://github.com/felixonmars)
 
-## openSUSE
+## [openSUSE](https://www.opensuse.org/)
 - [hillwoodroc](https://github.com/hillwoodroc)
 
-## Gentoo
+## [Gentoo](https://www.gentoo.org/)
 - [Rabenda](https://github.com/Rabenda)
 
-## NixOS
+## [NixOS](https://nixos.org/)
 - [rewine](https://github.com/wineee)
 
-## UbuntuDDE
+## [UbuntuDDE](https://ubuntudde.com/)
 - [openarun](https://github.com/openarun)
 
-## Debian
+## [Debian](https://www.debian.org/)
 - [ClayStan](https://github.com/ClayStan)
 - [openarun](https://github.com/openarun)
+
+## [Big Linux](https://www.biglinux.com.br)
+- [Tales A. Mendonca](https://github.com/talesam)
 
 ## DDE
 - [BLumia](https://github.com/BLumia)
