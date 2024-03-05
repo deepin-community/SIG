@@ -1255,3 +1255,7 @@ events:
   actor_id: 122600866
   actor_handle: tsl115
   created_at: 2023-11-21 08:45:12+00:00
+- type: join
+  actor_id: 60058876
+  actor_handle: Avenger-285714
+  created_at: 2024-03-05 08:50:02+00:00
