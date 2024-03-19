@@ -11,9 +11,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.10' 
+          python-version: '3.10'
       - name: Install python depencencies
         run: pip install pyyaml
       - name: Check If SIG List is Up-to-date
@@ -27,5 +29,9 @@ jobs:
       - name: Update SIG List File
         run: python .utils/siglist-update.py --update-sig-list
         if: steps.check-need-update.outcome != 'success'
-      - name: Commit the Change
+      - name: Sig list commit to change
+        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Update SIG Event File
+        run: python .utils/events.py ${{ github.event.before }} ${{ github.event.after }}
+      - name: Sig events commit to change
         uses: stefanzweifel/git-auto-commit-action@v4

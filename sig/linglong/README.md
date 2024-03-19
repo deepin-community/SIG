@@ -6,7 +6,7 @@
 
 ## 活动范围与目标
 
-活动方式：于 [Matrix](https://matrix.to/#/#linglong:deepin.org) 服务器以及相关项目的 Issue 区中进行相关讨论，讨论内容包括但不限于 bug 上报以及相关技术讨论。
+活动方式：于 [Matrix](https://matrix.to/#/#linglong:matrix.org) 服务器以及相关项目的 Issue 区中进行相关讨论，讨论内容包括但不限于 bug 上报以及相关技术讨论。
 
 主要目标为推进与进行“玲珑”相关工具的开发与维护。
 
@@ -16,7 +16,7 @@
 
 ## 讨论渠道
 
-- [Matrix](https://matrix.to/#/#linglong:deepin.org)
+- [Matrix](https://matrix.to/#/#linglong:matrix.org)
 
 ## 相关链接
 
