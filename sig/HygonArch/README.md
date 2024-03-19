@@ -19,7 +19,9 @@ HygonArch SIG主要围绕海光芯片，将海光C86芯片的架构特点、驱�
 
 ## 讨论渠道
 
-目前微信群还未建立,有相关讨论内容可以发送邮件至本SIG管理员邮箱: allenli@hygon.cn
+* 欢迎对deepin社区海光平台感兴趣的伙伴同仁参与海光话题讨论
+* 本SIG讨论渠道采用Matrix聊天室的方式进行
 
 ## 相关链接
 
+* https://matrix.to/#/#hygonarchspace:deepin.org
