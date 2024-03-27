@@ -32,19 +32,17 @@
 考虑到社区志愿者成员的审核环境和现有不同Linux Distro的占有率，目前我们只准备支持Debian系发行版
 
 ## 小组章程
-投递须知，维护准则和杂项wiki：https://deepin-community-store.gitee.io/spark-wiki/
+投递须知，维护准则和杂项wiki：https://spark-store-project.gitee.io/spark-wiki/
 
 
 
 ## 讨论渠道
-星火社区： https://www.deepinos.org/
+星火社区： https://bbs.spark-app.store
 
-QQ群（仅应用商店相关）： 872690351
-
-星火用户和开发交流平台  [平台说明](https://www.deepinos.org/d/1207)
+QQ群(交流反馈和国产架构应用投递)：http://blog.shenmo.tech/post/%E6%95%85%E9%9A%9C%E5%85%AC%E5%91%8A/
 
 ## 相关链接
 
-- [Gitee 上的小组团队](https://gitee.com/deepin-community-store)
+- [Gitee 上的小组团队](https://gitee.com/spark-store-project)
 - [Github 上的镜像仓库](https://github.com/spark-Store-project/spark-store)
-- [软件下架申请](https://gitee.com/deepin-community-store/software_-issue/blob/master/README.md)
+- [软件下架申请](https://gitee.com/spark-store-project/software_-issue/blob/master/README.md)
