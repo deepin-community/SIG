@@ -9,9 +9,7 @@
 目标： 为 deepin 操作系统适配 LoongArch 架构。
 
 活动范围: 
-[社区论坛](https://bbs.deepin.org/)
 [deepin Community](https://github.com/deepin-community/) 
-[GitHub issue](https://github.com/linuxdeepin/developer-center/issues)
 [sig-deepin-LoongArch](https://github.com/deepin-community/sig-deepin-LoongArch)  
 
 ## 如何加入
