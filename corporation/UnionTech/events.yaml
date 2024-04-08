@@ -1259,3 +1259,11 @@ events:
   actor_id: 60058876
   actor_handle: Avenger-285714
   created_at: 2024-03-05 08:50:02+00:00
+- type: join
+  actor_id: 56296184
+  actor_handle: rookie
+  created_at: 2024-04-08 02:52:02+00:00
+- type: join
+  actor_id: 73688594
+  actor_handle: mhduiy
+  created_at: 2024-04-08 02:52:02+00:00
