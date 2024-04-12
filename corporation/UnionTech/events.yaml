@@ -1267,3 +1267,11 @@ events:
   actor_id: 73688594
   actor_handle: mhduiy
   created_at: 2024-04-08 02:52:02+00:00
+- type: join
+  actor_id: 164976197
+  actor_handle: add-uos
+  created_at: 2024-04-12 01:39:57+00:00
+- type: join
+  actor_id: 166582166
+  actor_handle: baicailio
+  created_at: 2024-04-12 01:39:57+00:00
