@@ -1275,3 +1275,12 @@ events:
   actor_id: 166582166
   actor_handle: baicailio
   created_at: 2024-04-12 01:39:57+00:00
+- type: join
+  actor_id: 22633385
+  actor_handle: eltociear
+  created_at: 2022-01-12 01:39:57+00:00
+- type: leave
+  actor_id: 22633385
+  actor_handle: eltociear
+  created_at: 2024-04-12 01:39:57+00:00
+
