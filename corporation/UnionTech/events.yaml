@@ -1287,3 +1287,7 @@ events:
   actor_id: 75053986
   actor_handle: fuyou158
   created_at: 2024-04-17 08:31:14+00:00
+- type: join
+  actor_id: 167396168
+  actor_handle: JWWTSL
+  created_at: 2024-04-18 05:05:22+00:00
