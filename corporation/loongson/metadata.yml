@@ -1,0 +1,19 @@
+---
+name: Loongson
+blog:
+rss:
+proposal:
+  issue:
+  by:
+    handle:
+    id:
+data-created: '-'
+data-archived: '-'
+email-suffix: '@loongson.cn'
+team: corporate-contributor-loongson
+repos:
+  maintained:
+  package:
+members:
+  - handle: lsnwhh
+    id: 22991527
