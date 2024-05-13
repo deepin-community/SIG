@@ -1299,4 +1299,7 @@ events:
   actor_id: 38401412
   actor_handle: ZhongYic00
   created_at: 2024-03-10 08:00:00+00:00
-
+- type: join
+  actor_id: 104138826
+  actor_handle: Tw1012
+  created_at: 2024-05-13 03:12:12+00:00
