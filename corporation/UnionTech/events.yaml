@@ -1303,3 +1303,7 @@ events:
   actor_id: 104138826
   actor_handle: Tw1012
   created_at: 2024-05-13 03:12:12+00:00
+- type: join
+  actor_id: 5006263
+  actor_handle: MingcongBai
+  created_at: 2024-05-23 02:44:12+00:00
