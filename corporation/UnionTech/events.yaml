@@ -1307,3 +1307,31 @@ events:
   actor_id: 5006263
   actor_handle: MingcongBai
   created_at: 2024-05-23 02:44:12+00:00
+- type: join
+  actor_id: 45145345
+  actor_handle: feiguoL
+  created_at: 2024-05-24 07:27:43+00:00
+- type: join
+  actor_id: 167070151
+  actor_handle: majing2022
+  created_at: 2024-05-24 07:27:43+00:00
+- type: join
+  actor_id: 169126733
+  actor_handle: Z-Araio
+  created_at: 2024-05-24 07:27:43+00:00
+- type: join
+  actor_id: 60065165
+  actor_handle: zhh1410
+  created_at: 2024-05-24 07:27:43+00:00
+- type: join
+  actor_id: 170692189
+  actor_handle: lbwtw
+  created_at: 2024-05-24 07:27:43+00:00
+- type: join
+  actor_id: 162073918
+  actor_handle: wangruoxuan3782
+  created_at: 2024-05-24 07:27:43+00:00
+- type: join
+  actor_id: 66342239
+  actor_handle: kuchune
+  created_at: 2024-05-24 07:27:43+00:00
