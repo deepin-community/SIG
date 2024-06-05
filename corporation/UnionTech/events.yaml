@@ -1339,3 +1339,19 @@ events:
   actor_id: 47960059
   actor_handle: cjqkl
   created_at: 2024-05-28 08:24:22+00:00
+- type: join
+  actor_id: 152280395
+  actor_handle: yang233000
+  created_at: 2024-06-05 06:16:27+00:00
+- type: join
+  actor_id: 66582837
+  actor_handle: yoho0623
+  created_at: 2024-06-05 06:16:27+00:00
+- type: join
+  actor_id: 23161996
+  actor_handle: DaiZW007
+  created_at: 2024-06-05 06:16:27+00:00
+- type: join
+  actor_id: 170903269
+  actor_handle: winexw
+  created_at: 2024-06-05 06:16:27+00:00
