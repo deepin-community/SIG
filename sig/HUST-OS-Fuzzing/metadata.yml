@@ -1,0 +1,26 @@
+name: HUST-OS-Fuzzing 操作系统模糊测试小组
+blog: 
+rss: 
+matrix: 
+proposal:
+  by:
+    handle: jingfelix
+    id: 72600955
+date-created: '2024/06/06'
+date-archived: '-'
+team: HUST-OS-Fuzzing
+repos:
+  maintained:
+  package:
+    - hustmirror-cli
+members:
+  - handle: jingfelix
+    id: 72600955
+  - handle: mudongliang
+    id: 6214861
+  - handle: huyinhao
+    id: 45302845
+  - handle: SophieTwilight
+    id: 53810827
+  - handle: wumingzhilian
+    id: 69114599
