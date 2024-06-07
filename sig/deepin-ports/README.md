@@ -22,7 +22,7 @@
 [社区论坛](https://bbs.deepin.org/)
 [邮件列表](https://www.freelists.org/list/deepin-ports)
 [Telegram](https://t.me/+gayVJlNnqXNlYzM1)
-
+[matrix](https://matrix.to/#/#deepin-ports:matrix.org)
 ## 如何加入
 
 ### 加入标准： 
@@ -54,7 +54,7 @@ ps: 章程目前还不完善，有兴趣的同学可以加入进来讨论。
 
 [邮件列表](https://www.freelists.org/list/deepin-ports)
 [Telegram](https://t.me/+gayVJlNnqXNlYzM1)
-
+[matrix](https://matrix.to/#/#deepin-ports:matrix.org)
 ## 相关链接
 
 - [GitHub 上的小组成员](https://github.com/deepin-community/SIG/blob/master/sig/deepin-ports/MEMBERS.md)
