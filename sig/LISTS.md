@@ -43,3 +43,4 @@
 | 41 | [deepin-unioncode](deepin-unioncode/README.md) | - | [成员](deepin-unioncode/MEMBERS.md) | - |[deepin-mozart](https://github.com/deepin-mozart)|2024/03/04| - |
 | 42 | [HygonArch](HygonArch/README.md) | - | [成员](HygonArch/MEMBERS.md) | - |[Allen846356a](https://github.com/Allen846356a)|2023/03/11| - |
 | 43 | [deepin-LoongArch](deepin-LoongArch/README.md) | - | [成员](deepin-LoongArch/MEMBERS.md) | - |[lsnwhh](https://github.com/lsnwhh)|2024/03/27| - |
+| 44 | [HUST-OS-Fuzzing](HUST-OS-Fuzzing/README.md) | - | [成员](HUST-OS-Fuzzing/MEMBERS.md) | - |[jingfelix](https://github.com/jingfelix)|2024/06/06| - |
