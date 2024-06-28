@@ -16,7 +16,6 @@
 
 1. 对供应链安全有基本了解
 2. 了解软件成分分析
-3. 了解 debian 打包规则，以及Makefile cmake 等构建工具的使用方法
 
 ### 加入方法：
 
@@ -24,9 +23,9 @@
 
 ## 讨论渠道
 
-在[deepin-sscs](https://github.com/deepin-community/sig-deepin-sscs)项目的[ISSUE区](https://github.com/deepin-community/sscs/issues)进行主要的讨论。
+在[sig-deepin-sscs](https://github.com/deepin-community/sig-deepin-sscs)项目的[ISSUE区](https://github.com/deepin-community/sig-deepin-sscs/issues)进行主要的讨论。
 
 
 ## 相关链接
 
-- [GitHub 上的小组仓库](https://github.com/deepin-community/sig-sscs)
+- [GitHub 上的小组仓库](https://github.com/deepin-community/sig-deepin-sscs)
