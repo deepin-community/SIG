@@ -44,3 +44,4 @@
 | 42 | [HygonArch](HygonArch/README.md) | - | [成员](HygonArch/MEMBERS.md) | - |[Allen846356a](https://github.com/Allen846356a)|2023/03/11| - |
 | 43 | [deepin-LoongArch](deepin-LoongArch/README.md) | - | [成员](deepin-LoongArch/MEMBERS.md) | - |[lsnwhh](https://github.com/lsnwhh)|2024/03/27| - |
 | 44 | [HUST-OS-Fuzzing](HUST-OS-Fuzzing/README.md) | - | [成员](HUST-OS-Fuzzing/MEMBERS.md) | - |[jingfelix](https://github.com/jingfelix)|2024/06/06| - |
+| 45 | [deepin-sscs](deepin-sscs/README.md) | - | [成员](deepin-sscs/MEMBERS.md) | - |[gglinxiao](https://github.com/gglinxiao)|2024/06/26| - |
