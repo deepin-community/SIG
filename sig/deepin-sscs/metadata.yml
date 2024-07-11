@@ -12,7 +12,7 @@ team: sig-deepin-sscs
 repos:
   maintained:
     - sig-deepin-sscs
-  package:1
+  package:
 members:
   - handle: gglinxiao
     id: 48324979
