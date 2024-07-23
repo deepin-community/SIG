@@ -25,12 +25,11 @@
 
 ### 加入方法：
 
-1. 在[sig-deepin-security](https://github.com/deepin-community/sig-deepin-security/issues)提交issues 说明想加入的原因
+1. 加入[matrix](https://matrix.to/#/#security:deepin.org)进行讨论
 
 ### 讨论渠道
 
-在[sig-deepin-security](https://github.com/deepin-community/sig-deepin-security)项目的[ISSUE区](https://github.com/deepin-community/sig-deepin-security/issues)进行主要的讨论。
-且后续会陆续建立实时聊天渠道。
+[matrix](https://matrix.to/#/#security:deepin.org)
 
 
 ### 相关链接
