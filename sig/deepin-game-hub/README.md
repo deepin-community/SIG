@@ -31,7 +31,7 @@ Telegram：https://t.me/deepin
 
 微信群
 
-![wechat](wehcat.png"wechattitle")
+![微信群](./img/wehcat.png '微信群')
 
 deepin社区游戏板块（https://bbs.deepin.org/module/detail/201）
 
