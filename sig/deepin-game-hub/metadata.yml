@@ -14,13 +14,13 @@ proposal:
   by:
     handle: songdongdong
     id: 15968684
-date-created: '2024/07/25'
-date-archived: '2024/07/25'
+date-created: ''
+date-archived: ''
 team: sig-deepin-game-hub
-repos:
-  maintained:
-    - sig-deepin-game-hub
-  package:
+#repos:
+#  maintained:
+#    - sig-deepin-game-hub
+#  package:
 members:
   - handle: superliya
     id: 176374226
