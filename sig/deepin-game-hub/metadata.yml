@@ -10,7 +10,6 @@ name: deepin-Game-Hub 深度游戏圈
 blog: https://bbs.deepin.org/module/detail/201
 #rss: 博客 RSS 订阅链接（没有则留空）
 #matrix: '#example-room:example.com'
-#telegram: https://t.me/deepin
 proposal:
   by:
     handle: songdongdong
