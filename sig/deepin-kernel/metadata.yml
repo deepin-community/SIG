@@ -16,23 +16,31 @@ repos:
   package:
     - kernel
 members:
-  - handle: huangbibo
-    id: 88575167
-  - handle: imtangmeng
-    id: 92847452
-  - handle: matrix-wsk
-    id: 73223869
   - handle: Avenger-285714
     id: 60058876
   - handle: babyfengfjx
     id: 24642999
-  - handle: xuqi27837288
-    id: 62528742
+  - handle: ecjtusbs
+    id: 23614197
+  - handle: huangbibo
+    id: 88575167
+  - handle: imtangmeng
+    id: 92847452
   - handle: kobe337
     id: 17869922
-  - handle: vivianxf
-    id: 96415804
-  - handle: SuperEffie
-    id: 58986464
   - handle: luodeepin
     id: 96416089
+  - handle: matrix-wsk
+    id: 73223869
+  - handle: SuperEffie
+    id: 58986464
+  - handle: vivianxf
+    id: 96415804
+  - handle: wenshizhang
+    id: 17587718
+  - handle: xuqi27837288
+    id: 62528742
+  - handle: zhifouzzz
+    id: 51871553
+  - handle: zixuxiaoye
+    id: 70646624
