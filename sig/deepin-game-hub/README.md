@@ -27,7 +27,6 @@
 
 
 ### 讨论渠道  
-Telegram：https://t.me/deepin
 
 微信群
 
