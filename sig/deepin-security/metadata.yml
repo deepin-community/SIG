@@ -1,0 +1,26 @@
+name: Deepin Security SIG - Deepin安全课题组
+blog: 
+rss: 
+matrix:
+proposal:
+  by:
+    handle: gglinxiao
+    id: 48324979
+date-created: '2024/07/23'
+date-archived: '-'
+team: sig-deepin-security
+repos:
+  maintained:
+    - sig-deepin-security
+  package:
+members:
+  - handle: gglinxiao
+    id: 48324979
+  - handle: neo-one0873
+    id: 50387785
+  - handle: alongnice
+    id: 48875845
+  - handle: zengwei2000
+    id: 102871671
+  - handle: qinzhiben11
+    id: 48324979
