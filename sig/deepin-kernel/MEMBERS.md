@@ -38,6 +38,7 @@
 - [morduang](https://github.com/morduang)
 - [myml](https://github.com/myml)
 - [opsiff](https://github.com/opsiff)
+- [shy129](https://github.com/shy129)
 - [SuperEffie](https://github.com/SuperEffie)
 - [UTsweetyfish](https://github.com/UTsweetyfish)
 - [vivianxf](https://github.com/vivianxf)
