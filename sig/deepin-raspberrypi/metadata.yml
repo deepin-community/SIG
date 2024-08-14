@@ -14,7 +14,7 @@ repos:
   maintained:
     - sig-deepin-raspberrypi
   package:
-    - deepin-raspberrypi
+    - raspberrypi-firmware
 members:
   - handle: chenchongbiao
     id: 52627687
