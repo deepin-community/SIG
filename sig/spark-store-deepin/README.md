@@ -18,6 +18,10 @@
 目标： 为新生的根社区扩充生态，以应用商店的方式提供更多的常用应用，小工具等，为用户提供更好的使用体验
 
 活动方式：使用QQ群，在线社区等方式开展开发，维护和交流
+
+适配范围：deepin 23的amd64/arm64/loong64架构
+
+
 **本SIG成立的目的为促进星火商店关于deepin 23的适配和开发工作**
 
 ## 关于星火计划
@@ -32,17 +36,17 @@
 考虑到社区志愿者成员的审核环境和现有不同Linux Distro的占有率，目前我们只准备支持Debian系发行版
 
 ## 小组章程
-投递须知，维护准则和杂项wiki：https://spark-store-project.gitee.io/spark-wiki/
+投递须知，维护准则和杂项wiki：https://wiki.spark-app.store/
 
 
 
 ## 讨论渠道
-星火社区： https://bbs.spark-app.store
+星火社区： https://bbs.spark-app.store/
 
-QQ群(交流反馈和国产架构应用投递)：http://blog.shenmo.tech/post/%E6%95%85%E9%9A%9C%E5%85%AC%E5%91%8A/
+QQ群(交流反馈和国产架构应用投递)：https://blog.shenmo.tech/post/%E6%95%85%E9%9A%9C%E5%85%AC%E5%91%8A/
 
 ## 相关链接
 
 - [Gitee 上的小组团队](https://gitee.com/spark-store-project)
-- [Github 上的镜像仓库](https://github.com/spark-Store-project/spark-store)
+- [Github 上的镜像仓库](https://github.com/spark-store-project/)
 - [软件下架申请](https://gitee.com/spark-store-project/software_-issue/blob/master/README.md)
