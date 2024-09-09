@@ -1,0 +1,22 @@
+---
+name: deepin-raspberrypi SIG
+blog: 
+rss: 
+matrix: 
+proposal:
+  by:
+    handle: XXTX-TOP
+    id: 69441812
+date-created: '2024/8/13'
+date-archived: '-'
+team: sig-deepin-raspberrypi
+repos:
+  maintained:
+    - sig-deepin-raspberrypi
+  package:
+    - raspberrypi-firmware
+members:
+  - handle: chenchongbiao
+    id: 52627687
+  - handle: Avenger-285714
+    id: 60058876
