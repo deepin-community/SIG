@@ -1,4 +1,4 @@
-name: Deepin Security SIG - Deepin安全课题组
+name: deepin Security SIG - deepin安全课题组
 blog: 
 rss: 
 matrix:
@@ -14,13 +14,13 @@ repos:
     - sig-deepin-security
   package:
 members:
+  - handle: alongnice
+    id: 48875845
+  - handle: Avenger-285714
+    id: 60058876
   - handle: gglinxiao
     id: 48324979
   - handle: neo-one0873
     id: 50387785
-  - handle: alongnice
-    id: 48875845
   - handle: zengwei2000
     id: 102871671
-  - handle: qinzhiben11
-    id: 48324979
