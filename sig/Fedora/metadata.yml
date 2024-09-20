@@ -1,0 +1,25 @@
+---
+name: Fedora
+blog:
+rss:
+matrix: '#sig-Fedora-Of-Deepin:matrix.org'
+proposal:
+  by:
+    handle: tekkamanninja
+    id: 126377
+date-created: '2024/09/20'
+date-archived: '-'
+team: sig-Fedora
+repos:
+  maintained:
+    - sig-Fedora
+  package:
+members:
+  - handle: cheese
+    id: 303331
+  - handle: U2FsdGVkX1
+    id: 11484206
+  - handle: imguoguo
+    id: 16666742
+  - handle: hursandqwq
+    id: 182196214
