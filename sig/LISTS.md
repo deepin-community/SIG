@@ -45,3 +45,6 @@
 | 43 | [deepin-LoongArch](deepin-LoongArch/README.md) | - | [成员](deepin-LoongArch/MEMBERS.md) | - |[lsnwhh](https://github.com/lsnwhh)|2024/03/27| - |
 | 44 | [HUST-OS-Fuzzing](HUST-OS-Fuzzing/README.md) | - | [成员](HUST-OS-Fuzzing/MEMBERS.md) | - |[jingfelix](https://github.com/jingfelix)|2024/06/06| - |
 | 45 | [deepin-sscs](deepin-sscs/README.md) | - | [成员](deepin-sscs/MEMBERS.md) | - |[gglinxiao](https://github.com/gglinxiao)|2024/06/26| - |
+| 46 | [deepin-security](deepin-security/README.md) | - | [成员](deepin-security/MEMBERS.md) | - |[gglinxiao](https://github.com/gglinxiao)|2024/07/23| - |
+| 47 | [deepin-game-hub](deepin-game-hub/README.md) |[博客](https://bbs.deepin.org/module/detail/201)| [成员](deepin-game-hub/MEMBERS.md) | - |[songdongdong](https://github.com/songdongdong)|2024/07/30| - |
+| 48 | [deepin-raspberrypi](deepin-raspberrypi/README.md) | - | [成员](deepin-raspberrypi/MEMBERS.md) | - |[XXTX-TOP](https://github.com/XXTX-TOP)|2024/08/13| - |
