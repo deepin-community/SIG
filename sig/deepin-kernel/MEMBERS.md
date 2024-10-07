@@ -44,6 +44,7 @@
 - [vivianxf](https://github.com/vivianxf)
 - [Wenlp](https://github.com/Wenlp)
 - [wenshizhang](https://github.com/wenshizhang)
+- [winnscode](https://github.com/winnscode)
 - [Xuqi27837288](https://github.com/Xuqi27837288)
 - [xu-lang](https://github.com/xu-lang)
 - [XXTX-TOP](https://github.com/XXTX-TOP)
