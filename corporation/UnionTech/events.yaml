@@ -1359,3 +1359,7 @@ events:
   actor_id: 58541120
   actor_handle: xionglinlin
   created_at: 2024-06-14 02:38:11+00:00
+- type: join
+  actor_id: 49363666
+  actor_handle: RigoLigoRLC
+  created_at: 2024-10-09 02:22:17+00:00
