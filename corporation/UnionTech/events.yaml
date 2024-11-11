@@ -1367,3 +1367,7 @@ events:
   actor_id: 20205764
   actor_handle: lichaofan2008
   created_at: 2024-10-12 03:09:00+00:00
+- type: join
+  actor_id: 186556556
+  actor_handle: dengzhongyuan365-dev
+  created_at: 2024-11-11 12:00:37+00:00
