@@ -46,4 +46,4 @@
 
 ## 相关链接
 
-- [GitHub 上的小组仓库](https://github.com/deepin-community/sig-deepin-raspberrypi)
+- [GitHub 上的小组仓库](https://github.com/deepin-community/deepin-raspberrypi)
