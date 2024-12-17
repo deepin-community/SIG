@@ -1,0 +1,30 @@
+name: Software Supply Chain Security SIG - 软件供应链安全课题
+blog: 
+rss: 
+matrix:
+proposal:
+  by:
+    handle: gglinxiao
+    id: 48324979
+date-created: '2024/06/26'
+date-archived: '-'
+team: sig-deepin-sscs
+repos:
+  maintained:
+    - sig-deepin-sscs
+  package:
+members:
+  - handle: gglinxiao
+    id: 48324979
+  - handle: kyrie-z
+    id: 59556234
+  - handle: shenantonio
+    id: 48324979
+  - handle: xq840622
+    id: 13283083
+  - handle: mango-idea
+    id: 47170691
+  - handle: zhouxsss
+    id: 18684383
+  - handle: yinpengyun
+    id: 173972062

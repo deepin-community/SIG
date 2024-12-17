@@ -1,0 +1,20 @@
+name: sig-deepin-unioncode
+blog: 
+rss: 
+matrix: 
+proposal:
+  by:
+    handle: deepin-mozart
+    id: 33650326
+date-created: '2024/03/04'
+date-archived: '-'
+team: sig-deepin-unioncode
+repos:
+  maintained:
+    - sig-deepin-unioncode
+  package:
+members:
+  - handle: LiHua000
+    id: 35895073
+  - handle: Kakueeen
+    id: 60250462

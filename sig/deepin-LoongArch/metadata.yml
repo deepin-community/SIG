@@ -1,0 +1,27 @@
+---
+name: deepin LoongArch SIG 
+blog:
+rss:
+proposal:
+  by:
+    handle: lsnwhh 
+    id: 22991527 
+date-created: '2024/03/27'
+date-archived: '-'
+team: deepin-LoongArch
+repos:
+  maintained:
+    - sig-deepin-LoongArch
+  package:
+members:
+  - handle: lsnwhh 
+    id: 22991527 
+  - handle: loongson-zjl
+    id: 84903373 
+  - handle: Dandan336
+    id: 162938096 
+  - handle: wuruilong01
+    id: 144340420
+  - handle: sterling-teng
+    id: 59814030
+    

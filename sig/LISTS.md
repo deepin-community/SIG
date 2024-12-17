@@ -1,6 +1,6 @@
 |No.|SIG|博客|成员|Matrix|创建人|创建时间|结束时间|
 |----|---|---|---|---|---|---|---|
-| 1 | [deepin-riscv64](deepin-riscv64/README.md) | - | [成员](deepin-riscv64/MEMBERS.md) |[#deepin-risc-v:matrix.org](https://matrix.to/#/#deepin-risc-v:matrix.org)|[Zeno-sole](https://github.com/Zeno-sole)|2022/07/21| - |
+| 1 | [deepin-ports](deepin-ports/README.md) | - | [成员](deepin-ports/MEMBERS.md) |[#deepin-ports:matrix.org](https://matrix.to/#/#deepin-ports:matrix.org)|[Zeno-sole](https://github.com/Zeno-sole)|2022/07/21| - |
 | 2 | [deepin-testsig](deepin-testsig/README.md) | - | [成员](deepin-testsig/MEMBERS.md) | - |[babyfengfjx](https://github.com/babyfengfjx)|2022/07/26| - |
 | 3 | [spark-store-deepin](spark-store-deepin/README.md) | - | [成员](spark-store-deepin/MEMBERS.md) | - |[shenmo7192](https://github.com/shenmo7192)|2022/08/01| - |
 | 4 | [deepin-m1](deepin-m1/README.md) |[博客](https://deepin-community.github.io/sig-deepin-m1/)| [成员](deepin-m1/MEMBERS.md) | - |[justforlxz](https://github.com/justforlxz)|2022/08/02| - |
@@ -29,9 +29,23 @@
 | 27 | [deepin-in-spanish](deepin-in-spanish/README.md) |[博客](https://deepin-community.github.io/sig-deepin-in-spanish/)| [成员](deepin-in-spanish/MEMBERS.md) | - |[Alvaro Samudio](https://github.com/alvarosamudio)|2022/09/29| - |
 | 28 | [deepin-doc-doc-go](deepin-doc-doc-go/README.md) |[博客](https://deepin-community.github.io/sig-deepin-doc-doc-go/)| [成员](deepin-doc-doc-go/MEMBERS.md) |[#deepin_doc_doc_go:deepin.org](https://matrix.to/#/#deepin_doc_doc_go:deepin.org)|[xzl01](https://github.com/xzl01)|2022/12/07| - |
 | 29 | [deepin-cicd](deepin-cicd/README.md) |[博客](https://deepin-community.github.io/sig-deepin-cicd/)| [成员](deepin-cicd/MEMBERS.md) | - |[hudeng-go](https://github.com/hudeng-go)|2023/02/02| - |
-| 30 | [linglong](linglong/README.md) |[博客](https://deepin-community.github.io/sig-linglong/)| [成员](linglong/MEMBERS.md) |[#linglong:deepin.org](https://matrix.to/#/#linglong:deepin.org)|[black-desk](https://github.com/black-desk)|2023/02/03| - |
+| 30 | [linglong](linglong/README.md) |[博客](https://deepin-community.github.io/sig-linglong/)| [成员](linglong/MEMBERS.md) |[#linglong:deepin.org](https://matrix.to/#/#linglong:matrix.org)|[black-desk](https://github.com/black-desk)|2023/02/03| - |
 | 31 | [dde](dde/README.md) |[博客](https://deepin-community.github.io/sig-dde/)| [成员](dde/MEMBERS.md) |[#dde:matrix.org](https://matrix.to/#/#dde:matrix.org)|[BLumia](https://github.com/BLumia)|2023/02/06| - |
 | 32 | [deepin-virt](deepin-virt/README.md) |[博客](https://deepin-community.github.io/sig-deepin-virt/)| [成员](deepin-virt/MEMBERS.md) | - |[hudeng-go](https://github.com/hudeng-go)|2023/02/10| - |
 | 33 | [deepin-arm-pc](deepin-arm-pc/README.md) | - | [成员](deepin-arm-pc/MEMBERS.md) |[#deepin-arm-pc:matrix.org](https://matrix.to/#/#deepin-arm-pc:matrix.org)|[glory-cix](https://github.com/glory-cix)|2023/03/06| - |
 | 34 | [openEuler](openEuler/README.md) | - | [成员](openEuler/MEMBERS.md) | - |[lvcongqing](https://github.com/lvcongqing)|2023/04/18| - |
 | 35 | [Phytium](Phytium/README.md) | - | [成员](Phytium/MEMBERS.md) | - |[JiakunShuai](https://github.com/JiakunShuai)|2023/05/05| - |
+| 36 | [deepin-AI](deepin-AI/README.md) | - | [成员](deepin-AI/MEMBERS.md) |[#deepin-AI:matrix.org](https://matrix.to/#/#deepin-AI:matrix.org)|[electricface](https://github.com/electricface)|2023/05/31| - |
+| 37 | [deepin-shared-libs](deepin-shared-libs/README.md) | - | [成员](deepin-shared-libs/MEMBERS.md) | - |[ziggy1030](https://github.com/ziggy1030)|2023/08/24| - |
+| 38 | [deepin-translation-program](deepin-translation-program/README.md) | - | [成员](deepin-translation-program/MEMBERS.md) | - |[Geogehuo](https://github.com/Geogehuo)|2023/11/17| - |
+| 39 | [deepin-ThemeDesign](deepin-ThemeDesign/README.md) | - | [成员](deepin-ThemeDesign/MEMBERS.md) |[#deepin-themedesign:matrix.org](https://matrix.to/#/#deepin-themedesign:matrix.org)|[thatleosky](https://github.com/thatleosky)|2023/12/22| - |
+| 40 | [deepin-Intel](deepin-Intel/README.md) | - | [成员](deepin-Intel/MEMBERS.md) | - |[quanxianwang](https://github.com/quanxianwang)|2024/01/01| - |
+| 41 | [deepin-unioncode](deepin-unioncode/README.md) | - | [成员](deepin-unioncode/MEMBERS.md) | - |[deepin-mozart](https://github.com/deepin-mozart)|2024/03/04| - |
+| 42 | [HygonArch](HygonArch/README.md) | - | [成员](HygonArch/MEMBERS.md) | - |[Allen846356a](https://github.com/Allen846356a)|2023/03/11| - |
+| 43 | [deepin-LoongArch](deepin-LoongArch/README.md) | - | [成员](deepin-LoongArch/MEMBERS.md) | - |[lsnwhh](https://github.com/lsnwhh)|2024/03/27| - |
+| 44 | [HUST-OS-Fuzzing](HUST-OS-Fuzzing/README.md) | - | [成员](HUST-OS-Fuzzing/MEMBERS.md) | - |[jingfelix](https://github.com/jingfelix)|2024/06/06| - |
+| 45 | [deepin-sscs](deepin-sscs/README.md) | - | [成员](deepin-sscs/MEMBERS.md) | - |[gglinxiao](https://github.com/gglinxiao)|2024/06/26| - |
+| 46 | [deepin-security](deepin-security/README.md) | - | [成员](deepin-security/MEMBERS.md) | - |[gglinxiao](https://github.com/gglinxiao)|2024/07/23| - |
+| 47 | [deepin-game-hub](deepin-game-hub/README.md) |[博客](https://bbs.deepin.org/module/detail/201)| [成员](deepin-game-hub/MEMBERS.md) | - |[songdongdong](https://github.com/songdongdong)|2024/07/30| - |
+| 48 | [deepin-raspberrypi](deepin-raspberrypi/README.md) | - | [成员](deepin-raspberrypi/MEMBERS.md) | - |[XXTX-TOP](https://github.com/XXTX-TOP)|2024/08/13| - |
+| 49 | [Fedora](Fedora/README.md) | - | [成员](Fedora/MEMBERS.md) |[#sig-Fedora-Of-Deepin:matrix.org](https://matrix.to/#/#sig-Fedora-Of-Deepin:matrix.org)|[tekkamanninja](https://github.com/tekkamanninja)|2024/09/20| - |

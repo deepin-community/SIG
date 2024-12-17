@@ -1,0 +1,25 @@
+events:
+- type: join
+  actor_id: 48875845
+  actor_handle: alongnice
+  created_at: 2024-10-07 17:08:37+00:00
+- type: join
+  actor_id: 60058876
+  actor_handle: Avenger-285714
+  created_at: 2024-10-07 17:08:37+00:00
+- type: join
+  actor_id: 48324979
+  actor_handle: gglinxiao
+  created_at: 2024-10-07 17:08:37+00:00
+- type: join
+  actor_id: 50387785
+  actor_handle: neo-one0873
+  created_at: 2024-10-07 17:08:37+00:00
+- type: join
+  actor_id: 124018391
+  actor_handle: UTSweetyfish
+  created_at: 2024-10-07 17:08:37+00:00
+- type: join
+  actor_id: 102871671
+  actor_handle: zengwei2000
+  created_at: 2024-10-07 17:08:37+00:00

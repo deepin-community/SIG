@@ -1,7 +1,7 @@
 name: linglong
 blog: https://deepin-community.github.io/sig-linglong/
 rss: https://deepin-community.github.io/sig-linglong/atom.xml
-matrix: '#linglong:deepin.org'
+matrix: '#linglong:matrix.org'
 proposal:
   by:
     handle: black-desk

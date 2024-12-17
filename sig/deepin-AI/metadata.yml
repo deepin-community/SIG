@@ -1,0 +1,21 @@
+---
+name: deepin AI 小组
+blog:
+rss:
+matrix: '#deepin-AI:matrix.org'
+proposal:
+  by:
+    handle: electricface
+    id: 3241440
+date-created: '2023/05/31'
+date-archived: '-'
+team: sig-deepin-AI
+repos:
+  maintained:
+    - sig-deepin-AI
+  package:
+members:
+  - handle: electricface
+    id: 3241440
+  - handle: myml
+    id: 13045857

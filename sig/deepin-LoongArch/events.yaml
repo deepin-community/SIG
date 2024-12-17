@@ -1,0 +1,21 @@
+events:
+- type: join
+  actor_id: 22991527
+  actor_handle: lsnwhh
+  created_at: 2024-01-08 03:00:00+00:00
+- type: join
+  actor_id: 84903373
+  actor_handle: loongson-zjl
+  created_at: 2024-01-08 03:00:00+00:00
+- type: join
+  actor_id: 162938096
+  actor_handle: Dandan336
+  created_at: 2024-01-08 03:00:00+00:00
+- type: join
+  actor_id: 144340420
+  actor_handle: wuruilong01
+  created_at: 2024-01-08 03:00:00+00:00
+- type: join
+  actor_id: 59814030
+  actor_handle: sterling-teng
+  created_at: 2024-05-28 09:08:03+00:00

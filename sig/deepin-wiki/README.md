@@ -16,7 +16,7 @@
 
 您可以通过两种方式向我们提交贡献：
 
-1. 获取编辑权限，通过网站编辑。<wiki.deepin.org> 使用 wikijs 搭建。目前正在招募贡献者，[填写表格](https://docs.qq.com/sheet/DWEpQZEdaZUt6RG9h?u=dc588b8aa9b04938aa5120aec1e98ae0&tab=BB08J2)，审核后将发放权限。
+1. 获取编辑权限，通过网站编辑。<wiki.deepin.org> 使用 wikijs 搭建。目前正在招募贡献者，[填写表格](https://www.wjx.top/vm/h4bFVg0.aspx#)，审核后将发放权限。
 2. 通过 git 提交：目前 wikijs 缺少批量操作的功能，如果您需要导入或移动多个内容，推荐使用 git 操作。
 
 ## 小组章程
@@ -28,9 +28,8 @@
 
 ## 讨论渠道
 
-进群后请参照群公告，填写你的信息，方便进行编辑权限的发放
-
-![微信群](202206131346249551_1223.png)
+申请wiki编辑权限后，您可以主动添加官方微信“deepin小助手”为好友，编辑权限开通后，官方会邀请您进入wiki交流群
+![微信-wiki申请](https://github.com/deepin-community/SIG/assets/3860068/05750738-5fb3-410f-8f7f-21e0e8d30bfb)
 
 ## 相关链接
 

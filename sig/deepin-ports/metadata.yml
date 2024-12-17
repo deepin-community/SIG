@@ -1,0 +1,28 @@
+---
+name: deepin-ports
+blog:
+rss:
+matrix: '#deepin-ports:matrix.org'
+proposal:
+  by:
+    handle: Zeno-sole
+    id: 43427321
+date-created: '2022/07/21'
+date-archived: '-'
+team: deepin-ports
+repos:
+  maintained:
+  package:
+members:
+  - handle: Rabenda
+    id: 13116853
+  - handle: Zeno-sole
+    id: 43427321
+  - handle: tsic404
+    id: 48748112
+  - handle: UTsweetyfish
+    id: 124018391
+  - handle: YukariChiba
+    id: 12855915
+  - handle: Gui-Yue
+    id: 78520005
