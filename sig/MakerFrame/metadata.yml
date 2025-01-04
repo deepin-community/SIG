@@ -1,0 +1,16 @@
+name: MakerFrame
+blog: 
+rss: 
+matrix: ''
+proposal:
+  by:
+    handle: leamus
+    id: 
+date-created: '2025/1/4'
+date-archived: '-'
+team: sig-maker-frame
+repos:
+  maintained:
+    - sig-maker-frame
+  package:
+members:
