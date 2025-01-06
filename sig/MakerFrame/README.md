@@ -1,12 +1,3 @@
-<!--
-
-请按照实际情况编辑此文件，以使内容适应您所要创建的 SIG 的实际情况，并在发起申请时删除此段注释。
-
-请注意：
-
-以下五段二级标题均为必须存在的段落。小组也可根据自身需求增加其它的段落和详细的描述，但不应删除此处的四个段落。
-
--->
 
 # MakerFrame SIG
 
@@ -45,5 +36,4 @@ QQ群：654876441
 
 ## 相关链接
 
-- [GitHub 上的小组仓库
-  ](https://github.com/leamus/MakerFrame)
+- [GitHub 上的小组仓库](https://github.com/leamus/MakerFrame)
