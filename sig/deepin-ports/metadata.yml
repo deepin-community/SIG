@@ -12,6 +12,12 @@ date-archived: '-'
 team: deepin-ports
 repos:
   maintained:
+    - deepin-riscv-kernel
+    - sig-deepin-ports
+    - sig-deepin-ports-images
+    - deepin-riscv-proprietary
+    - sig-deepin-riscv64
+    - deepin-riscv-board
   package:
 members:
   - handle: Rabenda
