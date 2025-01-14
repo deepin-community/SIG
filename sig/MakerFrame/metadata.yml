@@ -1,0 +1,20 @@
+name: MakerFrame
+blog: 
+rss: 
+matrix: ''
+proposal:
+  by:
+    handle: leamus
+    id: 52902574
+date-created: '2025/1/6'
+date-archived: '-'
+team: sig-maker-frame
+repos:
+  maintained:
+    - sig-maker-frame
+  package:
+members:
+  - handle: leamus
+    id: 52902574
+  - handle: Archer
+    id: 22316465
