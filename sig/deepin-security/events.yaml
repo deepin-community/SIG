@@ -35,3 +35,15 @@ events:
   actor_id: 48875845
   actor_handle: alongnice
   created_at: 2025-01-01 07:09:10+00:00
+- type: join
+  actor_id: 64474767
+  actor_handle: gogolovefish
+  created_at: 2025-01-20 03:13:19+00:00
+- type: leave
+  actor_id: 50387785
+  actor_handle: neo-one0873
+  created_at: 2025-01-20 03:13:19+00:00
+- type: leave
+  actor_id: 48875845
+  actor_handle: alongnice
+  created_at: 2025-01-20 03:13:19+00:00
