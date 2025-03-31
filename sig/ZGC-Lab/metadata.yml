@@ -1,0 +1,22 @@
+name: ZGC-Lab
+blog:
+rss:
+matrix:
+proposal:
+  by:
+    handle: Dong Li
+    id: 1856763
+date-created: '2025/01/20'
+date-archived: '-'
+team: ZGC-Lab
+repos:
+  maintained:
+    - ZGC-Lab
+  package:
+members:
+  - handle: amjac
+    id: 97717986
+  - handle: Avenger-285714
+    id: 60058876
+  - handle: Zhe Wang
+    id: 10590787
