@@ -1383,3 +1383,7 @@ events:
   actor_id: 142064413
   actor_handle: USFunction
   created_at: 2025-01-14 03:39:20+00:00
+- type: join
+  actor_id: 23723294
+  actor_handle: Cryolitia
+  created_at: 2025-04-10 10:55:57+00:00
