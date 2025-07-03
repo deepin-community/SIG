@@ -7,9 +7,6 @@
 ## [Gentoo](https://www.gentoo.org/)
 - [Rabenda](https://github.com/Rabenda)
 
-## [NixOS](https://nixos.org/)
-- [rewine](https://github.com/wineee)
-
 ## [UbuntuDDE](https://ubuntudde.com/)
 - [openarun](https://github.com/openarun)
 
