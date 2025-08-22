@@ -21,7 +21,7 @@
 
 ## 讨论渠道
 
-- Matrix: `deepin-hamradio:matrix.org`
+- Matrix: [#deepin-hamradio:matrix.org](https://matrix.to/#/#deepin-hamradio:matrix.org)
 - 在各业余无线电频率上守听并呼叫小组成员
 
 ## 相关链接
