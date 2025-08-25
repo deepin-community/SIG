@@ -1,0 +1,20 @@
+name: deepin HamRadio SIG
+blog:
+rss:
+matrix: 'deepin-hamradio:matrix.org'
+proposal:
+  by:
+    handle: cryolitia
+    id: 23723294
+date-created: '2025/08/12'
+date-archived: '-'
+team: sig-deepin-hamradio
+repos:
+  maintained:
+    - sig-deepin-hamradio
+  package:
+members:
+  - handle: cryolitia
+    id: 23723294
+  - handle: yukarichiba
+    id: 12855915
