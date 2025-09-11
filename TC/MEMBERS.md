@@ -2,6 +2,7 @@
 
 *注：顺序以字符序排布*
 
+- Avenger_285714
 - BLumia
 - felixonmars
 - golf66
@@ -12,5 +13,6 @@
 - RastusZhang
 - revy
 - shiptux
+- UTsweetyfish
 - zccrs
 - Zeno-sole
