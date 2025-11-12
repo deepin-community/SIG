@@ -1,0 +1,23 @@
+---
+name: deepin-radxa SIG
+blog:
+rss:
+matrix:
+proposal:
+  by:
+    handle: chenchongbiao
+    id: 52627687
+date-created: '2025/10/08'
+date-archived: '-'
+team: sig-deepin-radxa
+repos:
+  maintained:
+    - sig-deepin-radxa
+  package:
+members:
+  - handle: Avenger-285714
+    id: 60058876
+  - handle: YukariChiba
+    id: 12855915
+  - handle: RevySR
+    id: 13116853
