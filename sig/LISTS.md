@@ -51,3 +51,4 @@
 | 49 | [Fedora](Fedora/README.md) | - | [成员](Fedora/MEMBERS.md) |[#sig-Fedora-Of-Deepin:matrix.org](https://matrix.to/#/#sig-Fedora-Of-Deepin:matrix.org)|[tekkamanninja](https://github.com/tekkamanninja)|2024/09/20| - |
 | 50 | [MakerFrame](MakerFrame/README.md) | - | [成员](MakerFrame/MEMBERS.md) | - |[leamus](https://github.com/leamus)|2025/01/06| - |
 | 51 | [deepin-hamradio](deepin-hamradio/README.md) | - | [成员](deepin-hamradio/MEMBERS.md) |[deepin-hamradio:matrix.org](https://matrix.to/#/deepin-hamradio:matrix.org)|[cryolitia](https://github.com/cryolitia)|2025/08/12| - |
+| 52 | [deepin-radxa](deepin-radxa/README.md) | - | [成员](deepin-radxa/MEMBERS.md) | - |[chenchongbiao](https://github.com/chenchongbiao)|2025/10/08| - |
