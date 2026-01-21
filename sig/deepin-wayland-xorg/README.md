@@ -8,7 +8,7 @@
 
 目标：在deepin、debian上同步上游项目补丁、重要漏洞修复、新功能开发、BUG修复等工作。重要版本更新时，评估该版本对项目的功能影响和性能影响等。参与上游社区的建设工作，协助解答其他爱好者在相关领域遇到的问题、贡献补丁，修复上游BUG等工作。
 
-活动范围：[deepin-community](https://github.com/deepin-community/sig-deepin-wayland-xorg)、[邮件列表](deepin-wayland-xorg-team@freelists.org)
+活动范围：[deepin-community](https://github.com/deepin-community/sig-deepin-wayland-xorg)、[邮件列表](mailto:deepin-wayland-xorg-team@freelists.org)
 
 ## 如何加入
 
