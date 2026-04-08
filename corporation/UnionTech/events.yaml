@@ -1431,3 +1431,7 @@ events:
   actor_id: 46414421
   actor_handle: 52cyb
   created_at: 2026-04-08 11:25:12+00:00
+- type: join
+  actor_id: 46414421
+  actor_handle: 52cyb
+  created_at: 2026-04-08 05:20:21+00:00
