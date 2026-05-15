@@ -1447,3 +1447,7 @@ events:
   actor_id: 279967248
   actor_handle: glyvut
   created_at: 2026-05-14 11:42:50+00:00
+- type: join
+  actor_id: 279967248
+  actor_handle: glyvut
+  created_at: 2026-05-15 05:17:50+00:00
