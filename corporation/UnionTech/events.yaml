@@ -1463,3 +1463,7 @@ events:
   actor_id: 108165585
   actor_handle: Resurgamz
   created_at: 2026-05-20 18:10:03+00:00
+- type: join
+  actor_id: 108165585
+  actor_handle: Resurgamz
+  created_at: 2026-05-21 01:46:12+00:00
