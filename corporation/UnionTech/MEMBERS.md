@@ -180,3 +180,4 @@
 - [MrQin-maker](https://github.com/MrQin-maker)
 - [Resurgamz](https://github.com/Resurgamz)
 - [tianming-1996](https://github.com/tianming-1996)
+- [deepin-wm](https://github.com/deepin-wm)
