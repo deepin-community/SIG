@@ -52,3 +52,4 @@
 | 50 | [MakerFrame](MakerFrame/README.md) | - | [成员](MakerFrame/MEMBERS.md) | - |[leamus](https://github.com/leamus)|2025/01/06| - |
 | 51 | [deepin-hamradio](deepin-hamradio/README.md) | - | [成员](deepin-hamradio/MEMBERS.md) |[deepin-hamradio:matrix.org](https://matrix.to/#/deepin-hamradio:matrix.org)|[cryolitia](https://github.com/cryolitia)|2025/08/12| - |
 | 52 | [deepin-radxa](deepin-radxa/README.md) | - | [成员](deepin-radxa/MEMBERS.md) | - |[chenchongbiao](https://github.com/chenchongbiao)|2025/10/08| - |
+| 53 | [flagos](flagos/README.md) | - | [成员](flagos/MEMBERS.md) | - |[shiptux](https://github.com/shiptux)|2026/06/04| - |
