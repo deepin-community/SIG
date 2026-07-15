@@ -1527,3 +1527,7 @@ events:
   actor_id: 111953898
   actor_handle: iCancely
   created_at: 2026-07-15 10:00:00+08:00
+- type: join
+  actor_id: 111953898
+  actor_handle: iCancely
+  created_at: 2026-07-15 09:30:39+00:00
