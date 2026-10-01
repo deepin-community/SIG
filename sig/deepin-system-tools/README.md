@@ -12,7 +12,7 @@
 [社区论坛](https://bbs.deepin.org/)
 [deepin-community组织](https://github.com/orgs/deepin-community)
 [QQ群](群号：753453587)
-[邮件列表](deepin-system-tools-team@freelists.org)等。
+[邮件列表](mailto:deepin-system-tools-team@freelists.org)等。
 
 
 ## 小组章程
