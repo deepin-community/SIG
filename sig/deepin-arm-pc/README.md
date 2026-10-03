@@ -2,13 +2,15 @@
 
 ## 小组简介
 
-负责 deepin Arm 工具链的维护
-负责 deepin 仓库 Arm 开源软件包的维护，进行软件包构建、系统构建、Bug 修复等工作。
-负责 deepin Arm PC 镜像制作
+1. 负责 deepin Arm 工具链的维护
+2. 负责 deepin 仓库 Arm 开源软件包的维护，进行软件包构建、系统构建、Bug 修复等工作。
+3. 负责 deepin Arm PC 镜像制作
 
 ## 活动范围与目标
 
-目标： 为deepin操作系统适配Arm架构,为Arm架构芯片提供更多的桌面应用。
+目标： 
+
+deepin操作系统和桌面应用再Arm架构的适配
 
 活动范围：[Matrix](https://matrix.to/#/#deepin-arm-pc:matrix.org)[社区论坛](https://bbs.deepin.org/)
 ## 如何加入
@@ -22,7 +24,7 @@
 ### 加入方法：
 
 1. 在[sig-deepin-arm-pc](https://github.com/deepin-community/sig-deepin-arm-pc/issues)提交issues 说明想加入的原因
-2. 订阅邮件列表
+2. 订阅列表
 3. 加入Telegram群组
 
 加入之后会在邮件列表进行公示
@@ -39,7 +41,8 @@ ps: 章程目前还不完善，有兴趣的同学可以加入进来讨论。
 
 ## 讨论渠道
 
-[邮件列表](https://www.freelists.org/list/deepin-arm-pc)、[Telegram](https://t.me/deepin_arm_pc)
+[邮件列表](https://www.freelists.org/list/deepin-arm-pc)
+[Telegram](https://t.me/deepin_arm_pc)
 
 ## 相关链接
 
