@@ -1543,3 +1543,7 @@ events:
   actor_id: 204420051
   actor_handle: hxy0821
   created_at: 2026-11-24 09:16:42+08:00
+- type: join
+  actor_id: 204420051
+  actor_handle: hxy0821
+  created_at: 2026-11-24 05:47:58+00:00
